@@ -14,11 +14,10 @@
 13. [ ] [[división-casos-r]] 
 14. [ ] [[halt-sigma-u-sigmap-pr]] 
 15. [ ] [[T-sigma-u-sigmap-r]] 
-
-- [-] [[restricción-r]] (NO HACER)
-- [-] [[autohalt-no-r]] (NO HACER)
-- [-] [[autohalt-no-ec]] (NO HACER)
-- [-] [[autohalt-A-y-N]] (NO HACER)
+16. [ ] [[restricción-r]]
+17. [ ] [[autohalt-no-r]]
+18. [ ] [[autohalt-no-ec]]
+19. [ ] [[autohalt-A-y-N]]
 
 # Combos
 ## [/] Combo 1
@@ -27,7 +26,7 @@
 ## [/] Combo 2
 [[caracterización-conjunto-enumerable]]
 [[division-casos-pr]]
-## [ ] Combo 3
+## [/] Combo 3
 [[caracterización-conjunto-ec]]
 [[godel-v-neumann]]
 ## [ ] Combo 4
