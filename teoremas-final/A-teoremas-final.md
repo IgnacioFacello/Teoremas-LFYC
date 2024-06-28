@@ -1,56 +1,39 @@
 # Teoremas
-01. [/] [[caracterización-conjunto-pr]] 
-02. [/] [[neumann-v-godel]]  
-03. [/] [[caracterización-conjunto-enumerable]] 
-04. [/] [[division-casos-pr]] 
-05. [/] [[godel-v-neumann]] 
-06. [/] [[caracterización-conjunto-ec]] 
-07. [ ] [[lemma-sumatoria]] 
-08. [/] [[intersección-conjuntos-efectivamente-enumerables]] 
-09. [ ] [[lemma-cuantificación-acotada]] 
-10. [/] [[e-computable-implica-e-enumerable]] 
-11. [ ] [[caracterización-conjunto-r-enumerable]] 
-12. [ ] [[lemma-minimización-acotada]] (Incompleto)
-13. [ ] [[división-casos-r]] 
-14. [ ] [[halt-sigma-u-sigmap-pr]] 
-15. [ ] [[T-sigma-u-sigmap-r]] 
-16. [ ] [[restricción-r]]
-17. [ ] [[autohalt-no-r]]
-18. [ ] [[autohalt-no-ec]]
-19. [ ] [[autohalt-A-y-N]]
+
 
 # Combos
-## [/] Combo 1
-[[caracterización-conjunto-pr]]
-[[neumann-v-godel]]
-## [/] Combo 2
-[[caracterización-conjunto-enumerable]]
-[[division-casos-pr]]
-## [/] Combo 3
-[[caracterización-conjunto-ec]]
-[[godel-v-neumann]]
+## [ ] Combo 1
+01. [/] [[caracterización-conjunto-pr]]
+02. [/] [[neumann-v-godel]]
+## [ ] Combo 2
+03. [ ] [[division-casos-pr]]
+04. [/] [[caracterización-conjunto-enumerable]]
+## [ ] Combo 3
+05. [/] [[godel-v-neumann]] 
+06. [/] [[caracterización-conjunto-ec]] 
 ## [ ] Combo 4
-[[caracterización-conjunto-enumerable]]
-[[lemma-sumatoria]]
+07. [/] [[caracterización-conjunto-enumerable]]
+08. [ ] [[lemma-sumatoria]] 
 ## [ ] Combo 5
-[[intersección-conjuntos-efectivamente-enumerables]]
-[[lemma-cuantificación-acotada]]
+09. [/] [[intersección-conjuntos-efectivamente-enumerables]] 
+10. [ ] [[lemma-cuantificación-acotada]] 
 ## [ ] Combo 6
-[[caracterización-conjunto-enumerable]]
-[[e-computable-implica-e-enumerable]]
+11. [/] [[e-computable-implica-e-enumerable]] 
+12. [ ] [[caracterización-conjunto-r-enumerable]] 
 ## [ ] Combo 7
-[[lemma-minimización-acotada]]
-[[restricción-r]]
-## [-] Combo 8 (NO HACER)
-[[autohalt-no-r]]
-[[autohalt-no-ec]]
-[[autohalt-A-y-N]]
-[[neumann-v-godel]]
+13. [ ] [[lemma-minimización-acotada]] (Incompleto)
+14. [ ] [[restricción-r]]
+## [ ] Combo 8
+15. [ ] [[autohalt-no-r]]
+16. [ ] [[autohalt-no-ec]]
+18. [ ] [[autohalt-A-y-N]]
+19. [ ] 02. [/] [[neumann-v-godel]]
 ## [ ] Combo 9
-[[división-casos-r]]
-[[halt-sigma-u-sigmap-pr]]
-[[T-sigma-u-sigmap-r]]
+19. [ ] [[división-casos-r]]
+20. [ ] [[halt-sigma-u-sigmap-pr]]
+21. [ ] [[T-sigma-u-sigmap-r]]
 
+---
 Estadísticas
 ---
 
