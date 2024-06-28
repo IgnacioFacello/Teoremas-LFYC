@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "e9ae4b281135d3a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "898ec1ed286a027a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Sistemas Operativos/Informacion de la materia.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73dd5f7abef1feed",
+    "type": "split",
+    "children": [
+      {
+        "id": "9aaaff60c16cb94a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2558058a242d5caa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6cb5fe801629aaf7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85f03f6978f1265f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales/Metodo de Newton.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5
+  },
+  "right": {
+    "id": "3fa4c95b51399742",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ee87600e2258c5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8613e28cd720a184",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sistemas Operativos/Informacion de la materia.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2558058a242d5caa",
+  "lastOpenFiles": [
+    "@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Splines.md",
+    "@Final Analisis Numerico (Borrar)/5. Integración Numérica/Trapecio.md",
+    "@Final Analisis Numerico (Borrar)/5. Integración Numérica/Simpson.md",
+    "@Final Analisis Numerico (Borrar)/5. Integración Numérica/Rectangulo.md",
+    "@Final Analisis Numerico (Borrar)/5. Integración Numérica/Punto medio.md",
+    "@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales/Metodo de Newton.md",
+    "@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Metodos iterativos.md",
+    "Vectores/Determinante.md",
+    "Vectores/Matrices.md",
+    "@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Factorizacion LU.md"
+  ]
+}

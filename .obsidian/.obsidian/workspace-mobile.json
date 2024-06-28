@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "e7df554719b16e7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f0e164752fe35b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26e25c85ac640550",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            },
+            "group": "b5a56da82ffb6496"
+          },
+          {
+            "id": "11575e3b6d2828f9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "ba5bcb3343818fb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fae02cd77572e89",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "b5a56da82ffb6496"
+          }
+        ]
+      },
+      {
+        "id": "298f82c30015716f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4017073cb0056c6c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "b5a56da82ffb6496"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1854ec05d7b3f65f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0b660b9771a556ab",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1bf9c131cda9e889",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "bf12842cce6fb55b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "7d117af08404fea4",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "2e5c6407ac219376",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4cd026fdbd8513ad",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6ceab0ff0c5d7aa7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      },
+      {
+        "id": "ec5f3fdaa31082bb",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "26e25c85ac640550",
+  "lastOpenFiles": [
+    "Bases de Datos/retorno de informacion/Selección de términos.md",
+    "Bases de Datos/retorno de informacion/retorno de informacion.md",
+    "Bases de Datos/modelo relacional/relacional-construccion.md",
+    "Bases de Datos/modelo entidad relacion/diseño e-r.md",
+    "Bases de Datos/modelo relacional/diseño relacional - libro.md",
+    "Bases de Datos/modelo relacional/diseño relacional.md",
+    "Bases de Datos/modelo entidad relacion/diagrama entidad-relacion.md",
+    "Bases de Datos/modelo entidad relacion/ER-atributos.md",
+    "Bases de Datos/modelo relacional/modelo relacional.md",
+    "Bases de Datos/SGBD/B+ tree index.md",
+    "Bases de Datos/SGBD/operadores fisicos.md",
+    "Ingenieria del Software/design/design_principles/def_coupling.md",
+    "2023-11-20.md",
+    "Ingenieria del Software/SRS/srs_metrics_point_function.md",
+    "Ingenieria del Software/design/design_principles/design_principles.md",
+    "Ingenieria del Software/intro/phases-coding.md",
+    "Ingenieria del Software/parcial2/Repaso Ids par 2.md",
+    "Ingenieria del Software/parcial2/5 - Resumen Planeamiento.md",
+    "Ingenieria del Software/parcial2/3 - Resumen Proceso.md",
+    "Ingenieria del Software/parcial2/Repaso testing.md",
+    "Ingenieria del Software/parcial2/2 - Resumen Modelos.md",
+    "Ingenieria del Software/parcial2/IdS1 - Resumen Proceso de Desarrollo.md",
+    "Ingenieria del Software/parcial2/IdS1 - Resumen Codificacion.md",
+    "Ingenieria del Software/parcial2/IdS1 - Resumen Testing.md",
+    "Ingenieria del Software/SRS/SRS.md",
+    "Ingenieria del Software/SRS/requirement_process/requirement_process.md",
+    "-Imagenes/Pasted image 20220403202926.png",
+    "-Imagenes/Pasted image 20211015091543.png",
+    "Funciones/desktop.ini",
+    "-Imagenes/Pasted image 20220320130500.png",
+    "-Imagenes/Pasted image 20211207164835.png",
+    "-Imagenes/Pasted image 20230501185439.png",
+    "-Imagenes/Pasted image 20230526191753.png",
+    "-Imagenes/Pasted image 20220403225411.png",
+    "Programacion FAMAF/desktop.ini",
+    "-Imagenes/Pasted image 20230501181540.png",
+    "-Imagenes/Pasted image 20211118140734.png",
+    "-Imagenes/Pasted image 20220320130428.png",
+    "Vectores/desktop.ini",
+    "Sucesiones y Series/desktop.ini",
+    "pictures/Saltos",
+    "pictures",
+    "Vectores",
+    "Sucesiones y Series",
+    "Solución de ecuaciones no lineales",
+    "Sistemas Operativos/Lab 04/Parte 2 - Esconder el Log"
+  ]
+}

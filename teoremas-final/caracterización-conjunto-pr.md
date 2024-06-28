@@ -1,0 +1,51 @@
+---
+tags:
+  - "#lfyc-c-I"
+---
+> Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
+
+---
+
+## ( $S\ \Sigma$-pr $\implies\ S=Dom(f)\ f\ \Sigma$-pr )
+Tomemos la función $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$.
+Claramente $Dom(f)=S$.
+## ( $S\ \Sigma$-pr $\impliedby\ S=Dom(f)\ f\ \Sigma$-pr )
+Probaremos por inducción en k que $Dom(F)$ es $\Sigma$-pr para cada $F\in PR^{\Sigma}_k$
+### (Caso 0)
+Tenemos las siguientes funciones en $PR^{\Sigma}_k$
+- $Succ:\omega\to\omega$
+- $Pred:N\to\omega$
+- $C_0^{0,0}:\{\lozenge\}\to\omega$
+- $C_\epsilon^{0,0}:\{\lozenge\}\to\omega$
+- $d_a:\Sigma^*\to\Sigma^*\quad a\in\Sigma$
+- $p_j^{n,m}\omega^n\times\Sigma^{*m}\to\omega\ \ n,m\ge 0$
+- $p_j^{n,m}\omega^n\times\Sigma^{*m}\to\Sigma^*\ \ n,m\ge 0$
+
+Y es trivial ver que todos sus dominios ($\omega^n\times\Sigma^{*m}, \omega, \Sigma^*, N, \{\lozenge\}$) son $\Sigma$-pr.
+
+### (Caso k+1)
+(Para esta proposición solo se pide el caso de las composición)
+Sea $F=g\circ[g_1,\dots,g_n,g_{n+1}\dots,g_{n+m}]$ con $g,g_1,\dots,g_{n+m}\in PR^{\Sigma}_k$.
+Luego tenemos que, para $l,k,n,m\ge 0$
+ $$
+ \begin{align}
+ g &:D_g\subseteq\omega^n\times\Sigma^{*m}\to O,\ O\in\{\omega,\Sigma^*\} \\
+ g_i &:D_{g_i}\subseteq\omega^l\times\Sigma^{*k}\to\omega\ ,\ i=1,\dots,n \\
+ g_i &:D_{g_i}\subseteq\omega^l\times\Sigma^{*k}\to\Sigma^*\ ,\ i=n+1,\dots,n+m \\
+ \end{align}
+ $$ 
+Si $F=\emptyset$ entonces $D_F=\emptyset$ y claramente es $\Sigma$-pr.
+Caso contrario...
+
+Por {{lema 18}} tenemos que hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ que son $\Sigma$-totales tales que:
+$$g_i=\bar g_i|_{D_{g_i}}\ para\ i=1,\dots,n+m$$
+Luego, por Hipótesis Inductiva tenemos que los conjuntos $D_g,\ D_{g_i}\ i=1,\dots, n+m$ son $\Sigma$-pr y por lo tanto
+$$S=\bigcap^{n+m}_{i=1} D_{g_i}$$
+Por lo tanto S también es lo es.
+Finalmente notar que
+$$
+\chi_{D_F}^{\omega^n\times\Sigma^{*m}}=
+\chi_{D_g}^{\omega^n\times\Sigma^{*m}}\circ
+[\bar g_1,\dots,\bar g_{n+m}]\land
+\chi_{S}^{\omega^n\times\Sigma^{*m}}
+$$

@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"Lenguajes Formales y Computacion/teoremas-final\"  -file:teoremas-final",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.364583333333333,
+  "repelStrength": 8.85416666666667,
+  "linkStrength": 1,
+  "linkDistance": 170,
+  "scale": 0.5298331466755654,
+  "close": true
+}
