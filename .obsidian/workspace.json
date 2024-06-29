@@ -6,7 +6,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 53.70650529500757,
+        "dimension": 37.821482602118,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -25,20 +25,8 @@
       {
         "id": "8de465e86874db62",
         "type": "tabs",
-        "dimension": 46.29349470499244,
+        "dimension": 62.178517397882,
         "children": [
-          {
-            "id": "9bb8eed36d964e80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "d3205b714acda926",
             "type": "leaf",
@@ -207,6 +195,8 @@
   },
   "active": "3a1e04ad98d7e598",
   "lastOpenFiles": [
+    "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-pdf/neumann-v-godel-c1.pdf",
     "teoremas-pdf/godel-v-neumann.pdf",
@@ -218,9 +208,7 @@
     "teoremas-final-lfyc/neumann-v-godel-c1.pdf",
     "teoremas-final-lfyc/godel-v-neumann.pdf",
     "teoremas-final-lfyc/division-casos-pr.pdf",
-    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/godel-v-neumann.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
