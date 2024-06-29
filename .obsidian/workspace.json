@@ -6,7 +6,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 37.594553706505295,
+        "dimension": 37.97276853252647,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "3982a292a0da38e8",
+        "id": "8de465e86874db62",
         "type": "tabs",
-        "dimension": 62.405446293494705,
+        "dimension": 62.02723146747352,
         "children": [
           {
-            "id": "e1a1c6093e8e416f",
+            "id": "d3205b714acda926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/lemma-sumatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/caracterización-conjunto-pr.md"
               }
             }
           },
@@ -195,10 +195,13 @@
   },
   "active": "3a1e04ad98d7e598",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-ec.md",
+    "teoremas-final/caracterización-conjunto-pr.odt",
+    "teoremas-final/caracterización-conjunto-pr.pdf",
     "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/godel-v-neumann.md",
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/caracterización-conjunto-ec.md",
+    "teoremas-final/godel-v-neumann.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/neumann-v-godel.md",
@@ -211,7 +214,6 @@
     "teoremas-final/neumann-v-godel-sdhVWI.lyx",
     "teoremas-final/#neumann-v-godel.lyx#",
     "teoremas-final/neumann-v-godel.lyx~",
-    "teoremas-final/neumann-v-godel-PGUiCO.lyx",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-A-y-N.md",
@@ -229,8 +231,6 @@
     "Lenguajes Formales y Computacion/teoremas-final/e-computable-implica-e-enumerable.md",
     "Lenguajes Formales y Computacion/teoremas-final/lemma-cuantificación-acotada.md",
     "Lenguajes Formales y Computacion/teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
-    "Lenguajes Formales y Computacion/teoremas-final/lemma-sumatoria.md",
-    "Lenguajes Formales y Computacion/teoremas-final/caracterización-conjunto-ec.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"

@@ -1,11 +1,10 @@
 # Teoremas
-01. [/] [[caracterización-conjunto-pr]]
-02. [/] [[neumann-v-godel]]
-03. [ ] [[division-casos-pr]]
-04. [/] [[caracterización-conjunto-enumerable]]
-05. [/] [[godel-v-neumann]] 
-06. [/] [[caracterización-conjunto-ec]] 
-07. [/] [[caracterización-conjunto-enumerable]]
+01. [x] [[caracterización-conjunto-pr]]
+02. [x] [[neumann-v-godel]]
+03. [x] [[division-casos-pr]]
+04. [x] [[caracterización-conjunto-enumerable]]
+05. [x] [[godel-v-neumann]] 
+06. [x] [[caracterización-conjunto-ec]] 
 08. [ ] [[lemma-sumatoria]] 
 09. [/] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
@@ -30,7 +29,7 @@
 05. [x] [[godel-v-neumann]] 
 06. [x] [[caracterización-conjunto-ec]] 
 ## [ ] Combo 4
-07. [/] [[caracterización-conjunto-enumerable]]
+07. [x] [[caracterización-conjunto-enumerable]]
 08. [ ] [[lemma-sumatoria]] 
 ## [ ] Combo 5
 09. [/] [[intersección-conjuntos-efectivamente-enumerables]] 

@@ -3,7 +3,7 @@ tags:
   - lfyc-c-II
   - lfyc-c-IV
 ---
-> Sea $S\subseteq\omega^{n}\times\Sigma^{*m}$ un conjunto no vacío. Entonces son eqivalentes:
+> Sea $S\subseteq\omega^{n}\times\Sigma^{*m}$ un conjunto no vacío. Entonces son equivalentes:
 > (1) $S$ es $\Sigma$-enumerable 
 > 	(es decir) Existe $F:\omega\to\omega^{n}\times\Sigma^{*m}$ tal que $Im(F) = S$ y  las $F_{(i)},\ i=1,\dots,n+m$ son $\Sigma$-computables.
 > (2) Hay un programa $\mathcal P\in Pro^{\Sigma}$ tal que:
