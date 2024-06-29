@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/neumann-v-godel.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
@@ -185,8 +185,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8f450004c4289695",
+  "active": "3a1e04ad98d7e598",
   "lastOpenFiles": [
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/neumann-v-godel.md",
     "teoremas-lyx/caracterización-conjunto-pr.lyx",
     "teoremas-lyx/neumann-v-godel-2.lyx",
     "teoremas-lyx/neumann-v-godel.lyx",
@@ -197,8 +199,6 @@
     "teoremas-final/#neumann-v-godel.lyx#",
     "teoremas-final/neumann-v-godel.lyx~",
     "teoremas-final/neumann-v-godel-PGUiCO.lyx",
-    "teoremas-final/neumann-v-godel.lyx",
-    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
@@ -208,7 +208,6 @@
     "teoremas-final/autohalt-A-y-N.md",
     "teoremas-final/caracterización-conjunto-pr_lyx.md",
     "teoremas-final/caracterización-conjunto-pr (Copy).md",
-    "teoremas-final/neumann-v-godel.md",
     "Lenguajes Formales y Computacion/teoremas-final/T-sigma-u-sigmap-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "Lenguajes Formales y Computacion/teoremas-final/división-casos-r.md",

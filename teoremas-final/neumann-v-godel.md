@@ -14,6 +14,8 @@ Prueba por inducción
 > (\*) Caso k : si $h\in R^\Sigma_k$ entonces es $\Sigma$*-computable*
 
 ## Caso k = 0
+> Altamente trivial
+
  Sea $h\in R^\Sigma_0$
  Sean los siguientes programas los que computan las funciones básicas del paradigma de godel:
 - $Succ$ : $N1\gets N1+1$
@@ -25,7 +27,7 @@ Prueba por inducción
 - $p_j^{n,m}$ : $P1\gets P\overline{j-n}\quad j\in{n+1,\dots,n+m}$
 ## Caso k+1
 Sea $h\in R^\Sigma_{k+1} - R^\Sigma_k$
-### Caso h=M(P)
+### Caso h=M(P) (combo 8)
 Por (\*) tenemos que el predicado $P:\omega\times\omega^n\times\Sigma^{*m}\mapsto\omega$ es $\Sigma$*-computable* y por lo tanto podemos tomar un macro:
 $$[IF\ P(V1,\dots, V\overline{n+1}),W\bar1,\dots, W\overline{m}\ GOTO\ A1]$$
 luego podemos utilizarlo para definir el siguiente programa
@@ -40,7 +42,9 @@ $$
 que claramente calcula el $M(P)$ y por lo tanto es $\Sigma$*-computable*.
 Si recibe un estado fuera del dominio de M(P) entonces nunca termina ya que el predicado nunca evalúa verdadero. 
 CC en algún momento se hace verdadero, específicamente para el menor valor que lo satisface ,ya que empezamos desde 0 y vamos aumentando en 1, por lo tanto $N1$ va a contener el menor t que satisface el predicado.
-### Caso h=R(f,G)
+### Caso h=R(f,G) (combo 1)
+> Usando la hipótesis inductiva se obtienen las macros necesarias
+> Luego realizar un programa que según el primer caracter de la variable de recursión realize la G apropiada  
 #### (Alfabético)
 Supongamos $h=R(f,\mathcal G)$ con
 $$
