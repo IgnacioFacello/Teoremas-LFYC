@@ -19,14 +19,39 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "282e2baed8e0828a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/neumann-v-godel-c1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8de465e86874db62",
         "type": "tabs",
         "dimension": 62.02723146747352,
         "children": [
+          {
+            "id": "9bb8eed36d964e80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
             "id": "d3205b714acda926",
             "type": "leaf",
@@ -106,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/neumann-v-godel-c1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/neumann-v-godel-c1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/neumann-v-godel-c1.md"
               }
             }
           },
@@ -193,13 +218,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "282e2baed8e0828a",
   "lastOpenFiles": [
-    "teoremas-final/neumann-v-godel-completo.md",
-    "teoremas-final/neumann-v-godel-c1.md",
-    "teoremas-final/neumann-v-godel-c8.md",
-    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-pr.md",
+    "teoremas-final/neumann-v-godel-c1.md",
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/neumann-v-godel-completo.md",
+    "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-pr.odt",
     "teoremas-final/caracterización-conjunto-pr.pdf",

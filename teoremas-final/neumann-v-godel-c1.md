@@ -27,6 +27,9 @@ Sea $h\in R^\Sigma_{k+1} - R^\Sigma_k$
 > Usando la hipótesis inductiva se obtienen las macros necesarias
 > Luego realizar un programa que según el primer caractér de la variable de recursión realize la G apropiada  
 > Para el caso alfabético y numérico cambiar la variable de resultado segun sea apropiado
+
+<div style="page-break-after: always;"></div>
+
 #### (Alfabético)
 Supongamos $h=R(f,\mathcal G)$ con
 $$
@@ -56,6 +59,9 @@ Lr\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
 L\overline{r+2}\ & P1\gets P\overline{m+3}
 \end{align}
 $$
+
+<div style="page-break-after: always;"></div>
+
 #### (Numérico)
 Muy similar al caso anterior, **solo requiere realizar un cambio de variables para el resultado**.
 Supongamos $h=R(f,\mathcal G)$ con
