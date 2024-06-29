@@ -44,4 +44,17 @@ $$
 	\end{cases}\right] \\
 \end{align}
 $$
-tales que $G=R(h,g)$
+tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
+Sean:
+$$
+\begin{align}
+D_1&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+: \} \\
+D_2&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+: \} \\
+H_1&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+: \} \\
+H_2&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+: \}
+\end{align}
+$$
