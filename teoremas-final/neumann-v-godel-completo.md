@@ -6,10 +6,6 @@ tags:
 > Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
 
 ---
-Combo 1: Solo caso h=R(f,G)
-Combo 8: Solo caso h=M(P)
-
----
 Prueba por inducción 
 > (\*) Caso k : si $h\in R^\Sigma_k$ entonces es $\Sigma$*-computable*
 

@@ -26,19 +26,17 @@ Tenemos las siguientes funciones en $PR^{\Sigma}_k$
 
 Y es trivial ver que todos sus dominios ($\omega^n\times\Sigma^{*m}, \omega, \Sigma^*, N, \{\lozenge\}$) son $\Sigma$-pr.
 
+<div style="page-break-after: always;"></div>
+
 ### (Caso k+1)
 > Buscamos definir la característica de la composición en base a los dominios de las funciones.
 > Clave 0: Por hipótesis todas las funciones y sus dominios van a ser $\Sigma$-pr. 
 > Clave 1: Toda función $f$ $\Sigma$-pr no total es la restricción de otra $\bar f$ $\Sigma$-total 
 > Clave 2: Definimos el conjunto S $\Sigma$-pr como la intersección de los dominios. Es decir que tenemos su característica.
-> Usamos las claves para definir la función
-> $$\chi_{D_F}^{\omega^n\times\Sigma^{*m}}=
-\chi_{D_g}^{\omega^n\times\Sigma^{*m}}\circ
-[\bar g_1,\dots,\bar g_{n+m}]\land
-\chi_{S}^{\omega^n\times\Sigma^{*m}}
-$$
+> Usamos las claves para definir la función $\chi_{D_F}^{\omega^n\times\Sigma^{*m}}=\chi_{D_g}^{\omega^n\times\Sigma^{*m}}\circ[\bar g_1,\dots,\bar g_{n+m}]\land\chi_{S}^{\omega^n\times\Sigma^{*m}}$
 
 (Para esta proposición solo se pide el caso de las composición)
+
 Sea $F=g\circ[g_1,\dots,g_n,g_{n+1}\dots,g_{n+m}]$ con $g,g_1,\dots,g_{n+m}\in PR^{\Sigma}_k$.
 Luego tenemos que, para $l,k,n,m\ge 0$
  $$

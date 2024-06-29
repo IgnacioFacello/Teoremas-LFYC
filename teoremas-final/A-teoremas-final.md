@@ -1,6 +1,6 @@
 # Teoremas
 01. [x] [[caracterización-conjunto-pr]]
-02. [x] [[neumann-v-godel]]
+02. [x] [[neumann-v-godel-c1]]
 03. [x] [[division-casos-pr]]
 04. [x] [[caracterización-conjunto-enumerable]]
 05. [x] [[godel-v-neumann]] 
@@ -21,7 +21,7 @@
 # Combos
 ## [ ] Combo 1
 01. [x] [[caracterización-conjunto-pr]]
-02. [x] [[neumann-v-godel]]
+02. [x] [[neumann-v-godel-c1]]
 ## [ ] Combo 2
 03. [x] [[division-casos-pr]]
 04. [x] [[caracterización-conjunto-enumerable]]
@@ -44,7 +44,7 @@
 15. [ ] [[autohalt-no-r]]
 16. [ ] [[autohalt-no-ec]]
 18. [ ] [[autohalt-A-y-N]]
-19. [/] [[neumann-v-godel]]
+19. [x] [[neumann-v-godel-c8]]
 ## [ ] Combo 9
 19. [ ] [[división-casos-r]]
 20. [ ] [[halt-sigma-u-sigmap-pr]]
