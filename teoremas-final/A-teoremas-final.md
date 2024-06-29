@@ -21,7 +21,7 @@
 21. [ ] [[T-sigma-u-sigmap-r]]
 # Combos
 ## [ ] Combo 1
-01. [/] [[caracterización-conjunto-pr]]
+01. [x] [[caracterización-conjunto-pr]]
 02. [/] [[neumann-v-godel]]
 ## [ ] Combo 2
 03. [ ] [[division-casos-pr]]

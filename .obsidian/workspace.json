@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md"
+                "file": "teoremas-final/A-teoremas-final.md"
               }
             }
           },
@@ -201,11 +201,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "de25892bb8aa20aa",
   "lastOpenFiles": [
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/neumann-v-godel.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "Lenguajes Formales y Computacion/teoremas-final/T-sigma-u-sigmap-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/halt-sigma-u-sigmap-pr.md",
