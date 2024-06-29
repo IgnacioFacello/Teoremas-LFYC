@@ -49,12 +49,24 @@ Sean:
 $$
 \begin{align}
 D_1&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
-: \} \\
+: x\gt0\} \\
 D_2&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
-: \} \\
+: x=0\} \\
 H_1&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
-: \} \\
+: x\gt t+1\} \\
 H_2&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
-: \}
+: x\leq t+1\}
 \end{align}
 $$
+Luego
+$$
+\begin{align}
+	h &= 
+		C_0^{n+1,m}|_{D_1} \cup 
+		\lambda x\vec x\vec\alpha[f(0,\vec x,\vec\alpha)]|_{D_2} \\
+	g &= 
+		C_0^{n+3,m}|_{H_1} \cup 
+		\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]|_{H_2} \\
+\end{align}
+$$
+y por el lemma de [[division-casos-pr|funciones por casos]] son ambas $\Sigma$-pr
