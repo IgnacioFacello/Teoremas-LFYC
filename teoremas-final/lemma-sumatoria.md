@@ -31,3 +31,17 @@ G(t+1,x,\vec x,\vec\alpha) &= \begin{cases}
 \end{cases}
 \end{align}
 $$
+Es decir que podemos definir
+$$
+\begin{align}
+	h &= \lambda x\vec x\vec\alpha\left[\begin{cases}
+		0 & si\ x>0\\
+		f(0,\vec x,\vec\alpha) &si\ x=0
+	\end{cases}\right] \\
+	g &= \lambda Atx\vec x\vec\alpha\left[\begin{cases}
+		0 & si\ x>0\\
+		A+f(t+1,\vec x,\vec\alpha) &si\ x=0
+	\end{cases}\right] \\
+\end{align}
+$$
+tales que $G=R(h,g)$
