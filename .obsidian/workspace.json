@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/neumann-v-godel.md",
+                "file": "teoremas-final/A-teoremas-final.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0be5efd46126e6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/neumann-v-godel.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/neumann-v-godel.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/neumann-v-godel.md"
+                "file": "teoremas-final/caracterización-conjunto-pr.md"
               }
             }
           },
@@ -185,7 +198,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "a0be5efd46126e6d",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/neumann-v-godel.md",

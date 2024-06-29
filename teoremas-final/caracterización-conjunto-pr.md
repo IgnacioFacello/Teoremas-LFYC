@@ -5,12 +5,12 @@ tags:
 > Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
 
 ---
-## ( $S\ \Sigma$-pr $\implies\ S=Dom(f)\ f\ \Sigma$-pr )
+## $\Sigma$-pr implica dominio
 > Predecesor de la característica. Solo va a estar definido para retorno 1.
 
 Tomemos la función $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$.
 Claramente $Dom(f)=S$.
-## ( $S\ \Sigma$-pr $\impliedby\ S=Dom(f)\ f\ \Sigma$-pr )
+## Dominio de $\Sigma$-pr es pr
 Probaremos por inducción en k que $Dom(F)$ es $\Sigma$-pr para cada $F\in PR^{\Sigma}_k$
 ### (Caso 0)
 > Trivial

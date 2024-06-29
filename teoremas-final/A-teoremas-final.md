@@ -22,7 +22,7 @@
 # Combos
 ## [ ] Combo 1
 01. [x] [[caracterización-conjunto-pr]]
-02. [/] [[neumann-v-godel]]
+02. [x] [[neumann-v-godel]]
 ## [ ] Combo 2
 03. [ ] [[division-casos-pr]]
 04. [/] [[caracterización-conjunto-enumerable]]

@@ -45,7 +45,7 @@ CC en algún momento se hace verdadero, específicamente para el menor valor que
 ### Caso h=R(f,G) (combo 1)
 > Usando la hipótesis inductiva se obtienen las macros necesarias
 > Luego realizar un programa que según el primer caractér de la variable de recursión realize la G apropiada  
-> Para el caso alfabetico y numerico cambiar la variable de resultado segun sea apropiado
+> Para el caso alfabético y numérico cambiar la variable de resultado segun sea apropiado
 #### (Alfabético)
 Supongamos $h=R(f,\mathcal G)$ con
 $$
