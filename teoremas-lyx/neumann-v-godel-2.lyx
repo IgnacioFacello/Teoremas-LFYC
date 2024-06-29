@@ -1,0 +1,538 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+%
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}% disable illegal ligatures
+\fi
+\ifPDFTeX
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\title{neumann-v-godel}
+\author{}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "neumann-v-godel"
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -1
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Quote
+Si h es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-recursiva entonces es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable (Solo caso 
+\begin_inset Formula $h=R(f,\mathcal{G})$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Quote
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+
+\end_layout
+
+\begin_layout Quote
+Realizamos la prueba por inducción.
+\end_layout
+
+\begin_layout Quote
+(*) Caso k :
+ si 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ entonces es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable
+\end_layout
+
+\begin_layout Quote
+(Caso 
+\begin_inset Formula $k=0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Quote
+Sea 
+\begin_inset Formula $h\in R_{0}^{\Sigma}$
+\end_inset
+
+y sean los siguientes programas los que computan las funciones básicas del paradigma de godel:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $Succ$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N1+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $Pred$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N1\dot{-}1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{0}^{0,0}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{\varepsilon}^{0,0}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $d_{a}\quad para\ a\in\Sigma$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets P1.a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N\overline{j}\quad si\ j\in{1,\dots,n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets P\overline{j-n}\quad j\in{n+1,\dots,n+m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\SpecialChar allowbreak
+
+\end_layout
+
+\begin_layout Quote
+(Caso 
+\begin_inset Formula $k+1$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Quote
+Sea 
+\begin_inset Formula $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Supongamos 
+\begin_inset Formula $h=R(f,\mathcal{G})$
+\end_inset
+
+ con retorno alfabetico.
+ Sean
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+f & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
+\mathcal{G} & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Por (*) hay macros que computan las funciones 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}_{a}\quad a\in\Sigma$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Quote
+Damos el siguiente programa que computa su recursion:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+ & [P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2}\  & P1\gets P\overline{m+3}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Ahora sean
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+f' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
+\mathcal{G}' & :\omega\times S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\to\omega
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
+\end_inset
+
+.
+ Por (*) hay macros que computan las funciones 
+\begin_inset Formula $f'$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}'_{a}\quad a\in\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Este caso es muy similar al anterior,
+ solo requiere realizar un cambio de variables para el resultado.
+\end_layout
+
+\begin_layout Quote
+Damos el siguiente programa que computa la recursión de 
+\begin_inset Formula $h'=R(f',\mathcal{G}')$
+\end_inset
+
+ con retorno numérico:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+ & [N\overline{n+1}\gets f'(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}'_{1}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [N\overline{n+1}\gets\mathcal{G}'_{r}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2}\  & N1\gets N\overline{n+1}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Es facil ver que estos programa computan a 
+\begin_inset Formula $h$
+\end_inset
+
+ y 
+\begin_inset Formula $h'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Centremosnos en la estructura del programa y en una posible recursion sobre 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Quote
+Si 
+\begin_inset Formula $\sigma=\varepsilon$
+\end_inset
+
+ entonces el programa va a realizar su primera instruccion y saltar hasta la ultima devolviendo el resultado de 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Por otro lado,
+ si 
+\begin_inset Formula $\sigma=\alpha a$
+\end_inset
+
+ entonces se va a realizar el caso f
+\end_layout
+
+\end_body
+\end_document

@@ -40,7 +40,8 @@ $$
 que claramente calcula el $M(P)$ y por lo tanto es $\Sigma$*-computable*.
 Si recibe un estado fuera del dominio de M(P) entonces nunca termina ya que el predicado nunca evalúa verdadero. 
 CC en algún momento se hace verdadero, específicamente para el menor valor que lo satisface ,ya que empezamos desde 0 y vamos aumentando en 1, por lo tanto $N1$ va a contener el menor t que satisface el predicado.
-### Caso h=R(f,G) (Alfabético)
+### Caso h=R(f,G)
+#### (Alfabético)
 Supongamos $h=R(f,\mathcal G)$ con
 $$
 \begin{align}
@@ -69,7 +70,7 @@ Lr\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
 L\overline{r+2}\ & P1\gets P\overline{m+3}
 \end{align}
 $$
-### Caso h=R(f,G) (Numérico)
+#### (Numérico)
 Muy similar al caso anterior, **solo requiere realizar un cambio de variables para el resultado**.
 Supongamos $h=R(f,\mathcal G)$ con
 $$
@@ -102,7 +103,8 @@ Lr\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
 L\overline{r+2}\ & N1\gets N\overline{n+1}
 \end{align}
 $$
-### Caso h=R(f,g) (Alfabético)
+### Caso h=R(f,g) 
+#### (Alfabético)
 Supongamos $h=R(f,\mathcal g)$ con
 $$
 \begin{align}
@@ -121,7 +123,7 @@ L1\ & N\overline{n+1}\gets N\overline{n+1}-1 \\
 L2\ & P1\gets P\overline{m+1}
 \end{align}
 $$
-### Caso h=R(f,g) (Numérico)
+#### (Numérico)
 Supongamos $h=R(f,\mathcal g)$ con
 $$
 \begin{align}

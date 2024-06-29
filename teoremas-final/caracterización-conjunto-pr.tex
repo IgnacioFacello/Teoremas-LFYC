@@ -1,0 +1,165 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\ifPDFTeX
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={caracterización-conjunto-pr},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{caracterización-conjunto-pr}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{quote}
+Un conjunto S es {}-pr {} es el dominio de alguna función {}-pr. (Solo
+caso composición)
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{pr--pr}{%
+\subsection{\texorpdfstring{( {}-pr {}-pr
+)}{( -pr -pr )}}\label{pr--pr}}
+
+\begin{quote}
+Predecesor de la característica. Solo va a estar definido para retorno
+1.
+\end{quote}
+
+Tomemos la función {}.\\
+Claramente {}.
+
+\hypertarget{pr--pr-1}{%
+\subsection{\texorpdfstring{( {}-pr {}-pr
+)}{( -pr -pr )}}\label{pr--pr-1}}
+
+Probaremos por inducción en k que {} es {}-pr para cada {}
+
+\hypertarget{caso-0}{%
+\subsubsection{(Caso 0)}\label{caso-0}}
+
+\begin{quote}
+Trivial
+\end{quote}
+
+Tenemos las siguientes funciones en {}
+
+\begin{itemize}
+\tightlist
+\item
+  {}
+\item
+  {}
+\item
+  {}
+\item
+  {}
+\item
+  {}
+\item
+  {}
+\item
+  {}
+\end{itemize}
+
+Y es trivial ver que todos sus dominios ({}) son {}-pr.
+
+\hypertarget{caso-k1}{%
+\subsubsection{(Caso k+1)}\label{caso-k1}}
+
+\begin{quote}
+Buscamos definir la característica de la composición en base a los
+dominios de las funciones.\\
+Clave 0: Por hipótesis todas las funciones y sus dominios van a ser
+{}-pr.\\
+Clave 1: Toda función {} {}-pr no total es la restricción de otra {}
+{}-total\\
+Clave 2: Definimos el conjunto S {}-pr como la intersección de los
+dominios. Es decir que tenemos su característica.\\
+Usamos las claves para definir la función
+\end{quote}
+
+óó
+
+\textbackslash begin\{align\}\\
+g
+\&:D\emph{g\textbackslash subseteq\textbackslash omega\^{}n\textbackslash times\textbackslash Sigma\^{}\{\emph{m\}\textbackslash to
+O,\textbackslash{}
+O\textbackslash in\{\textbackslash omega,\textbackslash Sigma\^{}}\}
+\textbackslash{}\\
+g\_i
+\&:D}\{g\emph{i\}\textbackslash subseteq\textbackslash omega\^{}l\textbackslash times\textbackslash Sigma\^{}\{*k\}\textbackslash to\textbackslash omega\textbackslash{}
+,\textbackslash{} i=1,\textbackslash dots,n \textbackslash{}\\
+g\_i
+\&:D}\{g\_i\}\textbackslash subseteq\textbackslash omega\^{}l\textbackslash times\textbackslash Sigma\^{}\{\emph{k\}\textbackslash to\textbackslash Sigma\^{}}\textbackslash{}
+,\textbackslash{} i=n+1,\textbackslash dots,n+m \textbackslash{}\\
+\textbackslash end\{align\}
+
+ó
+
+S=\textbackslash bigcap\^{}\{n+m\}\emph{\{i=1\} D}\{g\_i\}
+
+é
+
+\textbackslash chi\emph{\{D\_F\}\^{}\{\textbackslash omega\^{}n\textbackslash times\textbackslash Sigma\^{}\{*m\}\}=\\
+\textbackslash chi}\{D\emph{g\}\^{}\{\textbackslash omega\^{}n\textbackslash times\textbackslash Sigma\^{}\{*m\}\}\textbackslash circ\\
+{[}\textbackslash bar g\_1,\textbackslash dots,\textbackslash bar
+g}\{n+m\}{]}\textbackslash land\\
+\textbackslash chi\_\{S\}\^{}\{\textbackslash omega\^{}n\textbackslash times\textbackslash Sigma\^{}\{*m\}\}
+
+\end{document}

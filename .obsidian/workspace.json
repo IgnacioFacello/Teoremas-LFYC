@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "57e970b2032dd940",
+        "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 36.081694402420574,
         "children": [
           {
-            "id": "de25892bb8aa20aa",
+            "id": "3a1e04ad98d7e598",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,33 +20,19 @@
             }
           },
           {
-            "id": "bac6626d80593901",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "35c0476f964d1256",
-        "type": "tabs",
-        "dimension": 63.918305597579426,
-        "children": [
-          {
-            "id": "3a1e04ad98d7e598",
+            "id": "8f450004c4289695",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/neumann-v-godel.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "668a74496364075d",
@@ -114,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/neumann-v-godel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/neumann-v-godel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/neumann-v-godel.md"
               }
             }
           },
@@ -201,12 +185,30 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "de25892bb8aa20aa",
+  "active": "8f450004c4289695",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-pr.md",
+    "teoremas-lyx/caracterización-conjunto-pr.lyx",
+    "teoremas-lyx/neumann-v-godel-2.lyx",
+    "teoremas-lyx/neumann-v-godel.lyx",
+    "teoremas-lyx",
+    "teoremas-final/neumann-v-godel-xsIQUg.lyx",
+    "teoremas-final/neumann-v-godel-2.lyx",
+    "teoremas-final/neumann-v-godel-sdhVWI.lyx",
+    "teoremas-final/#neumann-v-godel.lyx#",
+    "teoremas-final/neumann-v-godel.lyx~",
+    "teoremas-final/neumann-v-godel-PGUiCO.lyx",
+    "teoremas-final/neumann-v-godel.lyx",
     "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/neumann-v-godel.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
+    "teoremas-final/division-casos-pr.md",
+    "teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
+    "teoremas-final/autohalt-no-ec.md",
+    "teoremas-final/autohalt-A-y-N.md",
+    "teoremas-final/caracterización-conjunto-pr_lyx.md",
+    "teoremas-final/caracterización-conjunto-pr (Copy).md",
+    "teoremas-final/neumann-v-godel.md",
     "Lenguajes Formales y Computacion/teoremas-final/T-sigma-u-sigmap-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "Lenguajes Formales y Computacion/teoremas-final/división-casos-r.md",
@@ -221,20 +223,8 @@
     "Lenguajes Formales y Computacion/teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "Lenguajes Formales y Computacion/teoremas-final/lemma-sumatoria.md",
     "Lenguajes Formales y Computacion/teoremas-final/caracterización-conjunto-ec.md",
-    "Lenguajes Formales y Computacion/teoremas-final/neumann-v-godel.md",
-    "Lenguajes Formales y Computacion/teoremas-final/godel-v-neumann.md",
-    "Lenguajes Formales y Computacion/teoremas-final/division-casos-pr.md",
-    "Lenguajes Formales y Computacion/teoremas-final/caracterización-conjunto-pr.md",
-    "Lenguajes Formales y Computacion/teoremas-final/caracterización-conjunto-enumerable.md",
-    "Lenguajes Formales y Computacion/teoremas-final/A-teoremas-final.md",
-    "Lenguajes Formales y Computacion/teoremas-final",
-    "Lenguajes Formales y Computacion/codificacion por infinitupla de un x.md",
-    "Lenguajes Formales y Computacion/funciones-mixtas.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
-    "Imagenes/Pasted image 20231010095239.png",
-    "Periodic Notes",
-    "Lenguajes Formales y Computacion/teoremas-final.zip",
-    "LenguajesFormalesYComputacion"
+    "Imagenes/Pasted image 20231010095239.png"
   ]
 }
