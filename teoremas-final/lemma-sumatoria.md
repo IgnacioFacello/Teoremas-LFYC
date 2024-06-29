@@ -69,4 +69,13 @@ $$
 		\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]|_{H_2} \\
 \end{align}
 $$
-y por el lemma de [[division-casos-pr|funciones por casos]] son ambas $\Sigma$-pr
+y por el lemma de [[division-casos-pr|funciones por casos]] si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-pr entonces $h$ y $g$ también lo serán. 
+Para esto damos las siguientes funciones características:
+$$
+\begin{align}
+\chi^{\omega^{n+1}\times\Sigma^{*m}}_{D_1}&= \\
+\chi^{\omega^{n+1}\times\Sigma^{*m}}_{D_2}&= \\
+\chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_1}&= \\
+\chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_2}&=
+\end{align}
+$$

@@ -6,7 +6,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 37.821482602118,
+        "dimension": 31.694402420574885,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "8de465e86874db62",
+        "id": "93d210afc9e052ab",
         "type": "tabs",
-        "dimension": 62.178517397882,
+        "dimension": 68.30559757942511,
         "children": [
           {
-            "id": "d3205b714acda926",
+            "id": "835fb84027cdbc2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,6 +37,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "d61bde0fef0f4b88",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -193,8 +201,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d3205b714acda926",
+  "active": "835fb84027cdbc2c",
   "lastOpenFiles": [
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
@@ -214,7 +223,6 @@
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/neumann-v-godel-completo.md",
     "teoremas-final/neumann-v-godel-c8.md",
-    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-A-y-N.md",
