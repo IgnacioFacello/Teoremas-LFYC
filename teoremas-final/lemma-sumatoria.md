@@ -5,7 +5,7 @@ tags:
 > Sea $\Sigma$ un alfabeto finito. Si $f:\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m\to\omega$ es $\Sigma$-pr, con $S_1,\dots,S_n\subseteq\omega$ y $L_1,\dots,L_m\subseteq\Sigma^*$ no vacíos, entonces la función $\lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right]$ es $\Sigma$-pr
 
 ---
-> G da vuelta xy en la función original
+> Paso 1: Reestructurar la sumatoria para poder dar su forma recursiva. Notar que G da vuelta xy en la función original para que el parámetro de recursion sea el primero.
 
 Sea 
 $$
@@ -17,7 +17,9 @@ $$
 \lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right] = 
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
-por lo tanto basta con probar que G es $\Sigma$-pr (1).
+por lo tanto basta con probar que G es $\Sigma$-pr.
+> Paso 2: Definir las funciones que forman la recursion de G, para eso consideramos los casos según el valor de x
+
 Primero notemos que:
 $$
 \begin{align}
@@ -31,6 +33,8 @@ G(t+1,x,\vec x,\vec\alpha) &= \begin{cases}
 \end{cases}
 \end{align}
 $$
+> Paso 2.3: Les damos la forma de las funciones con las que venimos trabajando en el paradigma recursivo
+
 Es decir que podemos definir
 $$
 \begin{align}
@@ -45,6 +49,8 @@ $$
 \end{align}
 $$
 tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
+> Paso 2.6: Vamos a usar el lema de division por casos para mostrar que efectivamente son recursivas
+
 Sean:
 $$
 \begin{align}
@@ -69,13 +75,17 @@ $$
 		\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]|_{H_2} \\
 \end{align}
 $$
-y por el lemma de [[division-casos-pr|funciones por casos]] si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-pr entonces $h$ y $g$ también lo serán. 
-Para esto damos las siguientes funciones características:
+y por el [[division-casos-pr|lemma de división por casos]] si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-pr entonces $h$ y $g$ también lo serán. 
+> Paso 3: Para poder validar el uso del lemma debemos garantizar que los conjuntos sean $\Sigma$-pr
+>
+
+Veamos el caso $H_1$ los demás salen de manera similar.
+Dado que f es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-pr y podemos definir $R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ también lo es. 
+Podemos usar este hecho para definir:
 $$
-\begin{align}
-\chi^{\omega^{n+1}\times\Sigma^{*m}}_{D_1}&= \\
-\chi^{\omega^{n+1}\times\Sigma^{*m}}_{D_2}&= \\
-\chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_1}&= \\
-\chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_2}&=
-\end{align}
+\chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_1} = \left[
+	\chi^{\omega^{n+3}\times\Sigma^{*m}}_R \land 
+	\lambda Atx\vec x\vec\alpha[ x\gt t+1 ]
+\right]
 $$
+Lo cual nos garantiza que $H_1$ es $\Sigma$-pr
