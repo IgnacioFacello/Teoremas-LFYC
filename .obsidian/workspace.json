@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/lemma-sumatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/lemma-sumatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/lemma-sumatoria.md"
               }
             }
           },
@@ -193,10 +193,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "d3205b714acda926",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-pdf/neumann-v-godel-c1.pdf",
     "teoremas-pdf/godel-v-neumann.pdf",
