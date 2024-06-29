@@ -1,7 +1,6 @@
 ---
 tags:
   - "#lfyc-c-I"
-  - lfyc-c-IIX
 ---
 > Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
 

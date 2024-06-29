@@ -37,6 +37,9 @@ $$
 $$
 
 Que claramente termina para todo estado $||x||, x\in\omega$ y ademas termina en algún estado de la forma $((x_1,x_2,y_1,\dots),(\alpha_1,\beta_1,\dots))$ tal que $(x_1,x_2,\alpha_1)\in S$.
+
+<div style="page-break-after: always;"></div>
+
 ## $(2)\implies(1)$ 
 > Suponemos $P\in Pro^{\Sigma}$ cumple con (a) y (b) de 2. 
 > Extraemos del mismo los i sub-programas que calculan las $F_{(i)}$
