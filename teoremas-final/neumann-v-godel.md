@@ -44,7 +44,8 @@ Si recibe un estado fuera del dominio de M(P) entonces nunca termina ya que el p
 CC en algún momento se hace verdadero, específicamente para el menor valor que lo satisface ,ya que empezamos desde 0 y vamos aumentando en 1, por lo tanto $N1$ va a contener el menor t que satisface el predicado.
 ### Caso h=R(f,G) (combo 1)
 > Usando la hipótesis inductiva se obtienen las macros necesarias
-> Luego realizar un programa que según el primer caracter de la variable de recursión realize la G apropiada  
+> Luego realizar un programa que según el primer caractér de la variable de recursión realize la G apropiada  
+> Para el caso alfabetico y numerico cambiar la variable de resultado segun sea apropiado
 #### (Alfabético)
 Supongamos $h=R(f,\mathcal G)$ con
 $$
