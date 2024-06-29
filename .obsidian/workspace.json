@@ -28,12 +28,12 @@
         "dimension": 62.405446293494705,
         "children": [
           {
-            "id": "5890bbf7a943fac3",
+            "id": "3ec00054f91af5a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-enumerable.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/godel-v-neumann.md"
               }
             }
           },
@@ -193,11 +193,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "3ec00054f91af5a2",
   "lastOpenFiles": [
-    "teoremas-final/division-casos-pr.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/neumann-v-godel.md",
     "teoremas-lyx/caracterización-conjunto-pr.lyx",

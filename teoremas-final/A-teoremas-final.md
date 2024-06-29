@@ -25,7 +25,7 @@
 02. [x] [[neumann-v-godel]]
 ## [ ] Combo 2
 03. [x] [[division-casos-pr]]
-04. [/] [[caracterización-conjunto-enumerable]]
+04. [x] [[caracterización-conjunto-enumerable]]
 ## [ ] Combo 3
 05. [/] [[godel-v-neumann]] 
 06. [/] [[caracterización-conjunto-ec]] 

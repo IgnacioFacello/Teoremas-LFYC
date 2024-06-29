@@ -62,3 +62,4 @@ Tales que definen $F = [F_{(1)},F_{(2)},F_{(3)}]:\omega\to\omega^{2}\times\Sigma
 
 Por hipótesis el programa $\mathcal P$ termina para todo estado inicial $||x||, x\in\omega$ y ademas su estado final es de la forma $((x_1,x_2,y_1,\dots),(\alpha_1,\beta_1,\dots))$ tal que $(x_1,x_2,\alpha_1)\in S$.
 Es decir cada programa $\mathcal P_i$ también termina para todo estado inicial $||x||, x\in\omega$ y la primera coordenada del estado al terminar contiene el i-esimo elemento de $(x_1,x_2,\alpha_1)\in S$, es decir que $I_F=S$.
+$$\tag*{$\blacksquare$}$$
