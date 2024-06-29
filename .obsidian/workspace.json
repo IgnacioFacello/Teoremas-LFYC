@@ -6,7 +6,7 @@
       {
         "id": "57e970b2032dd940",
         "type": "tabs",
-        "dimension": 37.821482602118,
+        "dimension": 36.081694402420574,
         "children": [
           {
             "id": "de25892bb8aa20aa",
@@ -18,14 +18,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "b5234dcfff6e1d71",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
             }
           },
           {
@@ -41,7 +33,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 62.178517397882,
+        "dimension": 63.918305597579426,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -212,8 +204,9 @@
   "active": "3a1e04ad98d7e598",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
+    "teoremas-final/neumann-v-godel.md",
     "teoremas-final/caracterización-conjunto-pr.md",
+    "teoremas-final/caracterización-conjunto-ec.md",
     "Lenguajes Formales y Computacion/teoremas-final/T-sigma-u-sigmap-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "Lenguajes Formales y Computacion/teoremas-final/división-casos-r.md",
@@ -237,7 +230,6 @@
     "Lenguajes Formales y Computacion/teoremas-final",
     "Lenguajes Formales y Computacion/codificacion por infinitupla de un x.md",
     "Lenguajes Formales y Computacion/funciones-mixtas.md",
-    "Lenguajes Formales y Computacion/función Lt.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png",

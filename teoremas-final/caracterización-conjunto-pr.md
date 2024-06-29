@@ -5,7 +5,10 @@ tags:
 > Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
 
 ---
-
+> $\implies$: $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$
+> $\impliedby$: 
+> 	Caso 0 es trivial
+> 	Caso k+1 
 ## ( $S\ \Sigma$-pr $\implies\ S=Dom(f)\ f\ \Sigma$-pr )
 Tomemos la función $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$.
 Claramente $Dom(f)=S$.
@@ -24,6 +27,9 @@ Tenemos las siguientes funciones en $PR^{\Sigma}_k$
 Y es trivial ver que todos sus dominios ($\omega^n\times\Sigma^{*m}, \omega, \Sigma^*, N, \{\lozenge\}$) son $\Sigma$-pr.
 
 ### (Caso k+1)
+> Buscamos definir la característica de la composicion en base a los dominios de las funciones.
+> Clave 1: 
+
 (Para esta proposición solo se pide el caso de las composición)
 Sea $F=g\circ[g_1,\dots,g_n,g_{n+1}\dots,g_{n+m}]$ con $g,g_1,\dots,g_{n+m}\in PR^{\Sigma}_k$.
 Luego tenemos que, para $l,k,n,m\ge 0$
@@ -37,10 +43,12 @@ Luego tenemos que, para $l,k,n,m\ge 0$
 Si $F=\emptyset$ entonces $D_F=\emptyset$ y claramente es $\Sigma$-pr.
 Caso contrario...
 
-Por {{lema 18}} tenemos que hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ que son $\Sigma$-totales tales que:
+Por [[guia5-lemma18|lema 18]] tenemos que hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ que son $\Sigma$-totales tales que:
 $$g_i=\bar g_i|_{D_{g_i}}\ para\ i=1,\dots,n+m$$
 Luego, por Hipótesis Inductiva tenemos que los conjuntos $D_g,\ D_{g_i}\ i=1,\dots, n+m$ son $\Sigma$-pr y por lo tanto
-$$S=\bigcap^{n+m}_{i=1} D_{g_i}$$
+$$
+S=\bigcap^{n+m}_{i=1} D_{g_i}
+$$
 Por lo tanto S también es lo es.
 Finalmente notar que
 $$
