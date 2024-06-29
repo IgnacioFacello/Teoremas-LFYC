@@ -6,6 +6,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
+        "dimension": 37.594553706505295,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -24,6 +25,7 @@
       {
         "id": "3982a292a0da38e8",
         "type": "tabs",
+        "dimension": 62.405446293494705,
         "children": [
           {
             "id": "4478148eb99f3791",
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/division-casos-pr.md"
               }
             }
           },
@@ -191,10 +193,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "4478148eb99f3791",
   "lastOpenFiles": [
-    "teoremas-final/division-casos-pr.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/neumann-v-godel.md",
     "teoremas-lyx/caracterización-conjunto-pr.lyx",
