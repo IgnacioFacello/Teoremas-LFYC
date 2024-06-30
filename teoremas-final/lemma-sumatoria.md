@@ -51,7 +51,6 @@ $$
 $$
 
 
-
 tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
 > Paso 2.6: Vamos a usar el lema de division por casos para mostrar que efectivamente son recursivas
 

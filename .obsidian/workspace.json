@@ -19,21 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5dee51a1609ce63f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/neumann-v-godel-c1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "93d210afc9e052ab",
@@ -41,7 +28,7 @@
         "dimension": 59.53101361573374,
         "children": [
           {
-            "id": "2b1670c6dbaefc7e",
+            "id": "5b6ba3ac21fbd601",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,21 +38,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d61bde0fef0f4b88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md"
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md"
               }
             }
           },
@@ -219,8 +193,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d61bde0fef0f4b88",
+  "active": "5b6ba3ac21fbd601",
   "lastOpenFiles": [
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-lyx/combo1/send/combo1-teoremas-JgpbFm.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-kxndIR.lyx",
@@ -232,9 +209,6 @@
     "teoremas-lyx/combo1/send/combo1-teoremas.lyx~",
     "teoremas-lyx/combo1/send/combo1-teoremas-nfZMMb.lyx",
     "teoremas-lyx/combo1/send/#combo1-teoremas.lyx#",
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/lemma-sumatoria.md",
-    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
