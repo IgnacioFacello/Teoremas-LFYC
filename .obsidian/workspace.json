@@ -28,12 +28,12 @@
         "dimension": 59.53101361573374,
         "children": [
           {
-            "id": "835fb84027cdbc2c",
+            "id": "2b1670c6dbaefc7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md"
               }
             }
           },
@@ -201,10 +201,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3a1e04ad98d7e598",
+  "active": "2b1670c6dbaefc7e",
   "lastOpenFiles": [
-    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-lyx/combo2/send/definición-por-casos-pr.pdf",
     "teoremas-lyx/combo2/send/definición-por-casos-pr.23.lyx",
     "teoremas-lyx/combo2/definición-por-casos-pr.23.lyx",
