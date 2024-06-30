@@ -95,4 +95,4 @@ L\overline{r+2}\ & N1\gets N\overline{n+1}
 \end{align}
 $$
 
-> un programa muy similar al dado en el caso anterior. Solo es necesario realizar un cambio de variables para el resultado, es decir cambiando P m + 3 ¯ por N n + 1 ¯ y reemplazando la ultima instruccion por N 1 ← N n + 1 ¯ .
+> un programa muy similar al dado en el caso anterior. Solo es necesario realizar un cambio de variables para el resultado, es decir cambiando P m + 3 ¯ por N n + 1 ¯ y reemplazando la ultima instrucción por N 1 ← N n + 1 ¯ .
