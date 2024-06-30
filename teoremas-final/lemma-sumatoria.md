@@ -6,10 +6,11 @@ tags:
 
 ---
 > Paso 1: Reestructurar la sumatoria para poder dar su forma recursiva. Notar que G da vuelta xy en la función original para que el parámetro de recursion sea el primero.
+> Esto se hace para poder usar la forma de R(h,g) que hace recursion sobre el primer parámetro
 
 Sea 
 $$
-G=\lambda tx\vec x\vec\alpha\left[\sum_{i=t}^{i=x}f(i,\vec x,\vec\alpha)\right]
+G=\lambda tx\vec x\vec\alpha\left[\sum_{i=x}^{i=t}f(i,\vec x,\vec\alpha)\right]
 $$
 
 Luego tenemos que 
@@ -17,7 +18,7 @@ $$
 \lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right] = 
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
-por lo tanto basta con probar que G es $\Sigma$-pr.
+por lo tanto basta con probar que $G$ es $\Sigma$-pr.
 > Paso 2: Definir las funciones que forman la recursion de G, para eso consideramos los casos según el valor de x
 
 Primero notemos que:
