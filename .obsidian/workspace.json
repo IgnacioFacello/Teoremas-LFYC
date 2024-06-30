@@ -6,7 +6,7 @@
       {
         "id": "35c0476f964d1256",
         "type": "tabs",
-        "dimension": 31.694402420574885,
+        "dimension": 40.468986384266266,
         "children": [
           {
             "id": "3a1e04ad98d7e598",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "ef7061d9c3023f6c",
+            "id": "6a4e1070e1ccb026",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "93d210afc9e052ab",
         "type": "tabs",
-        "dimension": 68.30559757942511,
+        "dimension": 59.53101361573374,
         "children": [
           {
             "id": "835fb84027cdbc2c",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md"
+                "file": "teoremas-final/division-casos-pr.md"
               }
             }
           },
@@ -214,9 +214,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ef7061d9c3023f6c",
+  "active": "6a4e1070e1ccb026",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
@@ -232,7 +233,6 @@
     "teoremas-final-lfyc/division-casos-pr.pdf",
     "teoremas-final/godel-v-neumann.md",
     "teoremas-final/division-casos-pr.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/neumann-v-godel-completo.md",
     "teoremas-final/neumann-v-godel-c8.md",
