@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "35c0476f964d1256",
-        "type": "tabs",
-        "dimension": 40.468986384266266,
-        "children": [
-          {
-            "id": "3a1e04ad98d7e598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "93d210afc9e052ab",
         "type": "tabs",
-        "dimension": 59.53101361573374,
         "children": [
           {
             "id": "1093839dad5091fd",

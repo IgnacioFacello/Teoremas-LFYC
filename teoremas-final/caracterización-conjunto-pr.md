@@ -8,27 +8,11 @@ tags:
 ## Todo $S$ $\Sigma$-pr es dominio de $\Sigma$-pr
 > Predecesor de la característica. Solo va a estar definido para retorno 1.
 
-Tomemos la función $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$.
-Claramente $Dom(f)=S$.
-## Dominio de $\Sigma$-pr es pr
-Probaremos por inducción en k que $Dom(F)$ es $\Sigma$-pr para cada $F\in PR^{\Sigma}_k$
-### (Caso 0)
-> Trivial
 
-Tenemos las siguientes funciones en $PR^{\Sigma}_k$
-- $Succ:\omega\to\omega$
-- $Pred:N\to\omega$
-- $C_0^{0,0}:\{\lozenge\}\to\omega$
-- $C_\epsilon^{0,0}:\{\lozenge\}\to\omega$
-- $d_a:\Sigma^*\to\Sigma^*\quad a\in\Sigma$
-- $p_j^{n,m}\omega^n\times\Sigma^{*m}\to\omega\ \ n,m\ge 0$
-- $p_j^{n,m}\omega^n\times\Sigma^{*m}\to\Sigma^*\ \ n,m\ge 0$
+($\implies$) Tomemos la función $F=Pred\circ\chi^{\omega\times\Sigma^*}_S$. Claramente $D_F=S$.
+($\impliedby$)  Probaremos por inducción en k que $Dom(F)$ es $\Sigma$-pr para cada $F\in PR^{\Sigma}_k$
+El caso $k=0$ es trivial. Supongamos ahora que el resultado vale para un $k$ fijo y que $F\in{PR}^{\Sigma}_{k+1}$ . Para esta proposición solo se pide el caso de la composición.
 
-Y es trivial ver que todos sus dominios ($\omega^n\times\Sigma^{*m}, \omega, \Sigma^*, N, \{\lozenge\}$) son $\Sigma$-pr.
-
-<div style="page-break-after: always;"></div>
-
-### (Caso k+1)
 > Buscamos definir la característica de la composición en base a los dominios de las funciones.
 > Clave 0: Por hipótesis todas las funciones y sus dominios van a ser $\Sigma$-pr. 
 > Clave 1: Toda función $f$ $\Sigma$-pr no total es la restricción de otra $\bar f$ $\Sigma$-total 
