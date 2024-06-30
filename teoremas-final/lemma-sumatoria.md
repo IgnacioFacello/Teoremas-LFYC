@@ -77,7 +77,8 @@ $$
 $$
 y por el [[division-casos-pr|lemma de división por casos]] si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-pr entonces $h$ y $g$ también lo serán. 
 > Paso 3: Para poder validar el uso del lemma debemos garantizar que los conjuntos sean $\Sigma$-pr
->
+> Esto lo logramos con una comparación simple y usando que f tenga dominio en el conjunto rectangular.
+> Luego usamos su característica para garantizar que pertenezca al rectangular y la condición para garantizar que pertenezca al conjunto del caso.
 
 Veamos el caso $H_1$ los demás salen de manera similar.
 Dado que f es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-pr y podemos definir $R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ también lo es. 

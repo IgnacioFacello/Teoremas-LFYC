@@ -6,7 +6,7 @@
 05. [x] [[godel-v-neumann]] 
 06. [x] [[caracterización-conjunto-ec]] 
 07. [x] [[caracterización-conjunto-enumerable]]
-08. [ ] [[lemma-sumatoria]] 
+08. [/] [[lemma-sumatoria]] 
 09. [/] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
 11. [/] [[e-computable-implica-e-enumerable]] 
