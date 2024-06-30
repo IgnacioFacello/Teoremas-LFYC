@@ -6,6 +6,7 @@
       {
         "id": "93d210afc9e052ab",
         "type": "tabs",
+        "dimension": 38.27534039334342,
         "children": [
           {
             "id": "1093839dad5091fd",
@@ -13,7 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/A-teoremas-final.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c644367b9eebf524",
+        "type": "tabs",
+        "dimension": 61.72465960665659,
+        "children": [
+          {
+            "id": "ee4ae29e7e69eb49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/A-teoremas-final.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-pr.md"
+                "file": "teoremas-final/A-teoremas-final.md"
               }
             }
           },
@@ -173,11 +193,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1093839dad5091fd",
+  "active": "ee4ae29e7e69eb49",
   "lastOpenFiles": [
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/guia5-lemma18.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-lyx/combo1/send/combo1-teoremas-JgpbFm.lyx",

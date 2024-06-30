@@ -1,0 +1,1 @@
+**Lema 18**: Sea $O\in\left\{ \omega,\Sigma^{*}\right\}$ y $n,m\in\omega$ . Si $f:D_{f}\subseteq\omega^{n}\times\Sigma^{*m}\to O$ es $\Sigma$-p.r., entonces existe una función $\Sigma$-p.r. $\bar{f}:\omega^{n}\times\Sigma^{*m}\to O$, tal que $f=\bar{f}|_{D_{f}}$. 
