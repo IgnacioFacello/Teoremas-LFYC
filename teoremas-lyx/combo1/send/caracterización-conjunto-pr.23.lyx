@@ -173,16 +173,29 @@ Lema 18
 \series bold
 Proposicion 1 (Caracterización de conjunto p.r.)
 \series default
- Un conjunto S es 
+ 
+\emph on
+Un conjunto 
+\begin_inset Formula $S$
+\end_inset
+
+ es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr sii es el dominio de alguna función 
+-p.r.
+ sii es el dominio de alguna función 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
- (Solo caso de composición)
+-p.r..
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+(Solo caso de composición)
 \end_layout
 
 \begin_layout Standard
@@ -266,16 +279,12 @@ Probaremos por inducción en k que
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr para cada 
+-p.r.
+ para cada 
 \begin_inset Formula $F\in PR_{k}^{\Sigma}$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\SpecialChar allowbreak
-
 \end_layout
 
 \begin_layout Standard
@@ -319,7 +328,7 @@ Sea
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
+-p.r..
  Supongamos entonces que 
 \begin_inset Formula $F$
 \end_inset
@@ -369,7 +378,8 @@ y
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr 
+-p.r.
+ 
 \begin_inset Formula $\bar{g}_{1},\dots,\bar{g}_{n+m}$
 \end_inset
 
@@ -433,7 +443,8 @@ Por Hipótesis Inductiva tenemos que los conjuntos
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr y por lo tanto
+-p.r.
+ y por lo tanto
 \end_layout
 
 \begin_layout Standard
@@ -472,7 +483,7 @@ lo cual nos dice que
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
+-p.r..
  
 \end_layout
 
@@ -488,7 +499,13 @@ lo cual nos dice que
 \series bold
 Teorema 2 (Neumann vence a Godel)
 \series default
- Si h es 
+ 
+\emph on
+Si 
+\begin_inset Formula $h$
+\end_inset
+
+ es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
@@ -496,7 +513,11 @@ Teorema 2 (Neumann vence a Godel)
 \begin_inset Formula $\Sigma$
 \end_inset
 
--computable (Solo caso 
+-computable.
+\end_layout
+
+\begin_layout Quote
+(Solo caso 
 \begin_inset Formula $h=R(f,\mathcal{G})$
 \end_inset
 
@@ -547,12 +568,11 @@ Teorema 2 (Neumann vence a Godel)
 \end_layout
 
 \begin_layout Quote
-Realizamos la prueba por inducción.
+Probaremos por inducción en k que
 \end_layout
 
 \begin_layout Quote
-(*) Caso k :
- si 
+(*) Si 
 \begin_inset Formula $h\in R_{k}^{\Sigma}$
 \end_inset
 
@@ -564,120 +584,86 @@ Realizamos la prueba por inducción.
 \end_layout
 
 \begin_layout Quote
-(Caso 
+Sea 
 \begin_inset Formula $k=0$
 \end_inset
 
-)
+ y 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ tenemos que
 \end_layout
 
 \begin_layout Quote
-Sea 
-\begin_inset Formula $h\in R_{0}^{\Sigma}$
+\begin_inset Formula $Succ=\Psi_{N1\gets N1+1}^{1,0,\#}$
 \end_inset
 
-y sean los siguientes programas los que computan las funciones básicas del paradigma de godel:
+
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula $Succ$
+\begin_inset Formula $Pred=\Psi_{N1\gets N1\dot{-}1}^{1,0,\#}$
 \end_inset
 
- :
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{0}^{0,0}=\Psi_{N1\gets0}^{0,0,\#}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{\varepsilon}^{0,0}=\Psi_{P1\gets\varepsilon}^{0,0,*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $d_{a}=\Psi_{P1\gets P1.a}^{0,1,*}\text{ para todo}a\in\Sigma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in{1,\dots,n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in{n+1,\dots,n+m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Entonces para cualquier forma que tome 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ tenemos que va a ser 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable.
  
-\begin_inset Formula $N1\gets N1+1$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula $Pred$
-\end_inset
-
- :
- 
-\begin_inset Formula $N1\gets N1\dot{-}1$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula $C_{0}^{0,0}$
-\end_inset
-
- :
- 
-\begin_inset Formula $N1\gets0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula $C_{\varepsilon}^{0,0}$
-\end_inset
-
- :
- 
-\begin_inset Formula $P1\gets\varepsilon$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula $d_{a}\quad para\ a\in\Sigma$
-\end_inset
-
- :
- 
-\begin_inset Formula $P1\gets P1.a$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula $p_{j}^{n,m}$
-\end_inset
-
- :
- 
-\begin_inset Formula $N1\gets N\overline{j}\quad si\ j\in{1,\dots,n}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula $p_{j}^{n,m}$
-\end_inset
-
- :
- 
-\begin_inset Formula $P1\gets P\overline{j-n}\quad j\in{n+1,\dots,n+m}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\SpecialChar allowbreak
-
-\end_layout
-
-\begin_layout Quote
-(Caso 
+Veremos ahora que vale para 
 \begin_inset Formula $k+1$
 \end_inset
 
-)
-\end_layout
-
-\begin_layout Quote
-Sea 
+.
+ Sea 
 \begin_inset Formula $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
 \end_inset
 
@@ -686,16 +672,15 @@ Sea
 \begin_inset Formula $h=R(f,\mathcal{G})$
 \end_inset
 
- con retorno alfabetico.
- Sean
+ con
 \end_layout
 
 \begin_layout Quote
 \begin_inset Formula 
-\begin{align}
-f & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
-\mathcal{G} & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
-\end{align}
+\begin{align*}
+f: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
+\mathcal{G}: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
+\end{align*}
 
 \end_inset
 
@@ -703,49 +688,50 @@ f & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*
 \end_layout
 
 \begin_layout Quote
-funciones de 
+elementos de 
 \begin_inset Formula $R_{k}^{\Sigma}$
 \end_inset
 
- y sea 
+ .
+ Sea 
 \begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
 \end_inset
 
 .
- Por (*) las funciones 
-\begin_inset Formula $f$
+ Por hipotesis inductiva,
+ las funciones 
+\begin_inset Formula $f,\mathcal{G}_{a}$
 \end_inset
 
- y 
-\begin_inset Formula $\mathcal{G}_{a}\quad a\in\Sigma$
+,
+ 
+\begin_inset Formula $a\in\Sigma$
 \end_inset
 
  son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
-\end_layout
-
-\begin_layout Quote
+-computables y por lo tanto podemos hacer el siguiente programa via el uso de macros
 \begin_inset Formula 
-\begin{align}
- & [P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
-L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+\[
+\begin{aligned} & P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1} & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
  & \vdots\\
  & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
  & GOTO\ L\overline{r+2}\\
-L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+L1 & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
  & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
  & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
  & GOTO\ L\overline{r+1}\\
  & \vdots\\
-Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+L\overline{r} & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
  & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
  & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
  & GOTO\ L\overline{r+1}\\
-L\overline{r+2}\  & P1\gets P\overline{m+3}
-\end{align}
+L\overline{r+2} & P1\gets P\overline{m+3}
+\end{aligned}
+\]
 
 \end_inset
 
@@ -753,7 +739,7 @@ L\overline{r+2}\  & P1\gets P\overline{m+3}
 \end_layout
 
 \begin_layout Quote
-Es facil ver que este programa computa a 
+Es facil chequear que este programa computa 
 \begin_inset Formula $h$
 \end_inset
 
@@ -770,15 +756,15 @@ Ahora sea
 \begin_inset Formula $h'=R(f',\mathcal{G}')$
 \end_inset
 
- con retorno numérico y sean
+ con
 \end_layout
 
 \begin_layout Quote
 \begin_inset Formula 
-\begin{align}
-f' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
-\mathcal{G}' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\omega
-\end{align}
+\begin{align*}
+f': & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
+\mathcal{G}': & \omega\times S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\to\omega
+\end{align*}
 
 \end_inset
 
@@ -796,41 +782,50 @@ funciones de
 
 .
  Nuevamente,
- por (*) las funciones 
-\begin_inset Formula $f'$
+ por hipotesis inductiva las funciones 
+\begin_inset Formula $f',\mathcal{G}'_{a}$
 \end_inset
 
- y 
-\begin_inset Formula $\mathcal{G}'_{a}\quad a\in\Sigma$
+,
+ 
+\begin_inset Formula $a\in\Sigma$
 \end_inset
 
  son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--computables y tenemos sus macros asociadas.
+-computables y podemos hacer el siguiente programa via el uso de macros
 \end_layout
 
 \begin_layout Quote
-El programa es muy similar al dado en el caso anterior,
- solo requiere realizar un cambio de variables para el resultado,
- es decir cambiando 
-\begin_inset Formula $P\overline{m+3}$
+\begin_inset Formula 
+\[
+\begin{aligned} & N\overline{m+1}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1} & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1 & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [N\overline{n+1}\gets\mathcal{G}_{a_{1}}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+L\overline{r} & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [N\overline{n+1}\gets\mathcal{G}_{a_{r}}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2} & N1\gets N\overline{n+1}
+\end{aligned}
+\]
+
 \end_inset
 
-por 
-\begin_inset Formula $N\overline{n+1}$
-\end_inset
 
-y reemplazando la ultima instruccion por 
-\begin_inset Formula $N1\gets N\overline{n+1}$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Quote
-Es facil ver que este programa computa ´a 
+Es facil ver que este programa computa a 
 \begin_inset Formula $h'$
 \end_inset
 

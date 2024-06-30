@@ -677,11 +677,60 @@ Veremos ahora que vale para
 
 \begin_layout Quote
 \begin_inset Formula 
+\begin{align*}
+f: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
+\mathcal{G}: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+elementos de 
+\begin_inset Formula $R_{k}^{\Sigma}$
+\end_inset
+
+ .
+ Sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Por hipotesis inductiva,
+ las funciones 
+\begin_inset Formula $f,\mathcal{G}_{a}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $a\in\Sigma$
+\end_inset
+
+ son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computables y por lo tanto podemos hacer el siguiente programa via el uso de macros
+\begin_inset Formula 
 \[
-\begin{array}{c}
-f:S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
-\mathcal{G}
-\end{array}
+\begin{aligned} & P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1} & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1 & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+L\overline{r} & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2} & P1\gets P\overline{m+3}
+\end{aligned}
 \]
 
 \end_inset
@@ -690,69 +739,7 @@ f:S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula 
-\begin{align}
-f\\
-\mathcal{G} & :
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-funciones de 
-\begin_inset Formula $R_{k}^{\Sigma}$
-\end_inset
-
- y sea 
-\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
-\end_inset
-
-.
- Por (*) las funciones 
-\begin_inset Formula $f$
-\end_inset
-
- y 
-\begin_inset Formula $\mathcal{G}_{a}\quad a\in\Sigma$
-\end_inset
-
- son 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
-\end_layout
-
-\begin_layout Quote
-\begin_inset Formula 
-\begin{align}
- & [P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
-L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
- & \vdots\\
- & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
- & GOTO\ L\overline{r+2}\\
-L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
- & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
- & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
- & GOTO\ L\overline{r+1}\\
- & \vdots\\
-Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
- & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
- & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
- & GOTO\ L\overline{r+1}\\
-L\overline{r+2}\  & P1\gets P\overline{m+3}
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-Es facil ver que este programa computa a 
+Es facil chequear que este programa computa 
 \begin_inset Formula $h$
 \end_inset
 
@@ -769,15 +756,15 @@ Ahora sea
 \begin_inset Formula $h'=R(f',\mathcal{G}')$
 \end_inset
 
- con retorno numérico y sean
+ con
 \end_layout
 
 \begin_layout Quote
 \begin_inset Formula 
-\begin{align}
-f' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
-\mathcal{G}' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\omega
-\end{align}
+\begin{align*}
+f': & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
+\mathcal{G}': & \omega\times S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\to\omega
+\end{align*}
 
 \end_inset
 
@@ -795,41 +782,50 @@ funciones de
 
 .
  Nuevamente,
- por (*) las funciones 
-\begin_inset Formula $f'$
+ por hipotesis inductiva las funciones 
+\begin_inset Formula $f',\mathcal{G}'_{a}$
 \end_inset
 
- y 
-\begin_inset Formula $\mathcal{G}'_{a}\quad a\in\Sigma$
+,
+ 
+\begin_inset Formula $a\in\Sigma$
 \end_inset
 
  son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--computables y tenemos sus macros asociadas.
+-computables y podemos hacer el siguiente programa via el uso de macros
 \end_layout
 
 \begin_layout Quote
-El programa es muy similar al dado en el caso anterior,
- solo requiere realizar un cambio de variables para el resultado,
- es decir cambiando 
-\begin_inset Formula $P\overline{m+3}$
+\begin_inset Formula 
+\[
+\begin{aligned} & N\overline{m+1}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1} & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1 & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [N\overline{n+1}\gets\mathcal{G}_{a_{1}}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+L\overline{r} & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [N\overline{n+1}\gets\mathcal{G}_{a_{r}}(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2} & N1\gets N\overline{n+1}
+\end{aligned}
+\]
+
 \end_inset
 
-por 
-\begin_inset Formula $N\overline{n+1}$
-\end_inset
 
-y reemplazando la ultima instruccion por 
-\begin_inset Formula $N1\gets N\overline{n+1}$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Quote
-Es facil ver que este programa computa ´a 
+Es facil ver que este programa computa a 
 \begin_inset Formula $h'$
 \end_inset
 

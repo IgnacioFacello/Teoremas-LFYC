@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5dee51a1609ce63f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/neumann-v-godel-c1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "93d210afc9e052ab",
@@ -119,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/neumann-v-godel-c1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/neumann-v-godel-c1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md"
+                "file": "teoremas-final/neumann-v-godel-c1.md"
               }
             }
           },
@@ -206,8 +219,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d61bde0fef0f4b88",
+  "active": "5dee51a1609ce63f",
   "lastOpenFiles": [
+    "teoremas-lyx/combo1/send/#combo1-teoremas.lyx#",
+    "teoremas-lyx/combo1/send/combo1-teoremas.lyx",
+    "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-VNGYIq.lyx",
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-MZEgbZ.lyx",
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-JyXIQo.lyx",
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-YZgYVy.lyx",
@@ -216,12 +234,7 @@
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23.lyx~",
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-rnyslC.lyx",
     "teoremas-lyx/combo1/send/caracterización-conjunto-pr.23-lyx23.lyx~",
-    "teoremas-lyx/combo1/send/#caracterización-conjunto-pr.23.lyx#",
-    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
-    "teoremas-final/lemma-sumatoria.md",
-    "teoremas-lyx/combo2/send/definición-por-casos-pr.pdf",
-    "teoremas-lyx/combo2/send/definición-por-casos-pr.23.lyx",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
