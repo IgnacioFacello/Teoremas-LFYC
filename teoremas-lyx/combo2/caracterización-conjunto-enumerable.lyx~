@@ -286,11 +286,10 @@ Luego,
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\begin{array}{c}
-[V2\gets F_{(1)}(V1)]\\{}
-[V2\gets F_{(2)}(V1)]\\{}
-[W2\gets F_{(3)}(V1)]
-\end{array}
+\begin{align} & [V2\gets F_{(1)}(V1)]\\
+ & [V2\gets F_{(2)}(V1)]\\
+ & [W2\gets F_{(3)}(V1)]
+\end{align}
 \]
 
 \end_inset
@@ -309,11 +308,10 @@ Y sea
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\begin{array}{c}
-[P3\gets F_{(3)}(N1)]\\{}
-[N2\gets F_{(2)}(N1)]\\{}
-[N1\gets F_{(1)}(N1)]
-\end{array}
+\begin{align} & [P3\gets F_{(3)}(N1)]\\
+ & [N2\gets F_{(2)}(N1)]\\
+ & [N1\gets F_{(1)}(N1)]
+\end{align}
 \]
 
 \end_inset

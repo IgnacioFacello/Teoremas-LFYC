@@ -473,12 +473,12 @@ funciones de
 \begin_inset Formula $\Sigma$
 \end_inset
 
--computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
+-computables y tenemos sus macros asociadas.
 \end_layout
 
 \begin_layout Quote
-Este caso es muy similar al anterior,
- solo requiere realizar un cambio de variables para el resultado en el programa,
+El programa es muy similar al dado en el caso anterior,
+ solo requiere realizar un cambio de variables para el resultado,
  es decir cambiando 
 \begin_inset Formula $P\overline{m+3}$
 \end_inset
@@ -495,7 +495,7 @@ y reemplazando la ultima instruccion por
 \end_layout
 
 \begin_layout Quote
-Es facil ver que el programa computa a 
+Es facil ver que este programa computa a 
 \begin_inset Formula $h'$
 \end_inset
 

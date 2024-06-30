@@ -19,18 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e09e5687621e12b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/caracterización-conjunto-enumerable.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       },
@@ -109,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
@@ -214,20 +203,19 @@
   },
   "active": "3a1e04ad98d7e598",
   "lastOpenFiles": [
-    "teoremas-lyx/combo1/#neumann-v-godel.lyx#",
-    "teoremas-lyx/combo1/caracterización-conjunto-pr-XkyvPH.lyx",
-    "teoremas-lyx/combo1/caracterización-conjunto-pr.lyx~",
-    "teoremas-lyx/combo1/caracterización-conjunto-pr-XnCODu.lyx",
-    "teoremas-lyx/combo2/caracterización-conjunto-enumerable.lyx",
-    "teoremas-lyx/combo2/definición-por-casos-pr.lyx",
-    "teoremas-lyx/combo1/caracterización-conjunto-pr.lyx",
-    "teoremas-lyx/combo1/neumann-v-godel.lyx",
-    "teoremas-lyx/combo2",
-    "teoremas-lyx/combo1",
-    "teoremas-lyx/caracterización-conjunto-enumerable.lyx~",
     "teoremas-final/lemma-sumatoria.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-lyx/combo2/send/definición-por-casos-pr.pdf",
+    "teoremas-lyx/combo2/send/definición-por-casos-pr.23.lyx",
+    "teoremas-lyx/combo2/definición-por-casos-pr.23.lyx",
+    "teoremas-lyx/combo2/definición-por-casos-pr.pdf",
+    "teoremas-lyx/combo2/definición-por-casos-pr.lyx~",
+    "teoremas-lyx/combo2/definición-por-casos-pr-KgqUPX.lyx",
+    "teoremas-lyx/combo2/send/caracterización-conjunto-enumerable.pdf",
+    "teoremas-lyx/combo2/send/caracterización-conjunto-enumerable.23.lyx",
+    "teoremas-lyx/combo2/send",
+    "teoremas-lyx/combo2/caracterización-conjunto-enumerable.23.lyx",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/caracterización-conjunto-ec.md",

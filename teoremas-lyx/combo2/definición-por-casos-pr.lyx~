@@ -88,7 +88,7 @@
 
 \begin_layout Standard
 Supongamos 
-\begin_inset Formula $f_{i}:D_{f_{i}}\subseteq\omega^{n}\times\Sigma^{*m}\to\Sigma^{*},i=1,\dots,k$
+\begin_inset Formula $f_{i}:D_{f_{i}}\subseteq\omega^{n}\times\Sigma^{}*m\to\Sigma^{*},i=1,\dots,k$
 \end_inset
 
  son funciones 
