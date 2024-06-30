@@ -330,16 +330,63 @@ Donde suponemos que las expansiones de las macros son hechas usando variables au
 \end_layout
 
 \begin_layout Standard
-Que claramente termina para todo estado inicial 
-\begin_inset Formula $\parallel x\parallel,x\in\omega$
+(2a) Claramente tenemos que el programa termina para todo estado inicial 
+\begin_inset Formula $\parallel x\parallel\ x\in\omega$
 \end_inset
 
- ya que el dominio de y ademas termina en algún estado de la forma 
+ ya que el dominio de cada 
+\begin_inset Formula $F_{(i)}$
+\end_inset
+
+es 
+\begin_inset Formula $\omega$
+\end_inset
+
+,
+ y que al terminar,
+ su estado es de la forma 
 \begin_inset Formula $((x_{1},x_{2},y_{1},\dots),(\alpha_{1},\beta_{1},\dots))$
 \end_inset
 
  tal que 
 \begin_inset Formula $(x_{1},x_{2},\alpha_{1})\in S$
+\end_inset
+
+,
+ debido a que 
+\begin_inset Formula $I_{F}=S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(2b) Dado que 
+\begin_inset Formula $I_{F}=S$
+\end_inset
+
+ y 
+\begin_inset Formula $D_{F}=\omega$
+\end_inset
+
+ para todo 
+\begin_inset Formula $(x_{1},x_{2},\alpha_{1})\in S$
+\end_inset
+
+ existe 
+\begin_inset Formula $x\in\omega$
+\end_inset
+
+ tal que 
+\begin_inset Formula $F(x)=(x_{1},x_{2},\alpha_{1})$
+\end_inset
+
+ y por lo tanto es facil ver que para el programa el estado inicial 
+\begin_inset Formula $\parallel x\parallel$
+\end_inset
+
+ va a terminar en el estado 
+\begin_inset Formula $((x_{1},x_{2},y_{1},\dots),(\alpha_{1},\beta_{1},\dots))$
 \end_inset
 
 .
@@ -414,15 +461,16 @@ es
 \end_inset
 
 .
- Sea 
-\begin_inset Formula $F=[F_{1},F_{2},F_{3}]:\omega\to\omega^{2}\times\Sigma^{*1}$
-\end_inset
-
-.
+ 
 \end_layout
 
 \begin_layout Standard
-Tenemos por definición que 
+Sea 
+\begin_inset Formula $F=[F_{1},F_{2},F_{3}]$
+\end_inset
+
+.
+ Tenemos por definición que 
 \begin_inset Formula $D_{F}=\omega$
 \end_inset
 
@@ -449,8 +497,16 @@ Tenemos por definición que
 
 \begin_layout Standard
 Luego,
- por (b) de (2),
- para todo 
+ por (b) de (2) y como las 
+\begin_inset Formula $F_{i}$
+\end_inset
+
+ se definen en base a 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+ que computa a S.
+ Tenemos que para todo 
 \begin_inset Formula $(y,z,\alpha)\in I_{F}$
 \end_inset
 
