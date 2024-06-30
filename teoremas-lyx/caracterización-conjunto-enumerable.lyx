@@ -255,11 +255,17 @@ Sea
 
 \begin_layout Standard
 Dado que S no es vacío,
- tenemos por definicion tenemos que existe una función 
-\begin_inset Formula $F:\omega\to\omega^{2}\times\Sigma^{*1}$
-\end_inset
-
- tal que 
+ tenemos por hipótesis tenemos que existe alguna función $F:
+\backslash
+omega
+\backslash
+to
+\backslash
+omega^{2}
+\backslash
+times
+\backslash
+Sigma^{*1}$ tal que 
 \begin_inset Formula $I_{F}=S$
 \end_inset
 
@@ -280,7 +286,7 @@ Dado que S no es vacío,
 
 \begin_layout Standard
 Luego,
- por la Proposición 3tenemos que existen las siguientes macros:
+ por la *Proposición de las Macros* tenemos que existen las siguientes Macros:
 \end_layout
 
 \begin_layout Standard
@@ -298,11 +304,7 @@ Luego,
 \end_layout
 
 \begin_layout Standard
-Y sea 
-\begin_inset Formula $\mathcal{P}$
-\end_inset
-
- el siguiente programa
+Las cuales nos permiten dar el siguiente programa
 \end_layout
 
 \begin_layout Standard
@@ -320,21 +322,11 @@ Y sea
 \end_layout
 
 \begin_layout Standard
-Donde suponemos que las expansiones de las macros son hechas usando variables auxiliares no pertenecientes a la lista 
-\begin_inset Formula $N1,N2,P1$
-\end_inset
-
-,
- y tambien se supone que los labels auxiliares en dichas expansiones son todos distintos,
- es decir que no se usa el mismo label auxiliar en dos expansiones distintas.
-\end_layout
-
-\begin_layout Standard
-Que claramente termina para todo estado inicial 
+Que claramente termina para todo estado 
 \begin_inset Formula $\parallel x\parallel,x\in\omega$
 \end_inset
 
- ya que el dominio de y ademas termina en algún estado de la forma 
+ y ademas termina en algún estado de la forma 
 \begin_inset Formula $((x_{1},x_{2},y_{1},\dots),(\alpha_{1},\beta_{1},\dots))$
 \end_inset
 
