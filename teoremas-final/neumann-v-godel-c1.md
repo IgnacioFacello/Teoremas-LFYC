@@ -5,94 +5,79 @@ tags:
 > Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
 
 ---
-Prueba por inducción 
-> (\*) Caso k : si $h\in R^\Sigma_k$ entonces es $\Sigma$*-computable*
+Probaremos por inducción en k que
 
-## Caso k = 0
-> Altamente trivial
+(\*)Si $h\in\mathrm{R}_{k}^{\Sigma}$, entonces $h$ es $\Sigma$-computable.
 
- Sea $h\in R^\Sigma_0$
- Sean los siguientes programas los que computan las funciones básicas del paradigma de godel:
-- $Succ$ : $N1\gets N1+1$
-- $Pred$ : $N1\gets N1\dot-1$
-- $C_0^{0,0}$ : $N1\gets 0$
-- $C_\epsilon^{0,0}$ : $P1\gets\varepsilon$
-- $d_a\quad a\in\Sigma$ : $P1\gets P1.a$
-- $p_j^{n,m}$ : $N1\gets N\overline{j}\quad j\in{1,\dots,n}$
-- $p_j^{n,m}$ : $P1\gets P\overline{j-n}\quad j\in{n+1,\dots,n+m}$
-## Caso k+1
-Sea $h\in R^\Sigma_{k+1} - R^\Sigma_k$
-### Caso h=R(f,G) (combo 1)
-> Usando la hipótesis inductiva se obtienen las macros necesarias
-> Luego realizar un programa que según el primer caractér de la variable de recursión realize la G apropiada  
-> Para el caso alfabético y numérico cambiar la variable de resultado segun sea apropiado
+Sea $k=0$ y $h\in R_{k}^{\Sigma}$ notar que
+$$
+\begin{aligned}
+Succ&=\Psi_{N1\gets N1+1}^{1,0,\#} \\
+Pred&=\Psi_{N1\gets N1\dot{-}1}^{1,0,\#} \\
+C_{0}^{0,0}&=\Psi_{N1\gets0}^{0,0,\#} \\
+C_{\varepsilon}^{0,0}&=\Psi_{P1\gets\varepsilon}^{0,0,*} \\
+d_{a}&=\Psi_{P1\gets P1.a}^{0,1,*}\text{ para todo }a\in\Sigma \\
+p_{j}^{n,m}&=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in\left\{ 1,\dots,n\right\} \\
+p_{j}^{n,m}&=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\dots,n+m\right\}
+\end{aligned}
+$$
+Entonces para cualquier forma que tome $h\in R_{k}^{\Sigma}$ tenemos que va a ser $\Sigma$-computable.
 
-<div style="page-break-after: always;"></div>
-
-#### (Alfabético)
-Supongamos $h=R(f,\mathcal G)$ con
+Supongamos (\*) vale para $k$, veremos que vale para $k+1$. Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=R(f,\mathcal{G})$, con 
 $$
-\begin{align}
-f &:S_1\times\dots\times S_{n}\times L_1\times\dots\times L_{m}\to\Sigma^*\\
-\mathcal G &: S_1\times\dots\times S_{n}\times L_1\times\dots\times L_{m}\times \Sigma^*\times \Sigma^*\to\Sigma^*
-\end{align}
+\begin{aligned}
+f&:S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}\rightarrow\Sigma^{\ast} \\
+\mathcal{G}_{a}	&:S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}\times\Sigma^{\ast}\times\Sigma^{\ast}\rightarrow\Sigma^{\ast}\text{, }a\in\Sigma 
+\end{aligned}
 $$
-elementos de $R^\Sigma_k$. Sea $\Sigma=\{a_1,\dots,a_r\}$. Por (\*) hay macros que computan las funciones $f$ y $\mathcal G_a\quad a\in\Sigma$. 
-Damos el siguiente programa que computa su recursion:
+elementos de $\mathrm{R}_{k}^{\Sigma}. Sea \Sigma=\{a_{1},...,a_{r}\}$. Por hipótesis inductiva, las funciones $f, \mathcal{G}_{a}, a\in\Sigma$ , son $\Sigma$-computables y por lo tanto podemos hacer el siguiente programa via el uso de macros
 $$
-\begin{align}
-&[P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
-L\overline{r+1}\ & IF\ P\overline{m+1}\ BEGINS\ a_1\ GOTO\ L\bar 1\\
-& \vdots \\
-& IF\ P\overline{m+1}\ BEGINS\ a_r\ GOTO\ L\bar r\\
-& GOTO\ L\overline{r+2} \\
-L1\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
-& [P\overline{m+3}\gets \mathcal G_1(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]] \\
-& P\overline{m+2}\gets P\overline{m+2}.a_1 \\
-& GOTO\ L\overline{r+1} \\
-&\vdots \\
-Lr\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
-& [P\overline{m+3}\gets \mathcal G_r(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]] \\
-& P\overline{m+2}\gets P\overline{m+2}.a_r \\
-& GOTO\ L\overline{r+1} \\
-L\overline{r+2}\ & P1\gets P\overline{m+3}
-\end{align}
+\begin{array}{rl}
+ & \left[\mathrm{P}\overline{m+3}\leftarrow f(\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m})\right]\\
+\mathrm{L}\overline{r+1} & \mathrm{IF}\;\mathrm{P}\overline{m+1}\ \mathrm{BEGINS\ }a_{1}\text{ }\mathrm{GOTO}\;\mathrm{L}1\\
+ & \ \ \ \ \ \ \ \ \ \ \ \ \vdots\\
+ & \mathrm{IF}\;\mathrm{P}\overline{m+1}\ \mathrm{BEGINS\ }a_{r}\text{ }\mathrm{GOTO}\;\mathrm{L}\bar{r}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+2}\\
+\mathrm{L}1 & \mathrm{P}\overline{m+1}\leftarrow\text{ }^{\curvearrowright}\mathrm{P}\overline{m+1}\\
+ & \left[\mathrm{P}\overline{m+3}\leftarrow\mathcal{G}_{a_{1}}(\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m},\mathrm{P}\overline{m+2},\mathrm{P}\overline{m+3})\right]\\
+ & \mathrm{P}\overline{m+2}\leftarrow\mathrm{P}\overline{m+2}.a_{1}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+1}\\
+ & \ \ \ \ \ \ \ \ \ \ \ \ \vdots\\
+\mathrm{L}\bar{r} & \mathrm{P}\overline{m+1}\leftarrow\text{ }^{\curvearrowright}\mathrm{P}\overline{m+1}\\
+ & \left[\mathrm{P}\overline{m+3}\leftarrow\mathcal{G}_{a_{r}}(\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m},\mathrm{P}\overline{m+2},\mathrm{P}\overline{m+3})\right]\\
+ & \mathrm{P}\overline{m+2}\leftarrow\mathrm{P}\overline{m+2}.a_{r}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+1}\\
+\mathrm{L}\overline{r+2} & \mathrm{P}1\leftarrow\mathrm{P}\overline{m+3}
+\end{array}
 $$
-
-<div style="page-break-after: always;"></div>
-
-#### (Numérico)
-Muy similar al caso anterior, **solo requiere realizar un cambio de variables para el resultado**.
-Supongamos $h=R(f,\mathcal G)$ con
-$$
-\begin{align}
-f &:S_1\times\dots\times S_{n}\times L_1\times\dots\times L_{m}\to\omega\\
-\mathcal G &: \omega\times S_1\times\dots\times S_{n}\times L_1\times\dots\times L_{m}\times \Sigma^*\to\omega
-\end{align}
-$$
-elementos de $R^\Sigma_k$. 
+Es fácil chequear que este programa computa h.
 
 ---
-Sea $\Sigma=\{a_1,\dots,a_r\}$. Por (\*) hay macros que computan las funciones $f$ y $\mathcal G_a\quad a\in\Sigma$. 
-Damos el siguiente programa que computa su recursion:
+Ahora sea $h'\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Supongamos $h'=R(f',\mathcal{G}')$ con
 $$
-\begin{align}
-&[N\overline{n+1}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
-L\overline{r+1}\ & IF\ P\overline{m+1}\ BEGINS\ a_1\ GOTO\ L\bar 1\\
-& \vdots \\
-& IF\ P\overline{m+1}\ BEGINS\ a_r\ GOTO\ L\bar r\\
-& GOTO\ L\overline{r+2} \\
-L1\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
-& [P\overline{m+3}\gets \mathcal G_1(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]] \\
-& P\overline{m+2}\gets P\overline{m+2}.a_1 \\
-& GOTO\ L\overline{r+1} \\
-&\vdots \\
-Lr\ & P\overline{m+1}\gets {}^\curvearrowright P\overline{m+1} \\
-& [N\overline{n+1}\gets \mathcal G_r(N\overline{n+1},N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2})]] \\
-& P\overline{m+2}\gets P\overline{m+2}.a_r \\
-& GOTO\ L\overline{r+1} \\
-L\overline{r+2}\ & N1\gets N\overline{n+1}
-\end{align}
+\begin{aligned}
+f'&:	S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega \\
+\mathcal{G}'_{a}&:	\omega\times S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\to\omega,a\in\Sigma 
+\end{aligned}
 $$
-
-> un programa muy similar al dado en el caso anterior. Solo es necesario realizar un cambio de variables para el resultado, es decir cambiando P m + 3 ¯ por N n + 1 ¯ y reemplazando la ultima instrucción por N 1 ← N n + 1 ¯ .
+funciones de $R_{k}^{\Sigma}$ y sea $\Sigma=\{a_{1},\dots,a_{r}\}$. Nuevamente, por hipótesis inductiva las funciones $f',\mathcal{G}'_{a}, a\in\Sigma$  son $\Sigma$-computables y podemos hacer el siguiente programa via el uso de macros
+$$
+\begin{array}{rl}
+ & \left[\mathrm{N}\overline{n+1}\leftarrow f(\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m})\right]\\
+\mathrm{L}\overline{r+1} & \mathrm{IF}\;\mathrm{P}\overline{m+1}\ \mathrm{BEGINS\ }a_{1}\text{ }\mathrm{GOTO}\;\mathrm{L}1\\
+ & \ \ \ \ \ \ \ \ \ \ \ \ \vdots\\
+ & \mathrm{IF}\;\mathrm{P}\overline{m+1}\ \mathrm{BEGINS\ }a_{r}\text{ }\mathrm{GOTO}\;\mathrm{L}\bar{r}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+2}\\
+\mathrm{L}1 & \mathrm{P}\overline{m+1}\leftarrow\text{ }^{\curvearrowright}\mathrm{P}\overline{m+1}\\
+ & \left[N\overline{n+1}\leftarrow\mathcal{G}_{a_{1}}(N\overline{n+1},\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m},\mathrm{P}\overline{m+2})\right]\\
+ & \mathrm{P}\overline{m+2}\leftarrow\mathrm{P}\overline{m+2}.a_{1}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+1}\\
+ & \ \ \ \ \ \ \ \ \ \ \ \ \vdots\\
+\mathrm{L}\bar{r} & \mathrm{P}\overline{m+1}\leftarrow\text{ }^{\curvearrowright}\mathrm{P}\overline{m+1}\\
+ & \left[N\overline{n+1}\leftarrow\mathcal{G}_{a_{r}}(N\overline{n+1},\mathrm{N}1,...,\mathrm{N}\bar{n},\mathrm{P}1,...,\mathrm{P}\bar{m},\mathrm{P}\overline{m+2})\right]\\
+ & \mathrm{P}\overline{m+2}\leftarrow\mathrm{P}\overline{m+2}.a_{r}\\
+ & \mathrm{GOTO}\;\mathrm{L}\overline{r+1}\\
+\mathrm{L}\overline{r+2} & \mathrm{N}1\leftarrow N\overline{n+1}
+\end{array}
+$$
+Es facil ver que este programa computa a h'.
