@@ -153,6 +153,15 @@
 \begin_body
 
 \begin_layout Standard
+
+\series bold
+Lema 18
+\series default
+:
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -162,19 +171,31 @@
 \begin_layout Standard
 
 \series bold
-Proposicion 1:
-
+Proposicion 1 (Caracterización de conjunto p.r.)
 \series default
- Un conjunto S es 
+ 
+\emph on
+Un conjunto 
+\begin_inset Formula $S$
+\end_inset
+
+ es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr sii es el dominio de alguna función 
+-p.r.
+ sii es el dominio de alguna función 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
- (Solo caso de composición)
+-p.r..
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+(Solo caso de composición)
 \end_layout
 
 \begin_layout Standard
@@ -258,16 +279,12 @@ Probaremos por inducción en k que
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr para cada 
+-p.r.
+ para cada 
 \begin_inset Formula $F\in PR_{k}^{\Sigma}$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\SpecialChar allowbreak
-
 \end_layout
 
 \begin_layout Standard
@@ -311,7 +328,7 @@ Sea
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
+-p.r..
  Supongamos entonces que 
 \begin_inset Formula $F$
 \end_inset
@@ -356,25 +373,27 @@ y
 \end_inset
 
 .
- Por el Lema 18 tenemos que hay funciones 
+ Por el Lema 18,
+ hay funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr 
+-p.r.
+ 
 \begin_inset Formula $\bar{g}_{1},\dots,\bar{g}_{n+m}$
 \end_inset
 
- que son 
+ las cuales son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--totales tales que:
+-totales y cumplen
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-g_{i}=\bar{g}_{i}|_{D_{g_{i}}}\ para\ i=1,\dots,n+m
+g_{i}=\bar{g}_{i}|_{D_{g_{i}}}\text{ para }i=1,\dots,n+m
 \]
 
 \end_inset
@@ -384,18 +403,48 @@ g_{i}=\bar{g}_{i}|_{D_{g_{i}}}\ para\ i=1,\dots,n+m
 
 \begin_layout Standard
 Por Hipótesis Inductiva tenemos que los conjuntos 
-\begin_inset Formula $D_{g}$
+\begin_inset Formula $D_{g},D_{g_{i}}$
 \end_inset
 
-y
-\begin_inset Formula $D_{g_{1}},\dots,D_{g_{n+m}}$
+ para 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i=1,\dots,n+m$
 \end_inset
 
+,
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
  son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr y por lo tanto
+-p.r.
+ y por lo tanto
 \end_layout
 
 \begin_layout Standard
@@ -410,14 +459,14 @@ S=\bigcap_{i=1}^{n+m}D_{g_{i}}
 \end_layout
 
 \begin_layout Standard
-también es lo es.
- Finalmente notar que
+lo es.
+ Notese que
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\chi_{D_{F}}^{\omega^{n}\times\Sigma^{*m}}=\chi_{D_{g}}^{\omega^{n}\times\Sigma^{*m}}\circ[\bar{g}_{1},\dots,\bar{g}_{n+m}]\land\chi_{S}^{\omega^{n}\times\Sigma^{*m}}
+\chi_{D_{F}}^{\omega^{k}\times\Sigma^{*l}}=\left(\chi_{D_{g}}^{\omega^{n}\times\Sigma^{*m}}\circ[\bar{g}_{1},\dots,\bar{g}_{n+m}]\land\chi_{S}^{\omega^{k}\times\Sigma^{*l}}\right)
 \]
 
 \end_inset
@@ -434,8 +483,357 @@ lo cual nos dice que
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
+-p.r..
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Teorema 2 (Neumann vence a Godel)
+\series default
+ 
+\emph on
+Si 
+\begin_inset Formula $h$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-recursiva entonces es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable.
+\end_layout
+
+\begin_layout Quote
+(Solo caso 
+\begin_inset Formula $h=R(f,\mathcal{G})$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Quote
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+
+\end_layout
+
+\begin_layout Quote
+Probaremos por inducción en k que
+\end_layout
+
+\begin_layout Quote
+(*) Si 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ entonces es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable
+\end_layout
+
+\begin_layout Quote
+Sea 
+\begin_inset Formula $k=0$
+\end_inset
+
+ y 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ tenemos que
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $Succ=\Psi_{N1\gets N1+1}^{1,0,\#}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $Pred=\Psi_{N1\gets N1\dot{-}1}^{1,0,\#}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{0}^{0,0}=\Psi_{N1\gets0}^{0,0,\#}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{\varepsilon}^{0,0}=\Psi_{P1\gets\varepsilon}^{0,0,*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $d_{a}=\Psi_{P1\gets P1.a}^{0,1,*}\text{ para todo}a\in\Sigma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in{1,\dots,n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in{n+1,\dots,n+m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Entonces para cualquier forma que tome 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
+\end_inset
+
+ tenemos que va a ser 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable.
+ 
+\end_layout
+
+\begin_layout Quote
+Veremos ahora que vale para 
+\begin_inset Formula $k+1$
+\end_inset
+
+.
+ Sea 
+\begin_inset Formula $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
+\end_inset
+
+.
+ Supongamos 
+\begin_inset Formula $h=R(f,\mathcal{G})$
+\end_inset
+
+ con
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\[
+\begin{array}{c}
+f:S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
+\mathcal{G}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+f\\
+\mathcal{G} & :
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Por (*) las funciones 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}_{a}\quad a\in\Sigma$
+\end_inset
+
+ son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+ & [P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2}\  & P1\gets P\overline{m+3}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Es facil ver que este programa computa a 
+\begin_inset Formula $h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Ahora sea 
+\begin_inset Formula $h'\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
+\end_inset
+
+.
+ Supongamos 
+\begin_inset Formula $h'=R(f',\mathcal{G}')$
+\end_inset
+
+ con retorno numérico y sean
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align}
+f' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
+\mathcal{G}' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\omega
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
+\end_inset
+
+ y sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Nuevamente,
+ por (*) las funciones 
+\begin_inset Formula $f'$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}'_{a}\quad a\in\Sigma$
+\end_inset
+
+ son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computables y tenemos sus macros asociadas.
+\end_layout
+
+\begin_layout Quote
+El programa es muy similar al dado en el caso anterior,
+ solo requiere realizar un cambio de variables para el resultado,
+ es decir cambiando 
+\begin_inset Formula $P\overline{m+3}$
+\end_inset
+
+por 
+\begin_inset Formula $N\overline{n+1}$
+\end_inset
+
+y reemplazando la ultima instruccion por 
+\begin_inset Formula $N1\gets N\overline{n+1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Es facil ver que este programa computa ´a 
+\begin_inset Formula $h'$
+\end_inset
+
+.
 \end_layout
 
 \end_body
