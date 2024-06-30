@@ -19,9 +19,9 @@ $$
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
 por lo tanto basta con probar que $G$ es $\Sigma$-pr.
-> Paso 2: Definir las funciones que forman la recursion de G, para eso consideramos los casos según el valor de x
+> Paso 2: Definir las funciones que forman la recursion de G, para eso consideramos los casos según el valor de x en relación a t
 
-Primero notemos que:
+Primero, notemos que
 $$
 \begin{align}
 G(0,x,\vec x,\vec\alpha) &= \begin{cases}
@@ -49,6 +49,9 @@ $$
 	\end{cases}\right] \\
 \end{align}
 $$
+
+
+
 tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
 > Paso 2.6: Vamos a usar el lema de division por casos para mostrar que efectivamente son recursivas
 

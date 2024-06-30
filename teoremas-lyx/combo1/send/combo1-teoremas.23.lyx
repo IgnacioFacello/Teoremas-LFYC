@@ -1,5 +1,5 @@
 #LyX 2.4 created this file. For more info see https://www.lyx.org/
-\lyxformat 620
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -61,7 +61,7 @@
 \author{}
 \end_preamble
 \use_default_options false
-\maintain_unincluded_children no
+\maintain_unincluded_children false
 \language english
 \language_package none
 \inputencoding utf8
@@ -73,9 +73,7 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_roman_osf false
-\font_sans_osf false
-\font_typewriter_osf false
+\font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -120,9 +118,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 0
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -138,16 +134,11 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
-\change_bars false
-\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\docbook_table_output 0
-\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -158,11 +149,40 @@
 Lema 18
 \series default
 :
- 
-\end_layout
+ Sea 
+\begin_inset Formula $O\in\left\{ \omega,\Sigma^{*}\right\} $
+\end_inset
 
-\begin_layout Standard
-\begin_inset Newpage newpage
+y 
+\begin_inset Formula $n,m\in\omega$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $f:D_{f}\subseteq\omega^{n}\times\Sigma^{*m}\to O$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.,
+ entonces existe una función 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.
+ 
+\begin_inset Formula $\bar{f}:\omega^{n}\times\Sigma^{*m}\to O$
+\end_inset
+
+,
+ tal que 
+\begin_inset Formula $f=\bar{f}|_{D_{f}}$
+\end_inset
+
+.
+\begin_inset Newline newline
 \end_inset
 
 
@@ -198,80 +218,33 @@ Un conjunto
 (Solo caso de composición)
 \end_layout
 
-\begin_layout Standard
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
+\begin_layout Quote
 
+\series bold
+Prueba.
+
+\series default
+ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 (
 \begin_inset Formula $\implies$
 \end_inset
 
-)
-\end_layout
-
-\begin_layout Standard
-Note que 
+) Note que 
 \begin_inset Formula $S=D_{Pred\circ\chi_{S}^{\omega^{n}\times\Sigma^{*m}}}$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Standard
-\SpecialChar allowbreak
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quote
 (
 \begin_inset Formula $\impliedby$
 \end_inset
 
-)
-\end_layout
-
-\begin_layout Standard
-Probaremos por inducción en k que 
+) Probaremos por inducción en k que 
 \begin_inset Formula $Dom(F)$
 \end_inset
 
@@ -285,9 +258,10 @@ Probaremos por inducción en k que
 \end_inset
 
 .
+ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 El caso 
 \begin_inset Formula $k=0$
 \end_inset
@@ -306,7 +280,7 @@ El caso
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 Sea 
 \begin_inset Formula $F=g\circ[g_{1},\dots,g_{r}]$
 \end_inset
@@ -349,14 +323,13 @@ Sea
  y
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \begin_inset Formula 
-\[
-\begin{align}g & :D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\omega,\ i=1,\dots,n\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\Sigma^{*},\ i=n+1,\dots,n+m
-\end{align}
-\]
+\begin{align*}
+g: & D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\omega,\ i=1,\dots,n\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\Sigma^{*},\ i=n+1,\dots,n+m
+\end{align*}
 
 \end_inset
 
@@ -412,7 +385,6 @@ Por Hipótesis Inductiva tenemos que los conjuntos
 \shape up
 \size normal
 \emph off
-\nospellcheck off
 \bar no
 \strikeout off
 \xout off
@@ -431,7 +403,6 @@ Por Hipótesis Inductiva tenemos que los conjuntos
 \shape default
 \size default
 \emph default
-\nospellcheck default
 \bar default
 \strikeout default
 \xout default
@@ -525,49 +496,11 @@ Si
 \end_layout
 
 \begin_layout Quote
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
 
-\end_layout
-
-\begin_layout Quote
+\series bold
+Prueba.
+ 
+\series default
 Probaremos por inducción en k que
 \end_layout
 
@@ -631,14 +564,14 @@ Sea
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula $p_{j}^{n,m}=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in{1,\dots,n}$
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in\left\{ 1,\dots,n\right\} $
 \end_inset
 
 
 \end_layout
 
 \begin_layout Quote
-\begin_inset Formula $p_{j}^{n,m}=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in{n+1,\dots,n+m}$
+\begin_inset Formula $p_{j}^{n,m}=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\dots,n+m\right\} $
 \end_inset
 
 
