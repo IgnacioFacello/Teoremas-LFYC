@@ -181,35 +181,31 @@ in S$
 \uwave default
 \noun default
 \color inherit
-(b) Para todo $(x_1,
-\backslash
-dots,x_n,
-\backslash
-alpha_1,
-\backslash
-dots,
-\backslash
-alpha_m)
-\backslash
-in S$ hay un $x
-\backslash
-in
-\backslash
-omega$ tal que $
-\backslash
-mathcal P$ se detiene partiendo desde el estado $||x||$ y llega a un estado de la forma $((x_1,
-\backslash
-dots,x_n),(
-\backslash
-alpha_1,
-\backslash
-dots,
-\backslash
-alpha_m))$
+(b) Para todo 
+\begin_inset Formula $(x_{1},\dots,x_{n},\alpha_{1},\dots,\alpha_{m})\in S$
+\end_inset
+
+ hay un 
+\begin_inset Formula $x\in\omega$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+ se detiene partiendo desde el estado 
+\begin_inset Formula $\parallel x\parallel$
+\end_inset
+
+ y llega a un estado de la forma 
+\begin_inset Formula $((x_{1},\dots,x_{n}),(\alpha_{1},\dots,\alpha_{m}))$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(Caso n=2,
+(Solo hacer el caso para n=2,
  m=1)
 \end_layout
 
@@ -257,23 +253,10 @@ alpha_m))$
 \end_layout
 
 \begin_layout Standard
-## $(1)
-\backslash
-implies(2)$ 
-\end_layout
+\begin_inset Formula $(1)\implies(2)$
+\end_inset
 
-\begin_layout Standard
-> Por hipótesis existe una función que computa el conjunto S no vacío
-\end_layout
-
-\begin_layout Standard
-> Podemos definir macros para sus coordenadas $
-\backslash
-Sigma$-computables
-\end_layout
-
-\begin_layout Standard
-> Las usamos para dar el programa que cumple con (a) y (b).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -288,15 +271,23 @@ omega^{2}
 \backslash
 times
 \backslash
-Sigma^{*1}$ tal que $I_F=S$ y $F_{(i)}$ es $
-\backslash
-Sigma$-computable para cada $i
-\backslash
-in
-\backslash
-{1,2,3
-\backslash
-}$.
+Sigma^{*1}$ tal que 
+\begin_inset Formula $I_{F}=S$
+\end_inset
+
+ y 
+\begin_inset Formula $F_{(i)}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable para cada 
+\begin_inset Formula $i\in\{1,2,3\}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -305,53 +296,17 @@ Luego,
 \end_layout
 
 \begin_layout Standard
-$$
-\end_layout
+\begin_inset Formula 
+\[
+\begin{align} & [V2\gets F_{(1)}(V1)]\\
+ & [V2\gets F_{(2)}(V1)]\\
+ & [W2\gets F_{(3)}(V1)]
+\end{align}
+\]
 
-\begin_layout Standard
+\end_inset
 
-\backslash
-begin{align}
-\end_layout
 
-\begin_layout Standard
-&[V2
-\backslash
-gets F_{(1)}(V1)]
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-&[V2
-\backslash
-gets F_{(2)}(V1)]
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-&[W2
-\backslash
-gets F_{(3)}(V1)]
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-
-\backslash
-end{align}
-\end_layout
-
-\begin_layout Standard
-$$
 \end_layout
 
 \begin_layout Standard
@@ -359,301 +314,143 @@ Las cuales nos permiten dar el siguiente programa
 \end_layout
 
 \begin_layout Standard
-$$
-\end_layout
+\begin_inset Formula 
+\[
+\begin{align} & [P3\gets F_{(3)}(N1)]\\
+ & [N2\gets F_{(2)}(N1)]\\
+ & [N1\gets F_{(1)}(N1)]
+\end{align}
+\]
 
-\begin_layout Standard
+\end_inset
 
-\backslash
-begin{align} 
-\end_layout
-
-\begin_layout Standard
-&[P3
-\backslash
-gets F_{(3)}(N1)]
-\backslash
-
-\backslash
 
 \end_layout
 
 \begin_layout Standard
-&[N2
-\backslash
-gets F_{(2)}(N1)]
-\backslash
+Que claramente termina para todo estado 
+\begin_inset Formula $\parallel x\parallel,x\in\omega$
+\end_inset
 
-\backslash
+ y ademas termina en algún estado de la forma 
+\begin_inset Formula $((x_{1},x_{2},y_{1},\dots),(\alpha_{1},\beta_{1},\dots))$
+\end_inset
+
+ tal que 
+\begin_inset Formula $(x_{1},x_{2},\alpha_{1})\in S$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-&[N1
-\backslash
-gets F_{(1)}(N1)]
-\backslash
+\begin_inset Formula $(2)\implies(1)$
+\end_inset
 
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-
-\backslash
-end{align}
-\end_layout
-
-\begin_layout Standard
-$$
-\end_layout
-
-\begin_layout Standard
-Que claramente termina para todo estado $||x||,
- x
-\backslash
-in
-\backslash
-omega$ y ademas termina en algún estado de la forma $((x_1,x_2,y_1,
-\backslash
-dots),(
-\backslash
-alpha_1,
-\backslash
-beta_1,
-\backslash
-dots))$ tal que $(x_1,x_2,
-\backslash
-alpha_1)
-\backslash
-in S$.
-\end_layout
-
-\begin_layout Standard
-<div style="page-break-after:
- always;"></div>
-\end_layout
-
-\begin_layout Standard
-## $(2)
-\backslash
-implies(1)$ 
-\end_layout
-
-\begin_layout Standard
-> Suponemos $P
-\backslash
-in Pro^{
-\backslash
-Sigma}$ cumple con (a) y (b) de 2.
  
 \end_layout
 
 \begin_layout Standard
-> Extraemos del mismo los i sub-programas que calculan las $F_{(i)}$
-\end_layout
+Supongamos 
+\begin_inset Formula $P\in Pro^{\Sigma}$
+\end_inset
 
-\begin_layout Standard
-> Notar que las horquillas de los $n+m$ sub-programas resultante tienen las propiedades que hacen que enumere a S
-\end_layout
-
-\begin_layout Standard
-Suponemos $P
-\backslash
-in Pro^{
-\backslash
-Sigma}$ cumple con (a) y (b) de 2.
+ cumple con (a) y (b) de (2).
  Sean:
 \end_layout
 
 \begin_layout Standard
-$$
-\end_layout
+\begin_inset Formula 
+\[
+\begin{align}\mathcal{P}_{1} & =\mathcal{P}N1\gets N1\\
+\mathcal{P}_{2} & =\mathcal{P}N1\gets N2\\
+\mathcal{P}_{3} & =\mathcal{P}N1\gets P1
+\end{align}
+\]
 
-\begin_layout Standard
+\end_inset
 
-\backslash
-begin{align}
-\end_layout
-
-\begin_layout Standard
-
-\backslash
-mathcal P_1 &= 
-\backslash
-mathcal PN1
-\backslash
-gets N1 
-\backslash
-
-\backslash
 
 \end_layout
 
 \begin_layout Standard
+Definimos
+\end_layout
 
-\backslash
-mathcal P_2 &= 
-\backslash
-mathcal PN1
-\backslash
-gets N2 
-\backslash
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{align}F_{1} & =\Psi_{\mathcal{P}_{1}}^{1,0,\#}\\
+F_{2} & =\Psi_{\mathcal{P}_{2}}^{1,0,\#}\\
+F_{3} & =\Psi_{\mathcal{P}_{3}}^{1,0,*}
+\end{align}
+\]
 
-\backslash
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
+Notar que cada 
+\begin_inset Formula $F_{i}$
+\end_inset
 
-\backslash
-mathcal P_{3} &= 
-\backslash
-mathcal PN1
-\backslash
-gets P1 
-\backslash
+es 
+\begin_inset Formula $\Sigma$
+\end_inset
 
-\backslash
+-computable y tiene dominio igual a 
+\begin_inset Formula $\omega$
+\end_inset
 
+.
+ Sea 
+\begin_inset Formula $F=[F_{1},F_{2},F_{3}]:\omega\to\omega^{2}\times\Sigma^{*1}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
+Tenemos por definición que 
+\begin_inset Formula $D_{F}=\omega$
+\end_inset
 
-\backslash
-end{align}
+ y ya que 
+\begin_inset Formula $F_{(i)}=F_{i}$
+\end_inset
+
+,
+ para cada 
+\begin_inset Formula $i=1,2,3$
+\end_inset
+
+ tenemos que cada 
+\begin_inset Formula $F_{(i)}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-computable.
+ 
 \end_layout
 
 \begin_layout Standard
-$$
-\end_layout
+Luego claramente tenemos que 
+\begin_inset Formula $I_{F}=I_{F_{1}}\times I_{F_{2}}\times I_{F_{3}}=S$
+\end_inset
 
-\begin_layout Standard
-Las concatenaciones del programa con la instrucción que guarda en $N1$ la coordenada relevante.
- Usando estos programas podemos definir las $n+m$ funciones $
-\backslash
-Sigma$-computables
-\end_layout
 
-\begin_layout Standard
-$$
-\end_layout
-
-\begin_layout Standard
-
-\backslash
-begin{align}
-\end_layout
-
-\begin_layout Standard
-F_{(1)} &= 
-\backslash
-Psi^{1,0,
-\backslash
-#}_{
-\backslash
-mathcal P_1} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-F_{(2)} &= 
-\backslash
-Psi^{1,0,
-\backslash
-#}_{
-\backslash
-mathcal P_2} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-F_{(3)} &= 
-\backslash
-Psi^{1,0,*}_{
-\backslash
-mathcal P_{3}} 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-
-\backslash
-end{align}
-\end_layout
-
-\begin_layout Standard
-$$
-\end_layout
-
-\begin_layout Standard
-Tales que definen $F = [F_{(1)},F_{(2)},F_{(3)}]:
-\backslash
-omega
-\backslash
-to
-\backslash
-omega^{2}
-\backslash
-times
-\backslash
-Sigma^{*1}$ que computa al conjunto $S$.
-\end_layout
-
-\begin_layout Standard
-Por hipótesis el programa $
-\backslash
-mathcal P$ termina para todo estado inicial $||x||,
- x
-\backslash
-in
-\backslash
-omega$ y ademas su estado final es de la forma $((x_1,x_2,y_1,
-\backslash
-dots),(
-\backslash
-alpha_1,
-\backslash
-beta_1,
-\backslash
-dots))$ tal que $(x_1,x_2,
-\backslash
-alpha_1)
-\backslash
-in S$.
-\end_layout
-
-\begin_layout Standard
-Es decir cada programa $
-\backslash
-mathcal P_i$ también termina para todo estado inicial $||x||,
- x
-\backslash
-in
-\backslash
-omega$ y la primera coordenada del estado al terminar contiene el i-esimo elemento de $(x_1,x_2,
-\backslash
-alpha_1)
-\backslash
-in S$,
- es decir que $I_F=S$.
-\end_layout
-
-\begin_layout Standard
-$$
-\backslash
-tag*{$
-\backslash
-blacksquare$}$$
 \end_layout
 
 \end_body
