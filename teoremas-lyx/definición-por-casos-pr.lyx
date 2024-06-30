@@ -1,0 +1,280 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Supongamos 
+\begin_inset Formula $f_{i}:D_{f_{i}}\subseteq\omega^{n}\times\Sigma^{}*m\to\Sigma^{*},i=1,\dots,k$
+\end_inset
+
+ son funciones 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr tales que 
+\begin_inset Formula $D_{j}\cap D_{i}=\emptyset$
+\end_inset
+
+ para todo 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+.
+ Entonces 
+\begin_inset Formula $\bigcup_{i=1}^{k}f_{i}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr.
+\end_layout
+
+\begin_layout Standard
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+
+\end_layout
+
+\begin_layout Standard
+Probamos por inducción.
+\end_layout
+
+\begin_layout Standard
+\SpecialChar allowbreak
+
+\end_layout
+
+\begin_layout Standard
+(Caso k=2)
+\end_layout
+
+\begin_layout Standard
+Por el lemma 18 tenemos que existen funciones 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr 
+\begin_inset Formula $\bar{f}_{1},\bar{f}_{2}:\omega^{n}\times\Sigma^{*m}\to\Sigma^{*}$
+\end_inset
+
+ que son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-totales tales que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{i}=\bar{f}_{i}|_{D_{f_{i}}}\qquad i=1,2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por la proposición 19,
+ tenemos que 
+\begin_inset Formula $D_{f_{1}},D_{f_{2}}$
+\end_inset
+
+ sus dominios son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr y por lo tanto su union también lo será.
+\end_layout
+
+\begin_layout Standard
+Definimos la union de las funciones como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.f_{1}\cup f_{2}=\left(\lambda\alpha\beta\left[\alpha\beta\right]\circ\left[\lambda x\alpha\left[\alpha^{x}\right]\circ\left[\chi_{D_{f_{1}}}^{\omega^{n}\times\Sigma^{*m}},\bar{f}_{1}\right],\lambda x\alpha\left[\alpha^{x}\right]\circ\left[\chi_{D_{f_{2}}}^{\omega^{n}\times\Sigma^{*m}},\bar{f}_{2}\right]\right]\right)\right|_{D_{f_{1}}\cup D_{f_{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+que es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr.
+\end_layout
+
+\begin_layout Standard
+\SpecialChar allowbreak
+
+\end_layout
+
+\begin_layout Standard
+(Caso k + 1 > 2)
+\end_layout
+
+\begin_layout Standard
+Por hipótesis inductiva tenemos que 
+\begin_inset Formula $\bigcup_{i=1}^{k}f_{i}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr,
+ ademas tenemos la función 
+\begin_inset Formula $f_{k+1}$
+\end_inset
+
+es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr.
+\end_layout
+
+\begin_layout Standard
+Usando el mismo procedimiento anterior obtenemos que la función
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\bigcup_{i=1}^{k}f_{i}\cup f_{k+1}=\bigcup_{i=1}^{k+1}f_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-pr.
+\end_layout
+
+\end_body
+\end_document
