@@ -5,7 +5,7 @@ tags:
 > Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
 
 ---
-## $\Sigma$-pr implica dominio
+## Todo $S$ $\Sigma$-pr es dominio de $\Sigma$-pr
 > Predecesor de la característica. Solo va a estar definido para retorno 1.
 
 Tomemos la función $f=Pred\circ\chi^{\omega\times\Sigma^*}_S$.

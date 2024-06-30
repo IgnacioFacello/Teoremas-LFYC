@@ -28,12 +28,12 @@
         "dimension": 59.53101361573374,
         "children": [
           {
-            "id": "5b6ba3ac21fbd601",
+            "id": "1093839dad5091fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md"
+                "file": "teoremas-final/caracterización-conjunto-pr.md"
               }
             }
           },
@@ -193,9 +193,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5b6ba3ac21fbd601",
+  "active": "1093839dad5091fd",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/neumann-v-godel-c1.md",
@@ -211,7 +212,6 @@
     "teoremas-lyx/combo1/send/#combo1-teoremas.lyx#",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/godel-v-neumann.md",
     "teoremas-final/neumann-v-godel-completo.md",
