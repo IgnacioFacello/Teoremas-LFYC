@@ -43,11 +43,16 @@
             "id": "d61bde0fef0f4b88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/lemma-sumatoria.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+                "file": "teoremas-final/lemma-sumatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+                "file": "teoremas-final/lemma-sumatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md"
+                "file": "teoremas-final/lemma-sumatoria.md"
               }
             }
           },
@@ -201,9 +206,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2b1670c6dbaefc7e",
+  "active": "d61bde0fef0f4b88",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-lyx/combo2/send/definición-por-casos-pr.pdf",
     "teoremas-lyx/combo2/send/definición-por-casos-pr.23.lyx",
