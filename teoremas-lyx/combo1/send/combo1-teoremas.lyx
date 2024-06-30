@@ -623,7 +623,7 @@ Veremos ahora que vale para
 \begin_inset Formula 
 \begin{align*}
 f: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
-\mathcal{G}: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
+\mathcal{G}_{a}: & S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*},a\in\Sigma
 \end{align*}
 
 \end_inset

@@ -34,19 +34,16 @@ g_{i}:&
  $$
 con $O\in\{\omega,\Sigma^*\}$ y $k,l\in\omega$. 
 > Notar que 
-> $$
-D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in D_{g_1}\land\dots\land e\in D_{g_{n+m}}\land[g_1,\dots,g_{n+m}]\in D_g\}
-$$
-> Esto es impreciso por el ultimo 
+> $$D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in D_{g_1}\land\dots\land e\in D_{g_{n+m}}\land[g_1,\dots,g_{n+m}]\in D_g\}$$
+> Esto es impreciso por la ultima "parte" del and
 
 Por Hipótesis Inductiva tenemos que los conjuntos $D_g,\ D_{g_i}$ para $i=1,\dots, n+m$ son $\Sigma$-pr y por lo tanto
 $$
 S=\bigcap^{n+m}_{i=1} D_{g_i}
 $$
 lo es.
-> $$
-D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in S\land[g_1,\dots,g_{n+m}]\in D_g\}
-$$
+> $$D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in S\land[g_1,\dots,g_{n+m}]\in D_g\}$$
+> Sigue siendo impreciso, necesitamos funciones $\Sigma$-totales
 
 Luego, por el [[guia5-lemma18|lema 18]] hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ las cuales son $\Sigma$-totales y cumplen
 $$
@@ -54,6 +51,8 @@ g_i=\bar g_i|_{D_{g_i}}\text{ para }i=1,\dots,n+m
 $$
 
 Finalmente notar que
+> $$D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in S\land[\bar{g}_1,\dots,\bar{g}_{n+m}]\in D_g\}$$
+
 $$
 \chi_{D_{F}}^{\omega^{k}\times\Sigma^{*l}}= \left(
 	\chi_{D_{g}}^{\omega^{n}\times\Sigma^{*m}}\circ [\bar{g}_{1},\dots,\bar{g}_{n+m}]

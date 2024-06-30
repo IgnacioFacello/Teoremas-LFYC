@@ -332,14 +332,13 @@ Sea
  y
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \begin_inset Formula 
-\[
-\begin{align}g & :D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\omega,\ i=1,\dots,n\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\Sigma^{*},\ i=n+1,\dots,n+m
-\end{align}
-\]
+\begin{align*}
+g: & D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\omega,\ i=1,\dots,n\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\Sigma^{*},\ i=n+1,\dots,n+m
+\end{align*}
 
 \end_inset
 
