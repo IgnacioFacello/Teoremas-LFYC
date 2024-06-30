@@ -32,15 +32,27 @@ g_{i}:&
 	\to\Sigma^{*},\ i=n+1,\dots,n+m
 \end{aligned}
  $$
-con $O\in\{\omega,\Sigma^*\}$ y $k,l\in\omega$. Por el [[guia5-lemma18|lema 18]] hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ las cuales son $\Sigma$-totales y cumplen
+con $O\in\{\omega,\Sigma^*\}$ y $k,l\in\omega$. 
+> Notar que 
+> $$
+D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in D_{g_1}\land\dots\land e\in D_{g_{n+m}}\land[g_1,\dots,g_{n+m}]\in D_g\}
 $$
-g_i=\bar g_i|_{D_{g_i}}\text{ para }i=1,\dots,n+m
-$$
+> Esto es impreciso por el ultimo 
+
 Por Hipótesis Inductiva tenemos que los conjuntos $D_g,\ D_{g_i}$ para $i=1,\dots, n+m$ son $\Sigma$-pr y por lo tanto
 $$
 S=\bigcap^{n+m}_{i=1} D_{g_i}
 $$
 lo es.
+> $$
+D_F=\{e\in\omega^l\times\Sigma^{*k}:e\in S\land[g_1,\dots,g_{n+m}]\in D_g\}
+$$
+
+Luego, por el [[guia5-lemma18|lema 18]] hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ las cuales son $\Sigma$-totales y cumplen
+$$
+g_i=\bar g_i|_{D_{g_i}}\text{ para }i=1,\dots,n+m
+$$
+
 Finalmente notar que
 $$
 \chi_{D_{F}}^{\omega^{k}\times\Sigma^{*l}}= \left(
