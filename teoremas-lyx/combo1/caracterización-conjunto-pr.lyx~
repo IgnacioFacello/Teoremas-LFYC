@@ -209,55 +209,11 @@ Un conjunto S es
 \end_layout
 
 \begin_layout Standard
-( 
-\begin_inset Formula $S\in\omega^{n}\times\Sigma^{*m}$
+(
+\begin_inset Formula $\implies$
 \end_inset
 
- es 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--pr 
-\begin_inset Formula $\implies S=Dom(f)$
-\end_inset
-
- tal que 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\nospellcheck off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $f$
-\end_inset
-
- es 
-\begin_inset Formula $\Sigma$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\nospellcheck default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
--pr )
+)
 \end_layout
 
 \begin_layout Standard
@@ -279,83 +235,11 @@ Tomemos la función
 \end_layout
 
 \begin_layout Standard
-( 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\nospellcheck off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $S\in\omega^{n}\times\Sigma^{*m}$
+(
+\begin_inset Formula $\impliedby$
 \end_inset
 
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\nospellcheck default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
- es 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--pr 
-\begin_inset Formula $\impliedby S=Dom(f)$
-\end_inset
-
- tal que 
-\begin_inset Formula $f$
-\end_inset
-
- es 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\nospellcheck off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\Sigma$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\nospellcheck default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
--pr )
+)
 \end_layout
 
 \begin_layout Standard
@@ -371,7 +255,7 @@ Probaremos por inducción en k que
 \begin_inset Formula $F\in PR_{k}^{\Sigma}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard

@@ -57,7 +57,7 @@
 \urlstyle{same}
 
 
-\title{caracterización-conjunto-pr}
+\title{neumann-v-godel}
 \author{}
 \end_preamble
 \use_default_options false
@@ -88,7 +88,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "caracterización-conjunto-pr"
+\pdf_title "neumann-v-godel"
 \pdf_bookmarks false
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -152,118 +152,83 @@
 
 \begin_body
 
-\begin_layout Standard
-Un conjunto S es 
+\begin_layout Quote
+Si h es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr sii es el dominio de alguna función 
+-recursiva entonces es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
- (Solo caso de composición)
-\end_layout
-
-\begin_layout Standard
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-—
-
-\end_layout
-
-\begin_layout Standard
-(
-\begin_inset Formula $\implies$
+-computable (Solo caso 
+\begin_inset Formula $h=R(f,\mathcal{G})$
 \end_inset
 
 )
 \end_layout
 
-\begin_layout Standard
-Tomemos la función 
-\begin_inset Formula $f=Pred\circ\chi_{S}^{\omega^{n}\times\Sigma^{*m}}$
-\end_inset
+\begin_layout Quote
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
 
-.
- Claramente 
-\begin_inset Formula $Dom(f)=S$
-\end_inset
-
-.
 \end_layout
 
-\begin_layout Standard
-\SpecialChar allowbreak
-
+\begin_layout Quote
+Realizamos la prueba por inducción.
 \end_layout
 
-\begin_layout Standard
-(
-\begin_inset Formula $\impliedby$
+\begin_layout Quote
+(*) Caso k :
+ si 
+\begin_inset Formula $h\in R_{k}^{\Sigma}$
 \end_inset
 
-)
-\end_layout
-
-\begin_layout Standard
-Probaremos por inducción en k que 
-\begin_inset Formula $Dom(F)$
-\end_inset
-
- es 
+ entonces es 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr para cada 
-\begin_inset Formula $F\in PR_{k}^{\Sigma}$
-\end_inset
-
-.
+-computable
 \end_layout
 
-\begin_layout Standard
-\SpecialChar allowbreak
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quote
 (Caso 
 \begin_inset Formula $k=0$
 \end_inset
@@ -271,164 +236,270 @@ Probaremos por inducción en k que
 )
 \end_layout
 
-\begin_layout Standard
-Es trivial ver que todas las funciones de 
-\begin_inset Formula $PR_{0}^{\Sigma}$
+\begin_layout Quote
+Sea 
+\begin_inset Formula $h\in R_{0}^{\Sigma}$
 \end_inset
 
- tienen dominios 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--pr.
+y sean los siguientes programas los que computan las funciones básicas del paradigma de godel:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
+\begin_inset Formula $Succ$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N1+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $Pred$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N1\dot{-}1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{0}^{0,0}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $C_{\varepsilon}^{0,0}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $d_{a}\quad para\ a\in\Sigma$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets P1.a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $N1\gets N\overline{j}\quad si\ j\in{1,\dots,n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $p_{j}^{n,m}$
+\end_inset
+
+ :
+ 
+\begin_inset Formula $P1\gets P\overline{j-n}\quad j\in{n+1,\dots,n+m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
 \SpecialChar allowbreak
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 (Caso 
 \begin_inset Formula $k+1$
 \end_inset
 
-) (Para esta proposición solo se pide el caso de la composición)
+)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 Sea 
-\begin_inset Formula $F=g\circ[g_{1},\dots,g_{n+m}]$
-\end_inset
-
- con 
-\begin_inset Formula $g,g_{1},\dots,g_{n+m}\in PR_{k}^{\Sigma}$
+\begin_inset Formula $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-Luego tenemos que,
- para 
-\begin_inset Formula $l,k,n,m\ge0$
+ Supongamos 
+\begin_inset Formula $h=R(f,\mathcal{G})$
 \end_inset
 
-
+ con retorno alfabetico.
+ Sean
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \begin_inset Formula 
-\[
-\begin{align}g & :D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O,\ O\in\{\omega,\Sigma^{*}\}\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{l}\times\Sigma^{*k}\to\omega\ ,\ i=1,\dots,n\\
-g_{i} & :D_{g_{i}}\subseteq\omega^{l}\times\Sigma^{*k}\to\Sigma^{*}\ ,\ i=n+1,\dots,n+m
+\begin{align}
+f & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\Sigma^{*}\\
+\mathcal{G} & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\Sigma^{*}
 \end{align}
-\]
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-Si 
-\begin_inset Formula $F=\emptyset$
-\end_inset
-
- entonces 
-\begin_inset Formula $D_{F}=\emptyset$
-\end_inset
-
- y claramente es 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--pr.
-\end_layout
-
-\begin_layout Standard
-Caso contrario,
- por el lemma 18 tenemos que hay funciones 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--pr 
-\begin_inset Formula $\bar{g}_{1},\dots,\bar{g}_{n+m}$
-\end_inset
-
- que son 
-\begin_inset Formula $\Sigma$
-\end_inset
-
--totales tales que:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-g_{i}=\bar{g}_{i}|_{D_{g_{i}}}\ para\ i=1,\dots,n+m
-\]
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-Por Hipótesis Inductiva tenemos que los conjuntos 
-\begin_inset Formula $D_{g}$
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
 \end_inset
 
-y
-\begin_inset Formula $D_{g_{1}},\dots,D_{g_{n+m}}$
+ y sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Por (*) las funciones 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}_{a}\quad a\in\Sigma$
 \end_inset
 
  son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr y por lo tanto
+-computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \begin_inset Formula 
-\[
-S=\bigcap_{i=1}^{n+m}D_{g_{i}}
-\]
+\begin{align}
+ & [P\overline{m+3}\gets f(N1,\dots,N\overline{n},P1,\dots,P\overline{m})]\\
+L\overline{r+1}\  & IF\ P\overline{m+1}\ BEGINS\ a_{1}\ GOTO\ L\bar{1}\\
+ & \vdots\\
+ & IF\ P\overline{m+1}\ BEGINS\ a_{r}\ GOTO\ L\bar{r}\\
+ & GOTO\ L\overline{r+2}\\
+L1\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{1}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{1}\\
+ & GOTO\ L\overline{r+1}\\
+ & \vdots\\
+Lr\  & P\overline{m+1}\gets{}^{\curvearrowright}P\overline{m+1}\\
+ & [P\overline{m+3}\gets\mathcal{G}_{r}(N1,\dots,N\overline{n},P1,\dots,P\overline{m},P\overline{m+2},P\overline{m+3})]]\\
+ & P\overline{m+2}\gets P\overline{m+2}.a_{r}\\
+ & GOTO\ L\overline{r+1}\\
+L\overline{r+2}\  & P1\gets P\overline{m+3}
+\end{align}
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-también es lo es.
- Finalmente notar que
+\begin_layout Quote
+Es facil ver que este programa computa a 
+\begin_inset Formula $h$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
+Ahora sea 
+\begin_inset Formula $h'\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$
+\end_inset
+
+.
+ Supongamos 
+\begin_inset Formula $h'=R(f',\mathcal{G}')$
+\end_inset
+
+ con retorno numérico y sean
+\end_layout
+
+\begin_layout Quote
 \begin_inset Formula 
-\[
-\chi_{D_{F}}^{\omega^{n}\times\Sigma^{*m}}=\chi_{D_{g}}^{\omega^{n}\times\Sigma^{*m}}\circ[\bar{g}_{1},\dots,\bar{g}_{n+m}]\land\chi_{S}^{\omega^{n}\times\Sigma^{*m}}
-\]
+\begin{align}
+f' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\to\omega\\
+\mathcal{G}' & :S_{1}\times\dots\times S_{n}\times L_{1}\times\dots\times L_{m}\times\Sigma^{*}\times\Sigma^{*}\to\omega
+\end{align}
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-lo cual nos dice que
-\begin_inset Formula $D_{F}$
+\begin_layout Quote
+funciones de 
+\begin_inset Formula $R_{k}^{\Sigma}$
 \end_inset
 
- es 
+ y sea 
+\begin_inset Formula $\Sigma=\{a_{1},\dots,a_{r}\}$
+\end_inset
+
+.
+ Nuevamente,
+ por (*) las funciones 
+\begin_inset Formula $f'$
+\end_inset
+
+ y 
+\begin_inset Formula $\mathcal{G}'_{a}\quad a\in\Sigma$
+\end_inset
+
+ son 
 \begin_inset Formula $\Sigma$
 \end_inset
 
--pr.
- 
+-computables y por lo tanto podemos hacer el siguiente programa usando macros que computa la recursión:
+\end_layout
+
+\begin_layout Quote
+Este caso es muy similar al anterior,
+ solo requiere realizar un cambio de variables para el resultado en el programa,
+ es decir cambiando 
+\begin_inset Formula $P\overline{m+3}$
+\end_inset
+
+por 
+\begin_inset Formula $N\overline{n+1}$
+\end_inset
+
+y reemplazando la ultima instruccion por 
+\begin_inset Formula $N1\gets N\overline{n+1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+Es facil ver que el programa computa a 
+\begin_inset Formula $h'$
+\end_inset
+
+.
 \end_layout
 
 \end_body
