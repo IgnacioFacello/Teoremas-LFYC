@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/caracterización-conjunto-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/caracterización-conjunto-pr.md"
               }
             }
           },
@@ -195,8 +195,8 @@
   },
   "active": "ee4ae29e7e69eb49",
   "lastOpenFiles": [
-    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/guia5-lemma18.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/lemma-sumatoria.md",
