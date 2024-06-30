@@ -227,6 +227,15 @@ Un conjunto
 (Solo caso de composición)
 \end_layout
 
+\begin_layout Quote
+
+\series bold
+Prueba.
+
+\series default
+ 
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status collapsed
@@ -306,8 +315,114 @@ begin{proof}
 \end_inset
 
 -p.r..
- Hay varios casos,
- pero solo consideramos el de la composición.
+ Hay varios casos.
+ Consideremos primero el caso en que 
+\begin_inset Formula $F=R(f,g)$
+\end_inset
+
+,
+ donde
+\begin_inset Formula 
+\begin{align*}
+f & :S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}\rightarrow\Sigma^{\ast}\\
+g & :\omega\times S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}\times\Sigma^{\ast}\rightarrow\Sigma^{\ast},
+\end{align*}
+
+\end_inset
+
+con 
+\begin_inset Formula $S_{1},...,S_{n}\subseteq\omega$
+\end_inset
+
+ y 
+\begin_inset Formula $L_{1},...,L_{m}\subseteq\Sigma^{\ast}$
+\end_inset
+
+ conjuntos no vacios y 
+\begin_inset Formula $f,g\in\mathrm{PR}_{k}^{\Sigma}$
+\end_inset
+
+.
+ Notese que por definicion de 
+\begin_inset Formula $R(f,g)$
+\end_inset
+
+,
+ tenemos que
+\begin_inset Formula 
+\[
+D_{F}=\omega\times S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}.
+\]
+
+\end_inset
+
+Por hipotesis inductiva tenemos que 
+\begin_inset Formula $D_{f}=S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.,
+ lo cual por el Lema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "rectangulos pr"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ nos dice que los conjuntos 
+\begin_inset Formula $S_{1},...,S_{n}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $L_{1},...,L_{m}$
+\end_inset
+
+ son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r..
+ Ya que 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.,
+ el Lema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "rectangulos pr"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ nos dice que 
+\begin_inset Formula $D_{F}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r..
+\end_layout
+
+\begin_layout Standard
+Los otros casos de recursion primitiva son dejados al lector.
 \end_layout
 
 \begin_layout Standard
@@ -452,6 +567,240 @@ end{proof}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Quote
+(
+\begin_inset Formula $\implies$
+\end_inset
+
+) Note que 
+\begin_inset Formula $S=D_{Pred\circ\chi_{S}^{\omega^{n}\times\Sigma^{*m}}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+(
+\begin_inset Formula $\impliedby$
+\end_inset
+
+) Probaremos por inducción en k que 
+\begin_inset Formula $Dom(F)$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.
+ para cada 
+\begin_inset Formula $F\in PR_{k}^{\Sigma}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Quote
+El caso 
+\begin_inset Formula $k=0$
+\end_inset
+
+ es trivial.
+ Supongamos ahora que el resultado vale para un 
+\begin_inset Formula $k$
+\end_inset
+
+ fijo y que 
+\begin_inset Formula $F\in PR_{k+1}^{\Sigma}$
+\end_inset
+
+.
+ Para esta proposición solo se pide el caso de la composición.
+ 
+\end_layout
+
+\begin_layout Quote
+Sea 
+\begin_inset Formula $F=g\circ[g_{1},\dots,g_{r}]$
+\end_inset
+
+ con 
+\begin_inset Formula $g,g_{1},\dots,g_{r}\in PR_{k}^{\Sigma}$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $F=\emptyset$
+\end_inset
+
+,
+ entonces es claro que 
+\begin_inset Formula $D_{F}=\emptyset$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r..
+ Supongamos entonces que 
+\begin_inset Formula $F$
+\end_inset
+
+ no es la función 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+.
+ Tenemos entonces que 
+\begin_inset Formula $r$
+\end_inset
+
+ es de la forma 
+\begin_inset Formula $n+m$
+\end_inset
+
+ y
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula 
+\begin{align*}
+g: & D_{g}\subseteq\omega^{n}\times\Sigma^{*m}\to O\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\omega,\ i=1,\dots,n\\
+g_{i}: & D_{g_{i}}\subseteq\omega^{k}\times\Sigma^{*l}\to\Sigma^{*},\ i=n+1,\dots,n+m
+\end{align*}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Con 
+\begin_inset Formula $O\in\{\omega,\Sigma^{*}\}$
+\end_inset
+
+y 
+\begin_inset Formula $k,l\in\omega$
+\end_inset
+
+.
+ Por el Lema 18,
+ hay funciones 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.
+ 
+\begin_inset Formula $\bar{g}_{1},\dots,\bar{g}_{n+m}$
+\end_inset
+
+ las cuales son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-totales y cumplen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g_{i}=\bar{g}_{i}|_{D_{g_{i}}}\text{ para }i=1,\dots,n+m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por Hipótesis Inductiva tenemos que los conjuntos 
+\begin_inset Formula $D_{g},D_{g_{i}}$
+\end_inset
+
+ para 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i=1,\dots,n+m$
+\end_inset
+
+,
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ son 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r.
+ y por lo tanto
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S=\bigcap_{i=1}^{n+m}D_{g_{i}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+lo es.
+ Notese que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\chi_{D_{F}}^{\omega^{k}\times\Sigma^{*l}}=\left(\chi_{D_{g}}^{\omega^{n}\times\Sigma^{*m}}\circ[\bar{g}_{1},\dots,\bar{g}_{n+m}]\land\chi_{S}^{\omega^{k}\times\Sigma^{*l}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+lo cual nos dice que
+\begin_inset Formula $D_{F}$
+\end_inset
+
+ es 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+-p.r..
+ 
 \end_layout
 
 \begin_layout Standard
