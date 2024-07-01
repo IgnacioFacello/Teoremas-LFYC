@@ -35,7 +35,7 @@
               "state": {
                 "file": "teoremas-final/autohalt-no-ec.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
