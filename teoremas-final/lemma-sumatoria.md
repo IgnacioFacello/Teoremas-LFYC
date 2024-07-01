@@ -4,9 +4,14 @@ tags:
 ---
 > Sea $\Sigma$ un alfabeto finito. Si $f:\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m\to\omega$ es $\Sigma$-pr, con $S_1,\dots,S_n\subseteq\omega$ y $L_1,\dots,L_m\subseteq\Sigma^*$ no vacíos, entonces la función $\lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right]$ es $\Sigma$-pr
 
+Para mejorar la legibilidad vamos a tomar
+$$
+S_1\times\dots\times S_n\times L_1\times\dots\times L_m={S_{1..n}}\times{L_{1..m}}
+$$
+
 ---
-> Paso 1: Reestructurar la sumatoria para poder dar su forma recursiva. Notar que G da vuelta xy en la función original para que el parámetro de recursion sea el primero.
-> Esto se hace para poder usar la forma de R(h,g) que hace recursion sobre el primer parámetro
+> Paso 1: Obtener algo de la forma $\lambda t\vec x\vec\alpha$ que haga recursion sobre el primer parámetro.
+> Recordar que las definiciones se realizan bajo esta convención
 
 Sea 
 $$
@@ -19,7 +24,7 @@ $$
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
 por lo tanto basta con probar que $G$ es $\Sigma$-pr.
-> Paso 2: Definir las funciones que forman la recursion de G, para eso consideramos los casos según el valor de x en relación a t
+> Paso 2: Buscamos demostrar que $G=R(h,g)$
 
 Primero, notemos que
 $$
@@ -39,14 +44,16 @@ $$
 Es decir que podemos definir
 $$
 \begin{align}
-	h &= \lambda x\vec x\vec\alpha\left[\begin{cases}
-		0 & si\ x>0\\
-		f(0,\vec x,\vec\alpha) &si\ x=0
-	\end{cases}\right] \\
-	g &= \lambda Atx\vec x\vec\alpha\left[\begin{cases}
-		0 & si\ x>0\\
-		A+f(t+1,\vec x,\vec\alpha) &si\ x=0
-	\end{cases}\right] \\
+	h : \omega\times{S_{1..n}}\times{L_{1..m}}&\to\omega\\
+	(x,\vec x,\vec\alpha)&\to \begin{cases}
+	    0 & si\ x>0 \\
+	    f(0,\vec x,\vec\alpha) & si\ x=0
+    \end{cases} \\ 
+	g : \omega^{3}\times{S_{1..n}}\times{L_{1..m}}&\to\omega \\
+	(A,t,x,\vec x,\vec\alpha)&\to \begin{cases}
+	    0 & si\ x>t+1 \\
+	    A+f(t+1,\vec x,\vec\alpha) & si\ x\leq t+1
+    \end{cases} \\ 
 \end{align}
 $$
 
@@ -57,13 +64,13 @@ tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
 Sean:
 $$
 \begin{align}
-D_1&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+D_1&= \{(x,\vec x,\vec\alpha)\in\omega\times{S_{1..n}}\times{L_{1..m}}
 : x\gt0\} \\
-D_2&= \{(x,\vec x,\vec\alpha)\in\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+D_2&= \{(x,\vec x,\vec\alpha)\in\omega\times{S_{1..n}}\times{L_{1..m}}
 : x=0\} \\
-H_1&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+H_1&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times{S_{1..n}}\times{L_{1..m}}
 : x\gt t+1\} \\
-H_2&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m
+H_2&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times{S_{1..n}}\times{L_{1..m}}
 : x\leq t+1\}
 \end{align}
 $$
