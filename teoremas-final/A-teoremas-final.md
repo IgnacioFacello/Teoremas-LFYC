@@ -18,8 +18,8 @@
 17. [x] [[neumann-v-godel-c8]]
 18. [ ] [[autohalt-A-y-N]]
 19. [x] [[división-casos-r]]
-20. [ ] [[halt-sigma-u-sigmap-pr]]
-21. [ ] [[T-sigma-u-sigmap-r]]
+20. [x] [[halt-sigma-u-sigmap-pr]]
+21. [/] [[T-sigma-u-sigmap-r]]
 # Combos
 ## [ ] Combo 1
 01. [x] [[caracterización-conjunto-pr]]
@@ -50,7 +50,7 @@
 ## [ ] Combo 9
 19. [x] [[división-casos-r]]
 20. [x] [[halt-sigma-u-sigmap-pr]]
-21. [ ] [[T-sigma-u-sigmap-r]]
+21. [/] [[T-sigma-u-sigmap-r]]
  - - -
 Estadísticas
 ---
