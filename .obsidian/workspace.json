@@ -195,8 +195,9 @@
   },
   "active": "ee4ae29e7e69eb49",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/lemma-sumatoria.md",
+    "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/e-computable-implica-e-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
@@ -213,7 +214,6 @@
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/guia5-lemma18.md",
-    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/godel-v-neumann.md",
