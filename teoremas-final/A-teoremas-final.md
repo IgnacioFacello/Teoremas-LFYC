@@ -49,7 +49,7 @@
 19. [x] [[neumann-v-godel-c8]]
 ## [ ] Combo 9
 19. [x] [[división-casos-r]]
-20. [ ] [[halt-sigma-u-sigmap-pr]]
+20. [x] [[halt-sigma-u-sigmap-pr]]
 21. [ ] [[T-sigma-u-sigmap-r]]
  - - -
 Estadísticas

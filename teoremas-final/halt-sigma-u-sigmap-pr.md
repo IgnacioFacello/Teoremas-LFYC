@@ -2,7 +2,7 @@
 tags:
   - lfyc-c-IX
 ---
-> $Halt^{n,m}$ es $\Sigma$-recursiva
+> $Halt^{n,m}$ es $(\Sigma\cup\Sigma_p)$-recursiva
 
 - - - 
 Notar que 
