@@ -23,6 +23,7 @@ p_{j}^{n,m}&=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\d
 $$
 Entonces para cualquier forma que tome $h\in R_{k}^{\Sigma}$ tenemos que va a ser $\Sigma$-computable.
 
+---
 Supongamos (\*) vale para $k$, veremos que vale para $k+1$. Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=R(f,\mathcal{G})$, con 
 $$
 \begin{aligned}

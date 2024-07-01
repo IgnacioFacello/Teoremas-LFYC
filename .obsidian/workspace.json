@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/neumann-v-godel-c1.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/neumann-v-godel-c1.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/neumann-v-godel-c1.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/neumann-v-godel-c1.md"
+                "file": "teoremas-final/division-casos-pr.md"
               }
             }
           },
@@ -195,6 +195,7 @@
   },
   "active": "ee4ae29e7e69eb49",
   "lastOpenFiles": [
+    "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
@@ -205,13 +206,11 @@
     "teoremas-lyx/combo1/send/combo1-teoremas-hCrkVR.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-hDpTre.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-zyZHDb.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-TAJpEV.lyx",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/guia5-lemma18.md",
     "teoremas-final/lemma-sumatoria.md",
-    "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-ec.md",
