@@ -41,7 +41,7 @@ G(t+1,x,\vec x,\vec\alpha) &= \begin{cases}
 $$
 > Paso 2.3: Les damos la forma de las funciones con las que venimos trabajando en el paradigma recursivo
 
-Es decir que podemos definir
+Es decir que si definimos
 $$
 \begin{align}
 	h : \omega\times{S_{1..n}}\times{L_{1..m}}&\to\omega\\
@@ -58,10 +58,10 @@ $$
 $$
 
 
-tales que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
-> Paso 2.6: Vamos a usar el lema de division por casos para mostrar que efectivamente son recursivas
+tenemos que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
+> Paso 2.6: Vamos a usar el lema de division por casos para mostrar que son recursivas
 
-Sean:
+Sean
 $$
 \begin{align}
 D_1&= \{(x,\vec x,\vec\alpha)\in\omega\times{S_{1..n}}\times{L_{1..m}}
@@ -85,18 +85,18 @@ $$
 		\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]|_{H_2} \\
 \end{align}
 $$
-y por el [[division-casos-pr|lemma de división por casos]] si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-pr entonces $h$ y $g$ también lo serán. 
+y por el [[division-casos-pr|lemma de división por casos]] ,y dado que $f$ es $\Sigma$-p.r., si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-p.r. entonces $h$ y $g$ también lo serán. 
 > Paso 3: Para poder validar el uso del lemma debemos garantizar que los conjuntos sean $\Sigma$-pr
-> Esto lo logramos con una comparación simple y usando que f tenga dominio en el conjunto rectangular.
+> Esto lo logramos usando que $D_f=\omega\times{S_{1..n}}\times{L_{1..m}}$ es decir que ${S_{1..n}}\times{L_{1..m}}$ es $\Sigma$-pr
 > Luego usamos su característica para garantizar que pertenezca al rectangular y la condición para garantizar que pertenezca al conjunto del caso.
 
-Veamos el caso $H_1$ los demás salen de manera similar.
-Dado que f es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-pr y podemos definir $R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ también lo es. 
-Podemos usar este hecho para definir:
+Veamos el caso $H_1$ los demás son análogos. Dado que $f$ es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-p.r., lo cual nos dice que los conjuntos $S_1,\dots,S_n,L_1,\dots,L_m$ también lo son y por lo tanto 
+$$R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$$
+es $\Sigma$-p.r.. Notese que
 $$
 \chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_1} = \left[
 	\chi^{\omega^{n+3}\times\Sigma^{*m}}_R \land 
 	\lambda Atx\vec x\vec\alpha[ x\gt t+1 ]
 \right]
 $$
-Lo cual nos garantiza que $H_1$ es $\Sigma$-pr
+que garantiza que $H_1$ es $\Sigma$-pr
