@@ -10,8 +10,7 @@ S_1\times\dots\times S_n\times L_1\times\dots\times L_m={S_{1..n}}\times{L_{1..m
 $$
 
 ---
-> Paso 1: Obtener algo de la forma $\lambda t\vec x\vec\alpha$ que haga recursion sobre el primer parámetro.
-> Recordar que las definiciones se realizan bajo esta convención
+> Pasamos la sumatoria a la forma que asignamos para la recursion (primer parámetro para la recursion)
 
 Sea 
 $$
@@ -23,9 +22,9 @@ $$
 \lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right] = 
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
-por lo tanto basta con probar que $G$ es $\Sigma$-pr.
-> Paso 2: Buscamos demostrar que $G=R(h,g)$
+por lo tanto basta con probar que $G$ es $\Sigma$-pr. 
 
+---
 Primero, notemos que
 $$
 \begin{align}
@@ -39,8 +38,6 @@ G(t+1,x,\vec x,\vec\alpha) &= \begin{cases}
 \end{cases}
 \end{align}
 $$
-> Paso 2.3: Les damos la forma de las funciones con las que venimos trabajando en el paradigma recursivo
-
 Es decir que si definimos
 $$
 \begin{align}
@@ -56,11 +53,9 @@ $$
     \end{cases} \\ 
 \end{align}
 $$
+tenemos que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr. 
 
-
-tenemos que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr.
-> Paso 2.6: Vamos a usar el lema de division por casos para mostrar que son recursivas
-
+---
 Sean
 $$
 \begin{align}
@@ -74,7 +69,7 @@ H_2&= \{(z,t,x,\vec x,\vec\alpha)\in\omega^3\times{S_{1..n}}\times{L_{1..m}}
 : x\leq t+1\}
 \end{align}
 $$
-Luego
+Notar que
 $$
 \begin{align}
 	h &= 
@@ -85,14 +80,24 @@ $$
 		\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]|_{H_2} \\
 \end{align}
 $$
-y por el [[division-casos-pr|lemma de división por casos]] ,y dado que $f$ es $\Sigma$-p.r., si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-p.r. entonces $h$ y $g$ también lo serán. 
-> Paso 3: Para poder validar el uso del lemma debemos garantizar que los conjuntos sean $\Sigma$-pr
-> Esto lo logramos usando que $D_f=\omega\times{S_{1..n}}\times{L_{1..m}}$ es decir que ${S_{1..n}}\times{L_{1..m}}$ es $\Sigma$-pr
-> Luego usamos su característica para garantizar que pertenezca al rectangular y la condición para garantizar que pertenezca al conjunto del caso.
+Ya que $f$ es $\Sigma$-p.r. y 
+$$
+\begin{align}
+	\lambda x\vec x\vec\alpha[f(0,\vec x,\vec\alpha)] &= 
+		f\circ\left[C_0^{n+1,m},p_2^{n+1,m},\dots,p_{n+1+m}^{n+1,m}\right]
+	\\
+	\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)] &= 
+		\lambda xy[x+y]\circ\left[p_1^{n+3,m},f\circ\left[
+			Succ\circ{p_2}^{n+3,m},p_4^{n+3,m},\dots,p_{n+3+m}^{n+3,m}
+		\right]\right]
+\end{align}
+$$
+tenemos que $\lambda x\vec x\vec\alpha[f(0,\vec x,\vec\alpha)]$ y $\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]$ son $\Sigma$-p.r. y por el [[division-casos-pr|lemma de división por casos]] , si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-p.r. entonces $h$ y $g$ también lo serán. 
 
-Veamos el caso $H_1$ los demás son análogos. Dado que $f$ es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-p.r., lo cual nos dice que los conjuntos $S_1,\dots,S_n,L_1,\dots,L_m$ también lo son y por lo tanto 
+---
+Veamos el caso $H_1$ y los demás son análogos. Dado que $f$ es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-p.r., lo cual nos dice que los conjuntos $S_1,\dots,S_n,L_1,\dots,L_m$ también lo son y por lo tanto 
 $$R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$$
-es $\Sigma$-p.r.. Notese que
+es $\Sigma$-p.r.. Notar que
 $$
 \chi^{\omega^{n+3}\times\Sigma^{*m}}_{H_1} = \left[
 	\chi^{\omega^{n+3}\times\Sigma^{*m}}_R \land 
