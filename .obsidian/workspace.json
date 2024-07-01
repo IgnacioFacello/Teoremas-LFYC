@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/T-sigma-u-sigmap-r.md",
+                "file": "teoremas-final/autohalt-no-ec.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/autohalt-no-ec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/autohalt-no-ec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/autohalt-no-ec.md"
               }
             }
           },
@@ -205,10 +205,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1093839dad5091fd",
+  "active": "86f7f11fd38b70bd",
   "lastOpenFiles": [
-    "teoremas-final/T-sigma-u-sigmap-r.md",
+    "teoremas-final/autohalt-no-r.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/autohalt-no-ec.md",
+    "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/división-casos-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/lemma-sumatoria.md",
@@ -234,7 +236,6 @@
     "teoremas-final/godel-v-neumann.md",
     "teoremas-final/neumann-v-godel-completo.md",
     "teoremas-final/neumann-v-godel-c8.md",
-    "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-A-y-N.md",
     "teoremas-final/caracterización-conjunto-pr_lyx.md",
     "teoremas-final/caracterización-conjunto-pr (Copy).md",
@@ -242,7 +243,6 @@
     "Lenguajes Formales y Computacion/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "Lenguajes Formales y Computacion/teoremas-final/división-casos-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/autohalt-A-y-N.md",
-    "Lenguajes Formales y Computacion/teoremas-final/autohalt-no-ec.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"
