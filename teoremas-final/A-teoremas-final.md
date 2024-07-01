@@ -6,7 +6,7 @@
 05. [x] [[godel-v-neumann]] 
 06. [x] [[caracterización-conjunto-ec]] 
 07. [x] [[caracterización-conjunto-enumerable]]
-08. [/] [[lemma-sumatoria]] 
+08. [x] [[lemma-sumatoria]] 
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
 11. [x] [[e-computable-implica-e-enumerable]] 
@@ -17,7 +17,7 @@
 16. [ ] [[autohalt-no-ec]]
 17. [x] [[neumann-v-godel-c8]]
 18. [ ] [[autohalt-A-y-N]]
-19. [ ] [[división-casos-r]]
+19. [x] [[división-casos-r]]
 20. [ ] [[halt-sigma-u-sigmap-pr]]
 21. [ ] [[T-sigma-u-sigmap-r]]
 # Combos
@@ -48,7 +48,7 @@
 18. [ ] [[autohalt-A-y-N]]
 19. [x] [[neumann-v-godel-c8]]
 ## [ ] Combo 9
-19. [ ] [[división-casos-r]]
+19. [x] [[división-casos-r]]
 20. [ ] [[halt-sigma-u-sigmap-pr]]
 21. [ ] [[T-sigma-u-sigmap-r]]
  - - -

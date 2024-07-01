@@ -11,7 +11,7 @@ Si $f_1,{f_2}$ son $\Sigma\text{-recursivas}$ entonces son $\Sigma\text{-computa
 $$
 H_i=\lambda{tx_1\alpha_1}[\operatorname{Halt^{1,1}(t,x_1,\alpha_1,\mathcal{P}_{i})}]
 $$
-Notar que $D_{H_{i}}=\omega^{2}\times\Sigma^{\ast}$ y que $H_{i}$ es $\Sigma$-mixta. Ademas sabemops que la funcion \operatorname{Halt^{1,1}} es $(\Sigma\cup\Sigma_{p})$-p.r. por lo cual resulta facilmente que H_{i} es $(\Sigma\cup\Sigma_{p})$-p.r. y por el *lema de independencia del alfabeto* es $\Sigma$-p.r.. Entonces H_{i} es \Sigma-computable y tenemos un macro
+Notar que $D_{H_{i}}=\omega^{2}\times\Sigma^{\ast}$ y que $H_{i}$ es $\Sigma$-mixta. Además sabemos que la función $\operatorname{Halt^{1,1}}$ es $(\Sigma\cup\Sigma_{p})$-p.r. por lo cual resulta fácilmente que $H_{i}$ es $(\Sigma\cup\Sigma_{p})$-p.r. y por el *lema de independencia del alfabeto* es $\Sigma$-p.r.. Entonces $H_{i}$ es $\Sigma$-computable y tenemos un macro
 $$
 [IF\ H_i(V1,V2,W1)\ GOTO\ A1]
 $$
@@ -31,7 +31,14 @@ $$
 Sea $\mathcal{P}$ el siguiente programa
 $$
 \begin{aligned}
-L1  & N20\gets N20+1
-	&
+L1\ & N20\gets N20+1 \\
+	& [IF\ \operatorname{Halt^{1,1}(N20,N1,P1,\mathcal{P}_{1})}\ GOTO\ L2] \\
+	& [IF\ \operatorname{Halt^{1,1}(N20,N1,P1,\mathcal{P}_{2})}\ GOTO\ l3] \\
+	& GOTO\ L1 \\
+L2\ & [N1\gets{f_1(N1,P1)}] \\
+	& GOTO\ L4\\
+L3\ & [N1\gets{f_2(N1,P1)}] \\
+L4\ & SKIP 
 \end{aligned}
 $$
+Notar que $\mathcal{P}$ computa a la función $f_1\cup{f_2}$ por el*teorema Godel vence a Neumann*  es $\Sigma$-recursiva.
