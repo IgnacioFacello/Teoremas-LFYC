@@ -13,8 +13,8 @@
 12. [ ] [[caracterización-conjunto-r-enumerable]] 
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
 14. [ ] [[restricción-r]]
-15. [ ] [[autohalt-no-r]]
-16. [ ] [[autohalt-no-ec]]
+15. [x] [[autohalt-no-r]]
+16. [x] [[autohalt-no-ec]]
 17. [x] [[neumann-v-godel-c8]]
 18. [ ] [[autohalt-A-y-N]]
 19. [x] [[división-casos-r]]
