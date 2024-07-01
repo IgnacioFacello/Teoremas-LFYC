@@ -99,4 +99,4 @@ $$
 	\lambda Atx\vec x\vec\alpha[ x\gt t+1 ]
 \right]
 $$
-que garantiza que $H_1$ es $\Sigma$-pr
+es conjunción de dos predicados $\Sigma$-p.r. por lo cual $H_1$ es $\Sigma$-p.r.
