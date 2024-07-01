@@ -32,7 +32,7 @@
 06. [x] [[caracterización-conjunto-ec]] 
 ## [ ] Combo 4
 07. [x] [[caracterización-conjunto-enumerable]]
-08. [/] [[lemma-sumatoria]] 
+08. [x] [[lemma-sumatoria]] 
 ## [ ] Combo 5
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
