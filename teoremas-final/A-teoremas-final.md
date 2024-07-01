@@ -51,8 +51,7 @@
 19. [ ] [[división-casos-r]]
 20. [ ] [[halt-sigma-u-sigmap-pr]]
 21. [ ] [[T-sigma-u-sigmap-r]]
-
----
+ - - -
 Estadísticas
 ---
 

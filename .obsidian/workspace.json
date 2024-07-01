@@ -19,7 +19,14 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c644367b9eebf524",
+        "type": "tabs",
+        "dimension": 61.72465960665659,
+        "children": [
           {
             "id": "e7f2b0f50f51ef1d",
             "type": "leaf",
@@ -31,15 +38,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "c644367b9eebf524",
-        "type": "tabs",
-        "dimension": 61.72465960665659,
-        "children": [
+          },
           {
             "id": "ee4ae29e7e69eb49",
             "type": "leaf",
@@ -209,6 +208,7 @@
   "active": "e7f2b0f50f51ef1d",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/división-casos-r.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/e-computable-implica-e-enumerable.md",
@@ -243,7 +243,6 @@
     "Lenguajes Formales y Computacion/teoremas-final/autohalt-no-ec.md",
     "Lenguajes Formales y Computacion/teoremas-final/autohalt-no-r.md",
     "Lenguajes Formales y Computacion/teoremas-final/restricción-r.md",
-    "Lenguajes Formales y Computacion/teoremas-final/lemma-minimización-acotada.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"
