@@ -17,7 +17,7 @@ $$
 	&\qquad\text{Realizar } \mathbb P \text{ con el valor de x de entrada, obteniendo como salida la upla } (\vec y,\vec\beta).
 	\\
 &Etapa 2:\\
-	&\qquad\text{Realizar } \mathbb P_S \text{ con } (\vec y,\vec\beta) \text{como entrada. Si retorna 1 detenerse y retornar }(\vec y,\vec\beta) \text{. Caso contrario ir a 3}.
+	&\qquad\text{Realizar } \mathbb P_S \text{ con } (\vec y,\vec\beta) \text{ como entrada. Si retorna 1 detenerse y retornar }(\vec y,\vec\beta) \text{. Caso contrario ir a 3}.
 	\\
 &Etapa 3:\\
 	&\qquad\text{Detenerse y retornar } e_0 

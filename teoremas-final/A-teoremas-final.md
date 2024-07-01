@@ -9,7 +9,7 @@
 08. [/] [[lemma-sumatoria]] 
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
-11. [/] [[e-computable-implica-e-enumerable]] 
+11. [x] [[e-computable-implica-e-enumerable]] 
 12. [ ] [[caracterización-conjunto-r-enumerable]] 
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
 14. [ ] [[restricción-r]]
@@ -37,7 +37,7 @@
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
 10. [ ] [[lemma-cuantificación-acotada]] 
 ## [ ] Combo 6
-11. [/] [[e-computable-implica-e-enumerable]] 
+11. [x] [[e-computable-implica-e-enumerable]] 
 12. [ ] [[caracterización-conjunto-r-enumerable]] 
 ## [ ] Combo 7
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
