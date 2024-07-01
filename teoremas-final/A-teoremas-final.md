@@ -38,7 +38,7 @@
 10. [ ] [[lemma-cuantificación-acotada]] 
 ## [ ] Combo 6
 11. [x] [[e-computable-implica-e-enumerable]] 
-12. [ ] [[caracterización-conjunto-r-enumerable]] 
+12. [ ] [[caracterización-conjunto-r-enumerable]] (Incompleto, extremadamente largo)
 ## [ ] Combo 7
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
 14. [ ] [[restricción-r]]
