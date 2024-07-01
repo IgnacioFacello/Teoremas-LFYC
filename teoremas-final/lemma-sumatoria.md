@@ -10,13 +10,12 @@ S_1\times\dots\times S_n\times L_1\times\dots\times L_m={S_{1..n}}\times{L_{1..m
 $$
 
 ---
-> Pasamos la sumatoria a la forma que asignamos para la recursion (primer parámetro para la recursion)
+> Pasamos la sumatoria a la forma convenida para la recursion (primer parámetro es el recursivo)
 
 Sea 
 $$
 G=\lambda tx\vec x\vec\alpha\left[\sum_{i=x}^{i=t}f(i,\vec x,\vec\alpha)\right]
 $$
-
 Luego tenemos que 
 $$
 \lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right] = 
@@ -25,6 +24,8 @@ $$
 por lo tanto basta con probar que $G$ es $\Sigma$-pr. 
 
 ---
+> Buscamos funciones h y g tales que G=R(h,g)
+
 Primero, notemos que
 $$
 \begin{align}
@@ -56,6 +57,8 @@ $$
 tenemos que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr. 
 
 ---
+> Vamos a definir h y g por casos y usar el lema para probar que son pr
+
 Sean
 $$
 \begin{align}
@@ -95,6 +98,8 @@ $$
 tenemos que $\lambda x\vec x\vec\alpha[f(0,\vec x,\vec\alpha)]$ y $\lambda Atx\vec x\vec\alpha[A + f(t+1,\vec x,\vec\alpha)]$ son $\Sigma$-p.r. y por el [[division-casos-pr|lemma de división por casos]] , si demostramos que $D_1,D_2,H_1,H_2$ son $\Sigma$-p.r. entonces $h$ y $g$ también lo serán. 
 
 ---
+> Falta probar que los conjuntos son pr. Hacemos esto con el lema de Dominio pr para definir pertenencia al conjunto rectangular.
+
 Veamos el caso $H_1$ y los demás son análogos. Dado que $f$ es $\Sigma$-pr entonces $D_f=\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$ es $\Sigma$-p.r., lo cual nos dice que los conjuntos $S_1,\dots,S_n,L_1,\dots,L_m$ también lo son y por lo tanto 
 $$R=\omega^3\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m$$
 es $\Sigma$-p.r.. Notar que
