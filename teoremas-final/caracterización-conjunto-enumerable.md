@@ -39,12 +39,12 @@ Que claramente termina para todo estado $||x||, x\in\omega$ y ademas termina en 
 
 <div style="page-break-after: always;"></div>
 
-## $(2)\implies(1)$ 
+--- 
 > Suponemos $P\in Pro^{\Sigma}$ cumple con (a) y (b) de 2. 
 > Extraemos del mismo los i sub-programas que calculan las $F_{(i)}$
 > Notar que las horquillas de los $n+m$ sub-programas resultante tienen las propiedades que hacen que enumere a S
 
-Suponemos $P\in Pro^{\Sigma}$ cumple con (a) y (b) de 2. Sean:
+($(2)\implies(1)$) Suponemos $P\in Pro^{\Sigma}$ cumple con (a) y (b) de 2. Sean:
 $$
 \begin{align}
 	\mathcal P_1 &= \mathcal PN1\gets N1 \\
