@@ -16,10 +16,10 @@
 15. [x] [[autohalt-no-r]]
 16. [x] [[autohalt-no-ec]]
 17. [x] [[neumann-v-godel-c8]]
-18. [ ] [[autohalt-A-y-N]]
+18. [x] [[autohalt-A-y-N]]
 19. [x] [[división-casos-r]]
 20. [x] [[halt-sigma-u-sigmap-pr]]
-21. [/] [[T-sigma-u-sigmap-r]]
+21. [x] [[T-sigma-u-sigmap-r]]
 # Combos
 ## [ ] Combo 1
 01. [x] [[caracterización-conjunto-pr]]
@@ -45,7 +45,7 @@
 ## [ ] Combo 8
 15. [x] [[autohalt-no-r]]
 16. [x] [[autohalt-no-ec]]
-18. [ ] [[autohalt-A-y-N]]
+18. [x] [[autohalt-A-y-N]]
 19. [x] [[neumann-v-godel-c8]]
 ## [ ] Combo 9
 19. [x] [[división-casos-r]]

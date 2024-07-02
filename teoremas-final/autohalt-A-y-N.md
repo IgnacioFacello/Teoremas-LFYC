@@ -17,4 +17,6 @@ Por otro lado, si suponemos que ($\ast$) $N$ es $\Sigma$-r.e. Como
 - $C_{k}^{n,m},n,m,k\in\omega$ es $\Sigma$-r..
 Entonces las funciones $C_{0}^{0,1}|_{N}$ y $C_{1}^{0,1}|_{A}$ son $\Sigma$-recursivas ya que $A$ y $N$ son $\Sigma$-r.e.. Luego, por el *lema de division por casos para funciones recursivas* $${AutoHalt}^{\Sigma}=C_{0}^{0,1}|_{N}\cup{C}_{1}^{0,1}|_{A}$$ será $\Sigma$-recursivo. La suposición ($\ast$) nos lleva a un resultado que contradice el *lema 15* y por lo tanto $N$ no es $\Sigma$-r.e.
  - - - 
-Finalmente supongamos que ($\ast$) $A$ es $\Sigma$-recursivo, ento
+Finalmente supongamos que ($\ast$) $A$ es $\Sigma$-recursivo.
+Por el teórico sabemos que si $S_1,S_2\in\omega{n}\times\Sigma^{\ast m}$ son $\Sigma$-recursivas, entonces $S_1\cup{S_2}$, $S_1\cap{S_2}$ y $S_1-S_2$ también lo son. Entonces
+$$N=(\Sigma^{\ast}-A)\cap{Pro}^{\Sigma}$$ también deber´a serlo, lo cual contradice lo que probamos anteriormente y por lo tanto $A$ no es $\Sigma$-recursivo.
