@@ -30,7 +30,7 @@ $$
 Las cuales nos permiten dar el siguiente programa
 $$
 \begin{align} 
-&[P3\gets F_{(3)}(N1)]\\
+&[P1\gets F_{(3)}(N1)]\\
 &[N2\gets F_{(2)}(N1)]\\
 &[N1\gets F_{(1)}(N1)]\\
 \end{align}
