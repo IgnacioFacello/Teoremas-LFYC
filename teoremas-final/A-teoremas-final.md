@@ -38,19 +38,19 @@
 10. [ ] [[lemma-cuantificación-acotada]] 
 ## [ ] Combo 6
 11. [x] [[e-computable-implica-e-enumerable]] 
-12. [ ] [[caracterización-conjunto-r-enumerable]] (Incompleto, extremadamente largo)
+12. [ ] [[caracterización-conjunto-r-enumerable]] (Incompleto, exageradamente largo)
 ## [ ] Combo 7
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
 14. [ ] [[restricción-r]]
 ## [ ] Combo 8
 15. [x] [[autohalt-no-r]]
-16. [ ] [[autohalt-no-ec]]
+16. [x] [[autohalt-no-ec]]
 18. [ ] [[autohalt-A-y-N]]
 19. [x] [[neumann-v-godel-c8]]
 ## [ ] Combo 9
 19. [x] [[división-casos-r]]
 20. [x] [[halt-sigma-u-sigmap-pr]]
-21. [/] [[T-sigma-u-sigmap-r]]
+21. [x] [[T-sigma-u-sigmap-r]]
  - - -
 Estadísticas
 ---
