@@ -8,9 +8,7 @@ tags:
 >  (b) $S$ y $\omega^n\times\Sigma^{*m}-S$ $\Sigma$-efectivamente enumerables 
 
 (Solo caso $(b)\implies (a)$)
-
-Proof
---- 
+ - - -  
 $S$ $\Sigma$-e.computable $\implies$$S$ y $\bar S$ $\Sigma$-e.enumerable
 > Suponemos que podemos generar $S$ y $S^{-1}$
 > Dado un $(\vec x,\vec\alpha)$ de consulta vamos a realizar un ciclo finito, ya que eventualmente se cumple la condición
