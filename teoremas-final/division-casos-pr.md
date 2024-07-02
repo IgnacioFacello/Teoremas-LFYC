@@ -14,11 +14,12 @@ tags:
 
 Probamos por inducción.
 
-Si $k=2$, por el [[guia5-lema18|lemma 18]] tenemos que existen funciones $\Sigma$-pr $\bar f_1,\bar f_2:\omega^n\times\Sigma^{*m}\to\Sigma^*$ que son $\Sigma$-totales tales que:
+---
+Si $k=2$, por el [[guia5-lema18|lema de expansión]] tenemos que existen funciones $\Sigma$-pr $\bar f_1,\bar f_2:\omega^n\times\Sigma^{*m}\to\Sigma^*$ que son $\Sigma$-totales tales que:
 $$
 f_i=\bar f_i|_{D_{f_i}}\qquad i=1,2
 $$
-Por el [[guia5-lema19|lemma 19]] (Caracterización básica de conjuntos pr), tenemos que $D_{f_1},D_{f_2}$ sus dominios son $\Sigma$-pr y por lo tanto $D_{f_1}\cup D_{f_2}$ también lo será.
+Por la [[guia5-lema19|caracterización básica de conjuntos pr]], tenemos que $D_{f_1},D_{f_2}$ sus dominios son $\Sigma$-pr y por lo tanto $D_{f_1}\cup D_{f_2}$ también lo será.
 Definimos la union de las funciones como:
 $$
 \left.
@@ -38,6 +39,8 @@ f_1\cup f_2=\left(
 \right)
 \right|_{D_{f_1}\cup D_{f_2}}$$
 que es $\Sigma$-pr.
+
+---
 Ahora supongamos que la hipótesis se cumple para el paso $k$ y veamos si se cumple para $k+1$ funciones.
 Por hipótesis inductiva tenemos que $\bigcup^k_{i=1} f_i$ es $\Sigma$-pr, ademas tenemos la función $f_{k+1}$ $\Sigma$-pr.
 Usando el mismo procedimiento anterior obtenemos que la función

@@ -3,7 +3,7 @@ tags:
   - lfyc-c-II
   - lfyc-c-IV
 ---
-> Sea $S\subseteq\omega^{n}\times\Sigma^{*m}$ un conjunto no vacío. Entonces son equivalentes:
+> **Proposición 4** Sea $S\subseteq\omega^{n}\times\Sigma^{*m}$ un conjunto no vacío. Entonces son equivalentes:
 > (1) $S$ es $\Sigma$-enumerable 
 > 	(es decir) Existe $F:\omega\to\omega^{n}\times\Sigma^{*m}$ tal que $Im(F) = S$ y  las $F_{(i)},\ i=1,\dots,n+m$ son $\Sigma$-computables.
 > (2) Hay un programa $\mathcal P\in Pro^{\Sigma}$ tal que:
@@ -12,13 +12,12 @@ tags:
 
 (Caso n=2, m=1)
 
----
-## $(1)\implies(2)$ 
+--- 
 > Por hipótesis existe una función que computa el conjunto S no vacío
 > Podemos definir macros para sus coordenadas $\Sigma$-computables
 > Las usamos para dar el programa que cumple con (a) y (b).
 
-Dado que S no es vacío, tenemos por hipótesis tenemos que existe alguna función $F:\omega\to\omega^{2}\times\Sigma^{*1}$ tal que  $I_F=S$ y $F_{(i)}$ es $\Sigma$-computable para cada $i\in\{1,2,3\}$.
+($(1)\implies(2)$) Dado que S no es vacío, tenemos por hipótesis tenemos que existe alguna función $F:\omega\to\omega^{2}\times\Sigma^{*1}$ tal que  $I_F=S$ y $F_{(i)}$ es $\Sigma$-computable para cada $i\in\{1,2,3\}$.
 Luego, por la *Proposición de las Macros* tenemos que existen las siguientes Macros:
 $$
 \begin{align}
