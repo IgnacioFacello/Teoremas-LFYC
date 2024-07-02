@@ -7,6 +7,14 @@ tags:
 
  - - - 
 Sea $$P=\lambda{t\mathcal{P}}\left[{Halt}^{0,1}(t,\mathcal{P},\mathcal{P})\right]$$
-> 'El programa termina en t pasos partiendo de si mismo?'
+> P es 'El programa termina en t pasos partiendo de si mismo?'
+> M(P) es 'Mínimo t para el cual se cumple P'
+> Claramente M(P) tiene como dominio los programa que terminan partiendo de si mismos
 
-, como ${Halt}^{0,1}$ es $(\Sigma\cup\Sigma_p)$-p.r. es también $\Sigma$-p.r. ya que suponemos $\Sigma\supseteq\Sigma_p$. Por lo tanto se puede ver que $P$ es $\Sigma$-p.r. y por el *lema de la minimización acotada* tenemos que $M(P)$ es $\Sigma$-r. Además se puede ver que $D_{M(P)}=A$, lo que implica que A es $\Sigma-r.e$..
+, como ${Halt}^{0,1}$ es $(\Sigma\cup\Sigma_p)$-p.r. es también $\Sigma$-p.r. ya que suponemos $\Sigma\supseteq\Sigma_p$. Por lo tanto se puede ver que $P$ es $\Sigma$-p.r. y por el *lema de la minimización acotada* tenemos que $M(P)$ es $\Sigma$-r. Además se puede ver que $D_{M(P)}=A$, lo que implica que A es $\Sigma$-r.e..
+ - - -
+Por otro lado, si suponemos que ($\ast$) $N$ es $\Sigma$-r.e. Como 
+- $C_{k}^{n,m},n,m,k\in\omega$ es $\Sigma$-r..
+Entonces las funciones $C_{0}^{0,1}|_{N}$ y $C_{1}^{0,1}|_{A}$ son $\Sigma$-recursivas ya que $A$ y $N$ son $\Sigma$-r.e.. Luego, por el *lema de division por casos para funciones recursivas* $${AutoHalt}^{\Sigma}=C_{0}^{0,1}|_{N}\cup{C}_{1}^{0,1}|_{A}$$ será $\Sigma$-recursivo. La suposición ($\ast$) nos lleva a un resultado que contradice el *lema 15* y por lo tanto $N$ no es $\Sigma$-r.e.
+ - - - 
+Finalmente supongamos que ($\ast$) $A$ es $\Sigma$-recursivo, ento
