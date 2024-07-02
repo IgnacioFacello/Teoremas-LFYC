@@ -1,6 +1,7 @@
 ---
 tags:
   - lfyc-c-III
+  - "#review"
 ---
 > Si $f: D_f\subseteq \omega^n\times\Sigma^{*m}\to\Sigma^*$ es $\Sigma$-[[paradigma-neumann|computable]] entonces $f$ es $\Sigma$-[[paradigma-godel|recursiva]] 
 

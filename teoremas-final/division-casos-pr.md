@@ -1,6 +1,7 @@
 ---
 tags:
   - lfyc-c-II
+  - "#review"
 ---
 > Supongamos $f_i:D_{f_i}\subseteq\omega^n\times\Sigma^{}*m\to\Sigma^*, i=1,\dots,k$ son funciones $\Sigma$-pr tales que $D_j\cap D_i=\emptyset$ para todo $i\neq j$. Entonces $\bigcup^k_{i=1} f_i$ es $\Sigma$-pr.
 

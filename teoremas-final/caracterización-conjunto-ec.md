@@ -1,6 +1,7 @@
 ---
 tags:
   - lfyc-c-III
+  - "#review"
 ---
 > Sean $S\subseteq\omega^n\times\Sigma^{*m}$. Son equivalentes:
 > (a) $S$ es $\Sigma$-efectivamente computable

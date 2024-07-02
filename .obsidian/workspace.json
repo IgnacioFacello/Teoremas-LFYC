@@ -34,7 +34,7 @@
               "type": "markdown",
               "state": {
                 "file": "teoremas-final/A-teoremas-final.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -68,9 +68,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:teoremas-final -tag:#review ",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,14 +174,21 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "70f727d146c2c730",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,26 +204,28 @@
   },
   "active": "e543c0e2bfdd18ff",
   "lastOpenFiles": [
-    "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
-    "teoremas-final/division-casos-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
-    "teoremas-final/lemma-cuantificación-acotada.md",
-    "teoremas-final/autohalt-no-ec.md",
-    "teoremas-final/autohalt-no-r.md",
-    "teoremas-final/halt-sigma-u-sigmap-pr.md",
-    "teoremas-final/T-sigma-u-sigmap-r.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
-    "teoremas-final/división-casos-r.md",
-    "teoremas-final/neumann-v-godel-c8.md",
-    "teoremas-final/lemma-minimización-acotada.md",
+    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/e-computable-implica-e-enumerable.md",
+    "teoremas-final/restricción-r.md",
+    "teoremas-final/neumann-v-godel-completo.md",
+    "teoremas-final/lemma-minimización-acotada.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/division-casos-pr.md",
+    "teoremas-final/T-sigma-u-sigmap-r.md",
+    "teoremas-final/halt-sigma-u-sigmap-pr.md",
+    "teoremas-final/división-casos-r.md",
+    "teoremas-final/autohalt-A-y-N.md",
+    "teoremas-final/neumann-v-godel-c8.md",
+    "teoremas-final/autohalt-no-ec.md",
+    "teoremas-final/autohalt-no-r.md",
+    "teoremas-final/lemma-cuantificación-acotada.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/lemma-sumatoria.md",
+    "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/godel-v-neumann.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/Untitled.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
@@ -228,10 +238,8 @@
     "teoremas-lyx/combo1/send/combo1-teoremas-hDpTre.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-zyZHDb.lyx",
     "teoremas-final/guia5-lemma18.md",
-    "teoremas-final/neumann-v-godel-completo.md",
     "teoremas-final/caracterización-conjunto-pr_lyx.md",
     "teoremas-final/caracterización-conjunto-pr (Copy).md",
-    "Lenguajes Formales y Computacion/teoremas-final/T-sigma-u-sigmap-r.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"

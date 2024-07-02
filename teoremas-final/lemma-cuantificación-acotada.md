@@ -1,6 +1,7 @@
 ---
 tags:
   - lfyc-c-V
+  - "#review"
 ---
 > **Lema 10**  
 > - Sea $\Sigma$ un alfabeto finito. 

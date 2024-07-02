@@ -1,6 +1,7 @@
 ---
 tags:
   - lfyc-c-IX
+  - "#review"
 ---
 > $Halt^{n,m}$ es $(\Sigma\cup\Sigma_p)$-recursiva
 
