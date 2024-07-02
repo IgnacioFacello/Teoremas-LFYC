@@ -50,7 +50,7 @@ $$
 \begin{align}
 	\mathcal P_1 &= \mathcal PN1\gets N1 \\
 	\mathcal P_2 &= \mathcal PN1\gets N2 \\
-	\mathcal P_{3} &= \mathcal PN1\gets P1 \\
+	\mathcal P_{3} &= \mathcal PP1\gets P1 \\
 \end{align}
 $$
 Las concatenaciones del programa con la instrucción que guarda en $N1$ la coordenada relevante. Usando estos programas podemos definir las $n+m$ funciones $\Sigma$-computables
