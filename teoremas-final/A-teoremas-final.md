@@ -8,7 +8,7 @@
 07. [x] [[caracterización-conjunto-enumerable]]
 08. [x] [[lemma-sumatoria]] 
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
-10. [ ] [[lemma-cuantificación-acotada]] 
+10. [x] [[lemma-cuantificación-acotada]] 
 11. [x] [[e-computable-implica-e-enumerable]] 
 12. [ ] [[caracterización-conjunto-r-enumerable]] 
 13. [ ] [[lemma-minimización-acotada]] (Incompleto)
@@ -35,7 +35,7 @@
 08. [x] [[lemma-sumatoria]] 
 ## [ ] Combo 5
 09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
-10. [ ] [[lemma-cuantificación-acotada]] 
+10. [x] [[lemma-cuantificación-acotada]] 
 ## [ ] Combo 6
 11. [x] [[e-computable-implica-e-enumerable]] 
 12. [ ] [[caracterización-conjunto-r-enumerable]] (Incompleto, exageradamente largo)
