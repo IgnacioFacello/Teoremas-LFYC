@@ -9,8 +9,9 @@ tags:
 
 (Solo caso $(b)\implies (a)$)
 
+Proof
 --- 
- $S$ $\Sigma$-ec $\implies$$S$ y $\bar S$ $\Sigma$-ee
+$S$ $\Sigma$-e.computable $\implies$$S$ y $\bar S$ $\Sigma$-e.enumerable
 > Suponemos que podemos generar $S$ y $S^{-1}$
 > Dado un $(\vec x,\vec\alpha)$ de consulta vamos a realizar un ciclo finito, ya que eventualmente se cumple la condición
 > En cada paso generamos valores de ambos conjuntos, y si alguno de los valores generados es el valor de consulta devolvemos 0 o 1 según cual de los generados coincida
@@ -41,3 +42,4 @@ $$
 $$
 
 $$\tag*{$\blacksquare$}$$
+ 
