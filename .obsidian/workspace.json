@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/combos/Combo 9.md",
+                "file": "teoremas-final/combos/Combo 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/combos/Combo 9.md",
+                "file": "teoremas-final/combos/Combo 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/combos/Combo 9.md",
+                "file": "teoremas-final/combos/Combo 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/combos/Combo 9.md"
+                "file": "teoremas-final/combos/Combo 1.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "96c56efd17cf794a",
   "lastOpenFiles": [
+    "teoremas-final/combos/Combo 9.md",
     "teoremas-final/combos/Combo 8.md",
     "teoremas-final/combos/Combo 6.md",
     "teoremas-final/combos/Combo 5.md",
@@ -192,7 +193,6 @@
     "teoremas-final/combos/Combo 1.md",
     "teoremas-final/combos/Combo 7.md",
     "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/combos/Combo 9.md",
     "teoremas-final/combos",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/neumann-v-godel-c8.md",
