@@ -2,8 +2,10 @@
 tags:
   - lfyc-c-V
   - "#review"
+  - flashcards
 ---
-> Sean $S_1,S_2\subseteq\omega^n\times\Sigma^{*m}$ conjuntos $\Sigma$-efectivamente enumerables. Entonces $S_1\cap S_2$ es $\Sigma$-efectivamente enumerable 
+> **Lema 9** Sean $S_1,S_2\subseteq\omega^n\times\Sigma^{*m}$ conjuntos $\Sigma$-efectivamente enumerables. Entonces $S_1\cap S_2$ es $\Sigma$-efectivamente enumerable 
+?
 
 ---
 > Suponemos que existe al menos un elemento $e_0$ en la intersección

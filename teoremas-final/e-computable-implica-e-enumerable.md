@@ -2,8 +2,10 @@
 tags:
   - lfyc-c-VI
   - review
+  - flashcards
 ---
-> Si $S\subseteq\omega^n\times\Sigma^{*m}$ es $\Sigma$-efectivamente computable entonces $S$ es $\Sigma$-efectivamente enumerable
+> ** Si $S\subseteq\omega^n\times\Sigma^{*m}$ es $\Sigma$-efectivamente computable entonces $S$ es $\Sigma$-efectivamente enumerable
+?
 
 ---
 > Suponemos que $S\neq\emptyset$ y que $e_0\in S$

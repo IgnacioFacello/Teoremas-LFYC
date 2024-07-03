@@ -2,6 +2,7 @@
 tags:
   - lfyc-c-IX
   - "#review"
+  - flashcards
 ---
 > Supongamos $f_i:D_{f_i}\subseteq{\omega^n\times\Sigma^{*m}}\to{O}$, $i=i,\dots,k$ son funciones $\Sigma\text{-recursivas}$ tales que $D_{f_i}\cap{D_{f_j}}=\emptyset$ para $i\neq{j}$. Entonces la función $f_1\cup\dots\cup{f_k}$ es $\Sigma\text{-recursiva}$.
 

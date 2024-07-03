@@ -2,8 +2,10 @@
 tags:
   - "#lfyc-c-I"
   - "#review"
+  - flashcards
 ---
 > **Proposición 1** Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
+?
 
 ---
 ($\implies$) Tomemos la función $F=Pred\circ\chi^{\omega\times\Sigma^*}_S$. Claramente $D_F=S$.

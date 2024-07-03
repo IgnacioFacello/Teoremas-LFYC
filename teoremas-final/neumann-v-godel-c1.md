@@ -2,8 +2,10 @@
 tags:
   - "#lfyc-c-I"
   - "#review"
+  - flashcards
 ---
-> Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
+> **Teorema 2** Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
+?
 
 ---
 Probaremos por inducción en k que

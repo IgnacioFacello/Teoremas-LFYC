@@ -2,6 +2,7 @@
 tags:
   - lfyc-c-IX
   - "#review"
+  - flashcards
 ---
 > $T^{n,m}$ es $(\Sigma\cup\Sigma_p)$-recursiva.
 

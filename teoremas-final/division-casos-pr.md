@@ -2,8 +2,10 @@
 tags:
   - lfyc-c-II
   - "#review"
+  - flashcards
 ---
-> Supongamos $f_i:D_{f_i}\subseteq\omega^n\times\Sigma^{}*m\to\Sigma^*, i=1,\dots,k$ son funciones $\Sigma$-pr tales que $D_j\cap D_i=\emptyset$ para todo $i\neq j$. Entonces $\bigcup^k_{i=1} f_i$ es $\Sigma$-pr.
+> **Lema 3** Supongamos $f_i:D_{f_i}\subseteq\omega^n\times\Sigma^{}*m\to\Sigma^*, i=1,\dots,k$ son funciones $\Sigma$-pr tales que $D_j\cap D_i=\emptyset$ para todo $i\neq j$. Entonces $\bigcup^k_{i=1} f_i$ es $\Sigma$-pr.
+?
 
 ---
 > Por inducción. Demostramos el caso con dos funciones y el resto de la demostración sale trivialmente

@@ -2,11 +2,13 @@
 tags:
   - lfyc-c-III
   - "#review"
+  - flashcards
 ---
-> Sean $S\subseteq\omega^n\times\Sigma^{*m}$. Son equivalentes:
+> **Teorema 6** Sean $S\subseteq\omega^n\times\Sigma^{*m}$. Son equivalentes:
 > (a) $S$ es $\Sigma$-efectivamente computable
 >	(Es decir) Hay un procedimiento que computa a $\chi^{\omega^n\times\Sigma^{*m}}_S$
->  (b) $S$ y $\omega^n\times\Sigma^{*m}-S$ $\Sigma$-efectivamente enumerables 
+>  (b) $S$ y $\omega^n\times\Sigma^{*m}-S$ $\Sigma$-efectivamente enumerables
+?
 
 (Solo caso $(b)\implies (a)$)
  - - -  

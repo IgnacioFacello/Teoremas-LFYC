@@ -2,12 +2,14 @@
 tags:
   - lfyc-c-V
   - "#review"
+  - flashcards
 ---
 > **Lema 10**  
 > - Sea $\Sigma$ un alfabeto finito. 
 > - Sea $P:S\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m\to\omega$ un predicado $\Sigma$-p.r., 
 >     - con $S,S_1,\dots,S_n\subseteq\omega$ y $L_1\dots,L_m\subseteq\Sigma^*$ no vacío.  
 > Supongamos $\bar S\subseteq S$ es $\Sigma$-pr. Entonces $$\lambda x\vec x\vec\alpha\left[(\forall t\in\bar{S})_{t\leq x} P(t,\vec x,\vec\alpha)\right]$$ es $\Sigma$-pr.
+?
 
 - - - 
 > - P es pr

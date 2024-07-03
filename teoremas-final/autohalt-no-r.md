@@ -2,6 +2,7 @@
 tags:
   - lfyc-c-IIX
   - "#review"
+  - flashcards
 ---
 > **Lema 15** Supongamos $\Sigma\supseteq\Sigma_p$. Entonces ${AutoHalt}^\Sigma$ no es $\Sigma$-recursivo.
 
