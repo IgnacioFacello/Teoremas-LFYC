@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "teoremas-final/teoremas-long.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"independencia del alfabeto\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
