@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
-                "mode": "preview",
+                "file": "teoremas-final/combos/Combo 9.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/combos/Combo 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/combos/Combo 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/combos/Combo 9.md"
               }
             }
           },
@@ -183,6 +183,17 @@
   },
   "active": "96c56efd17cf794a",
   "lastOpenFiles": [
+    "teoremas-final/combos/Combo 8.md",
+    "teoremas-final/combos/Combo 6.md",
+    "teoremas-final/combos/Combo 5.md",
+    "teoremas-final/combos/Combo 4.md",
+    "teoremas-final/combos/Combo 3.md",
+    "teoremas-final/combos/Combo 2.md",
+    "teoremas-final/combos/Combo 1.md",
+    "teoremas-final/combos/Combo 7.md",
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/combos/Combo 9.md",
+    "teoremas-final/combos",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/neumann-v-godel-c1.md",
@@ -198,14 +209,6 @@
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/autohalt-no-r.md",
-    "teoremas-final/autohalt-no-ec.md",
-    "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/caracterización-conjunto-r-enumerable.md",
-    "teoremas-final/restricción-r.md",
-    "teoremas-final/neumann-v-godel-completo.md",
-    "teoremas-final/Untitled.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
@@ -215,10 +218,6 @@
     "teoremas-lyx/combo1/send/combo1-teoremas-zECazo.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-hCrkVR.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-hDpTre.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-zyZHDb.lyx",
-    "teoremas-final/guia5-lemma18.md",
-    "teoremas-final/caracterización-conjunto-pr_lyx.md",
-    "teoremas-final/caracterización-conjunto-pr (Copy).md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"

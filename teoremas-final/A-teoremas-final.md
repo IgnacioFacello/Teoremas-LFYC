@@ -21,38 +21,16 @@
 20. [x] [[halt-sigma-u-sigmap-pr]]
 21. [x] [[T-sigma-u-sigmap-r]]
 # Combos
-## [ ] Combo 1
-01. [x] [[caracterización-conjunto-pr]]
-02. [x] [[neumann-v-godel-c1]]
-## [ ] Combo 2
-03. [x] [[division-casos-pr]]
-04. [x] [[caracterización-conjunto-enumerable]]
-## [ ] Combo 3
-05. [x] [[godel-v-neumann]] 
-06. [x] [[caracterización-conjunto-ec]] 
-## [ ] Combo 4
-07. [x] [[caracterización-conjunto-enumerable]]
-08. [x] [[lemma-sumatoria]] 
-## [ ] Combo 5
-09. [x] [[intersección-conjuntos-efectivamente-enumerables]] 
-10. [x] [[lemma-cuantificación-acotada]] 
-## [ ] Combo 6
-11. [x] [[e-computable-implica-e-enumerable]] 
-12. [ ] [[caracterización-conjunto-r-enumerable]] (Incompleto, exageradamente largo)
-## [ ] Combo 7
-13. [ ] [[lemma-minimización-acotada]] (Incompleto)
-14. [ ] [[restricción-r]]
-## [ ] Combo 8
-15. [x] [[autohalt-no-r]]
-16. [x] [[autohalt-no-ec]]
-18. [x] [[autohalt-A-y-N]]
-19. [x] [[neumann-v-godel-c8]]
-## [ ] Combo 9
-19. [x] [[división-casos-r]]
-20. [x] [[halt-sigma-u-sigmap-pr]]
-21. [x] [[T-sigma-u-sigmap-r]]
- - - -
-Estadísticas
+- [ ] ![[Combo 1]]
+- [ ] ![[Combo 2]]
+- [ ] ![[Combo 3]]
+- [ ] ![[Combo 4]]
+- [ ] ![[Combo 5]]
+- [ ] ![[Combo 6]]
+- [-] ![[Combo 7]]
+- [ ] ![[Combo 8]]
+- [ ] ![[Combo 9]]
+## Estadísticas
 ---
 
 Tenemos 9 combos de los cual se sacan 2.
