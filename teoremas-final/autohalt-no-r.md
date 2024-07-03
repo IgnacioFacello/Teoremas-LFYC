@@ -1,12 +1,11 @@
 ---
 tags:
   - lfyc-c-IIX
-  - "#review"
-  - flashcards
 ---
 > **Lema 15** Supongamos $\Sigma\supseteq\Sigma_p$. Entonces ${AutoHalt}^\Sigma$ no es $\Sigma$-recursivo.
-
- - - - 
+?
+ 
+---
 Lo probaremos por el absurdo. Supongamos que ($\ast$) ${AutoHalt}^\Sigma$ es $\Sigma$-recursivo, entonces existe un macro
 $$
 [IF\ {AutoHalt^{\Sigma}}(W1)\ GOTO\ A1]

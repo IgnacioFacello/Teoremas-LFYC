@@ -1,8 +1,6 @@
 ---
 tags:
   - lfyc-c-III
-  - "#review"
-  - flashcards
 ---
 > **Teorema 6** Sean $S\subseteq\omega^n\times\Sigma^{*m}$. Son equivalentes:
 > (a) $S$ es $\Sigma$-efectivamente computable

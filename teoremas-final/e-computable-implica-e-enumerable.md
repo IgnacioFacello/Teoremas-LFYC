@@ -1,10 +1,8 @@
 ---
 tags:
   - lfyc-c-VI
-  - review
-  - flashcards
 ---
-> ** Si $S\subseteq\omega^n\times\Sigma^{*m}$ es $\Sigma$-efectivamente computable entonces $S$ es $\Sigma$-efectivamente enumerable
+> **Lema 11** Si $S\subseteq\omega^n\times\Sigma^{*m}$ es $\Sigma$-efectivamente computable entonces $S$ es $\Sigma$-efectivamente enumerable
 ?
 
 ---

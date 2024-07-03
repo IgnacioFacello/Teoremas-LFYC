@@ -1,8 +1,6 @@
 ---
 tags:
   - lfyc-c-V
-  - "#review"
-  - flashcards
 ---
 > **Lema 9** Sean $S_1,S_2\subseteq\omega^n\times\Sigma^{*m}$ conjuntos $\Sigma$-efectivamente enumerables. Entonces $S_1\cap S_2$ es $\Sigma$-efectivamente enumerable 
 ?

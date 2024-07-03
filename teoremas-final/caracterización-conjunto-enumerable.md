@@ -2,8 +2,6 @@
 tags:
   - lfyc-c-II
   - lfyc-c-IV
-  - "#review"
-  - flashcards
 ---
 > **Proposición 4** Sea $S\subseteq\omega^{n}\times\Sigma^{*m}$ un conjunto no vacío. Entonces son equivalentes:
 > (1) $S$ es $\Sigma$-enumerable 

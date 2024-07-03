@@ -1,8 +1,6 @@
 ---
 tags:
   - "#lfyc-c-I"
-  - "#review"
-  - flashcards
 ---
 > **Teorema 2** Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
 ?
