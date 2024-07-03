@@ -2,7 +2,7 @@
 tags:
   - "#lfyc-c-I"
 ---
-> **Proposición 1** Un conjunto S es $\Sigma$-pr $\iff$ es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
+> **Proposición 1** Un conjunto S es $\Sigma$-pr sii es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
 ?
 
 ---
