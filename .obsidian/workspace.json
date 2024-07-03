@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md"
+                "file": "teoremas-final/A-teoremas-final.md"
               }
             }
           },
@@ -185,6 +185,7 @@
   },
   "active": "ed8c0b42d7994f21",
   "lastOpenFiles": [
+    "teoremas-final/combos/Combo 6.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/godel-v-neumann.md",
@@ -200,7 +201,6 @@
     "teoremas-final/combos/Combo 9.md",
     "teoremas-final/combos/Combo 1.md",
     "teoremas-final/combos/Combo 8.md",
-    "teoremas-final/combos/Combo 6.md",
     "teoremas-final/combos/Combo 5.md",
     "teoremas-final/combos/Combo 4.md",
     "teoremas-final/combos/Combo 3.md",
