@@ -10,7 +10,7 @@ Probaremos por inducción en k que
 
 (\*)Si $h\in\mathrm{R}_{k}^{\Sigma}$, entonces $h$ es $\Sigma$-computable.
 
-Sea $k=0$ y $h\in R_{k}^{\Sigma}$ notar que
+Sea $k=0$ y $h\in R_{k}^{\Sigma}$, notar que
 $$
 \begin{aligned}
 Succ&=\Psi_{N1\gets N1+1}^{1,0,\#} \\
@@ -22,7 +22,6 @@ p_{j}^{n,m}&=\Psi_{N1\gets N\overline{j}}^{n,m,\#}\text{ si }j\in\left\{ 1,\dots
 p_{j}^{n,m}&=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\dots,n+m\right\}
 \end{aligned}
 $$
-Entonces para cualquier forma que tome $h\in R_{k}^{\Sigma}$ tenemos que va a ser $\Sigma$-computable.
 
 ---
 Supongamos (\*) vale para $k$, veremos que vale para $k+1$. Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=R(f,\mathcal{G})$, con 
