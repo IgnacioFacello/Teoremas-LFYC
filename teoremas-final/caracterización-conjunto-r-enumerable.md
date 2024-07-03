@@ -10,11 +10,9 @@ z> Dado $S\subseteq\omega^n\times\Sigma^{*m}$, son equivalentes
 (Solo la prueba de $(2)\implies(3)$, $k=l=1$ y $n=m=2$)
 
 ---
-($(2)\implies(3)$) caso  $k=l=1$ y $n=m=2$. El caso general es completamente análogo.
+($(2)\implies(3)$) Sean  $k=l=1$ y $n=m=2$. El caso general es completamente análogo.
 > Partiendo de (2) $S=I_F$ para alguna $F:D_F\subseteq\omega\times\Sigma^{\ast}\to\omega^2\times\Sigma^{\ast 2}$ tal que cada $F_{(i)}$ es $\Sigma$-r
 > Queremos llegar a (3) $S=D_f$ para alguna función $\Sigma$-recursiva $f$
 
-Note entonces que tenemos que $S\subseteq\omega^2\times\Sigma^{\ast 2}$ y $F:D_F\subseteq\omega\times\Sigma^{\ast}\to\omega^2\times\Sigma^{\ast 2}$ es tal que $I_F=S$ y $F_{(1)},F_{(2)},F_{(3)},F_{(4)}$ son $\Sigma$-recursivas. Para cada $i\in\{1,2,3,4\}$, sea $\mathcal{P}_i$ un programa el cual computa a $F_{(i)}$. Sea $\leq$ un orden sobre $\Sigma$. Definamos
-$$
-H_{i}=\lambda tx_1\alpha_1[\lnot\operatorname{Halt^{1,1}}(t,x_1,\alpha_1,\mathcal{P}_i)]
-$$
+Notar entonces que tenemos que $S\subseteq\omega^2\times\Sigma^{\ast 2}$ y $F:D_F\subseteq\omega\times\Sigma^{\ast}\to\omega^2\times\Sigma^{\ast 2}$ es tal que $I_F=S$ y $F_{(1)},F_{(2)},F_{(3)},F_{(4)}$ son $\Sigma$-recursivas. Para cada $i\in\{1,2,3,4\}$, sea $\mathcal{P}_i$ un programa el cual computa a $F_{(i)}$. Sea $\leq$ un orden sobre $\Sigma$. Definamos$$H_{i}=\lambda tx_1\alpha_1[\lnot\operatorname{Halt^{1,1}}(t,x_1,\alpha_1,\mathcal{P}_i)]$$
+Notar que $D_{H_i}=\omega\times\omega\times\Sigma^{*}$ por lo tanto cada $H_i$ es $\Sigma$-mixta. Ademas, como ${Halt}^{1,1}$ es $(\Sigma\cup\Sigma_p)$-p.r., $H_i$ tambien lo es. Por el lema de *independecia del alfabeto*
