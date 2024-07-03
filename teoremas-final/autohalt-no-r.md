@@ -6,10 +6,11 @@ tags:
 ?
  
 ---
-Lo probaremos por el absurdo. Supongamos que ($\ast$) ${AutoHalt}^\Sigma$ es $\Sigma$-recursivo, entonces existe un macro
+Lo probaremos por el absurdo. Supongamos que ($\ast$) ${AutoHalt}^\Sigma$ es $\Sigma$-recursivo por el *lema de las macros* entonces existe el macro
 $$
 [IF\ {AutoHalt^{\Sigma}}(W1)\ GOTO\ A1]
 $$
+ - - -
 Sea $\mathcal{P}_0$ el siguiente programa 
 $$
 \begin{aligned}
@@ -19,4 +20,4 @@ $$
 Notar que
 - $\mathcal{P}_0$ termina partiendo desde $\parallel{\mathcal{P}_0}\parallel$ sii ${AutoHalt}^{\Sigma}(\mathcal{P}_0)=0$ 
 
-lo cual contradice la suposición inicial ($\ast$).
+Es decir, el programa termina partiendo de si mismo si y solo si no termina partiendo de si mismo, lo cual es un absurdo.

@@ -20,19 +20,55 @@
             }
           },
           {
-            "id": "31b4fddc4c12c05b",
+            "id": "16cb911dafce64fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/T-sigma-u-sigmap-r.md",
+                "file": "teoremas-final/neumann-v-godel-c8.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1659816ad233f660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/autohalt-A-y-N.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72910b68932db874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/autohalt-no-ec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0df799538d742fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/autohalt-no-r.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/T-sigma-u-sigmap-r.md",
+                "file": "teoremas-final/autohalt-no-r.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/T-sigma-u-sigmap-r.md",
+                "file": "teoremas-final/autohalt-no-r.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/T-sigma-u-sigmap-r.md"
+                "file": "teoremas-final/autohalt-no-r.md"
               }
             }
           },
@@ -195,12 +231,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "31b4fddc4c12c05b",
+  "active": "0df799538d742fd4",
   "lastOpenFiles": [
+    "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/autohalt-A-y-N.md",
+    "teoremas-final/autohalt-no-ec.md",
+    "teoremas-final/autohalt-no-r.md",
+    "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/división-casos-r.md",
-    "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/combos/Combo 9.md",
     "teoremas-final/combos/Combo 1.md",
     "teoremas-final/combos/Combo 8.md",
@@ -211,7 +251,6 @@
     "teoremas-final/combos/Combo 2.md",
     "teoremas-final/combos/Combo 7.md",
     "teoremas-final/combos",
-    "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/lemma-minimización-acotada.md",
@@ -221,8 +260,6 @@
     "teoremas-final/e-computable-implica-e-enumerable.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
-    "teoremas-final/autohalt-no-r.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
