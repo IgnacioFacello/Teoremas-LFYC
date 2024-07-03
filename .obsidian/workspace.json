@@ -42,33 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "72910b68932db874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/autohalt-no-ec.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0df799538d742fd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/autohalt-no-r.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/autohalt-no-r.md",
+                "file": "teoremas-final/autohalt-A-y-N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/autohalt-no-r.md",
+                "file": "teoremas-final/autohalt-A-y-N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/autohalt-no-r.md"
+                "file": "teoremas-final/autohalt-A-y-N.md"
               }
             }
           },
@@ -231,13 +207,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0df799538d742fd4",
+  "active": "1659816ad233f660",
   "lastOpenFiles": [
+    "teoremas-final/autohalt-no-ec.md",
+    "teoremas-final/autohalt-no-r.md",
     "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/autohalt-no-ec.md",
-    "teoremas-final/autohalt-no-r.md",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/división-casos-r.md",

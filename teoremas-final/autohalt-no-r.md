@@ -20,4 +20,4 @@ $$
 Notar que
 - $\mathcal{P}_0$ termina partiendo desde $\parallel{\mathcal{P}_0}\parallel$ sii ${AutoHalt}^{\Sigma}(\mathcal{P}_0)=0$ 
 
-Es decir, el programa termina partiendo de si mismo si y solo si no termina partiendo de si mismo, lo cual es un absurdo.
+lo cual es un absurdo que surge de suponer ($\ast$) y por lo tanto ${AutoHalt}^\Sigma$ no es $\Sigma$-recursivo.

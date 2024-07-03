@@ -6,4 +6,4 @@ tags:
 ?
 
 --- 
-Si ${AutoHalt}^{\Sigma}$ fuera $\Sigma$-e.c., por la Tesis de Church tendríamos que es $\Sigma$-r. y se contradice el lema anterior, por lo tanto no puede ser $\Sigma$-e.c..
+Si ${AutoHalt}^{\Sigma}$ fuera $\Sigma$-e.c., por la [[Tesis de Church]] tendríamos que es $\Sigma$-recursivo y esto contradice el lema anterior, por lo tanto no puede ser $\Sigma$-e.c..
