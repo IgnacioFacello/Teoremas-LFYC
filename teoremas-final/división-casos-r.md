@@ -18,7 +18,7 @@ Si $f_1,{f_2}$ son $\Sigma\text{-recursivas}$ entonces son $\Sigma\text{-computa
 $$
 H_i=\lambda{tx_1\alpha_1}[\operatorname{Halt^{1,1}(t,x_1,\alpha_1,\mathcal{P}_{i})}]
 $$
-Notar que $D_{H_{i}}=\omega^{2}\times\Sigma^{\ast}$ y que $H_{i}$ es $\Sigma$-mixta. Además sabemos que la función $\operatorname{Halt^{1,1}}$ es $(\Sigma\cup\Sigma_{p})$-p.r. por lo cual resulta fácilmente que $H_{i}$ es $(\Sigma\cup\Sigma_{p})$-p.r. y por el *lema de independencia del alfabeto* es $\Sigma$-p.r.. Entonces $H_{i}$ es $\Sigma$-computable y tenemos un macro
+Notar que $D_{H_{i}}=\omega^{2}\times\Sigma^{\ast}$ y que $H_{i}$ es $\Sigma$-mixta. Además sabemos que la función $\operatorname{Halt^{1,1}}$ es $(\Sigma\cup\Sigma_{p})$-p.r. por lo cual resulta fácilmente que $H_{i}$ es $(\Sigma\cup\Sigma_{p})$-p.r. y por la *proposición de independencia del alfabeto* es $\Sigma$-p.r.. Entonces $H_{i}$ es $\Sigma$-computable y tenemos un macro
 $$
 [IF\ H_i(V1,V2,W1)\ GOTO\ A1]
 $$
