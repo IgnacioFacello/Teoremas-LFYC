@@ -25,7 +25,7 @@ E_i &= \lambda{xtx_1\alpha_1}[x\neq E_{\#1}^{1,1}(t,x_1,\alpha_1,\mathcal{P}_i)]
 E_i &= \lambda{tx_1\alpha_1\alpha}[\alpha\neq E_{*1}^{1,1}(t,x_1,\alpha_1,\mathcal{P}_i)] &i=3,4
 \end{align}
 $$
-que son $\Sigma$-p.r. y $\Sigma$-computables y por lo tanto tenemos macros
+tales que $$E_i=\lambda{xy}[x\neq y]\circ[p_1^{3,1},E_{\#1}^{1,1}\circ [p_2^{3,1},p_3^{3,1},p_4^{3,1},C_{\mathcal{P}_0}^{3,1}]]\quad i=1,2$$ y similar para $i=3,4$ claramente $\Sigma$-p.r. y por lo tanto $\Sigma$-computables y ademas tenemos macros
 $$
 \begin{align}
 &[IF\ E_i(V2,V3,V1,W1)\ GOTO\ A1] &i=1,2 \\
@@ -40,7 +40,7 @@ $$
 \end{align}
 $$
  - - -
-SImilarmente, vamo a tomar las siguientes macros que existen por el lema de las macros para funciones $\Sigma$-p.r.
+SImilarmente, vamos a tomar las siguientes macros que existen por el *lema de las macros* para funciones $\Sigma$-p.r.
 $$
 \begin{align}
 &[V2\gets(V1)_1]\\
