@@ -14,3 +14,4 @@ Halt^{n,m}= \lambda{xy}[x=y]\circ\left[
         {p_{(n+1)+(m+1)}^{n+1,m+1}}
 \right]
 $$
+Sabemos que $i^{n,m}$ y $n(\mathcal{P})$ son $(\Sigma\cup\Sigma_p)$-recursivas por el teorico.

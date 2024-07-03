@@ -6,7 +6,11 @@ tags:
 ?
 
 ---
-Idea: 
+> Iteramos $t\in\omega$ hasta que alguno de los programas termine en t pasos y devolvemos el resultado. Si ninguno de los dos termina entonces la entrada se encuentra fuera de $D_{f_1}\cup{D_{f_2}}$  y el programa no termina nunca.
+ > Claves:
+ > 1. ${Halt}^{1,1}$ es $(\Sigma\cup\Sigma_{p})$-p.r.
+ > 2. Tenemos programa y macros para cada función 
+ 
  - - - 
 Haremos el caso $k=2$, $n=m=1$ y $O=\omega$ . Sean $f_i:D_{f_i}\subseteq{\omega\times\Sigma^{\ast}}\to{\omega}$ para $i\in\{1,2\}$ funciones $\Sigma\text{-recursivas}$ tales que $D_{f_1}\cap{D_{f_2}}=\emptyset$ . Entonces la función $f_1\cup{f_2}$ es $\Sigma\text{-recursiva}$.
  - - -
