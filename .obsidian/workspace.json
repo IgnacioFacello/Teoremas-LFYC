@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b5df7c16f3b1ce58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0429bb086757904c",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-04.md",
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-04.md",
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-04.md"
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md"
               }
             }
           },
@@ -194,10 +207,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ed8c0b42d7994f21",
+  "active": "b5df7c16f3b1ce58",
   "lastOpenFiles": [
-    "teoremas-final/A-teoremas-final.md",
     "2024-07-04.md",
+    "teoremas-final/A-teoremas-final.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
