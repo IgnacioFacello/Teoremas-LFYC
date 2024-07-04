@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#lfyc-c-III",
+                "query": "tag:#lfyc-c-II",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/division-casos-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md"
+                "file": "teoremas-final/division-casos-pr.md"
               }
             }
           },
@@ -184,12 +184,13 @@
   },
   "active": "be873849a308fcfe",
   "lastOpenFiles": [
-    "teoremas-final/godel-v-neumann.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/division-casos-pr.md",
     "teoremas-final/caracterización-conjunto-ec.md",
+    "teoremas-final/godel-v-neumann.md",
     "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-A-y-N.md",
     "conflict-files-obsidian-git.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/lemma-sumatoria.md",
     "2024-07-02.md",
     "Untitled 1.canvas",
@@ -206,7 +207,6 @@
     "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/lemma-minimización-acotada.md",
     "teoremas-final/e-computable-implica-e-enumerable.md",
-    "teoremas-final/division-casos-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/Untitled.md",
