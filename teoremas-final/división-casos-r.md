@@ -12,7 +12,10 @@ tags:
  > 2. Tenemos programa y macros para cada función 
  
  - - - 
-> Usamos halt para definir la pertenencia al dominio y segun el resultado decidimos que funcion devolver
+> Usamos *Neuman v. Godel* para obtener los programas de las $f_i$
+> $H_i$ se define en base a Halt  que es $\Sigma\cup\Sigma_p$-recursiva y por la *independencia del alfabeto* es $\Sigma$-recursiva
+> Luego por el *lema de las macros*  tenemos macros para $H_i$ 
+> Usamos los $H_i$ y los macros de las $f_i$, iterando en cantidad de pasos hasta que alguno de los dos programas terminen, en cuyo caso devolvemos el resultado apropiado
 
 Haremos el caso $k=2$, $n=m=1$ y $O=\omega$ . Sean $f_i:D_{f_i}\subseteq{\omega\times\Sigma^{\ast}}\to{\omega}$ para $i\in\{1,2\}$ funciones $\Sigma\text{-recursivas}$ tales que $D_{f_1}\cap{D_{f_2}}=\emptyset$ . Entonces la función $f_1\cup{f_2}$ es $\Sigma\text{-recursiva}$.
 
