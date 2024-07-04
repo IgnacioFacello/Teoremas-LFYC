@@ -25,8 +25,12 @@ p_{j}^{n,m}&=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\d
 $$
 
 ---
+> Tenemos un macro para P y podemos iterar en omega en el primer parámetro hasta que se cumpla el predicado
+
 Supongamos ($*$) vale para $k$, veremos que vale para $k+1$. 
+
 Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=M(P)$, con $P:\omega\times\omega^{n}\times\Sigma^{\ast m}\to\omega$ un predicado en ${R}_{k}^{\Sigma}$. 
+
 Por Hipótesis Inductiva $P$ es $\Sigma$-computable y tenemos el macro
 $$[IF\ P(V1,\dots, V\overline{n+1},W\bar1,\dots, W\overline{m})\ GOTO\ A1]$$
 el cual podemos utilizar para definir el siguiente programa
