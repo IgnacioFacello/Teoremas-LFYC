@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ed8ea61000e8d52e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/autohalt-A-y-N.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/autohalt-A-y-N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "teoremas-final/autohalt-A-y-N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "teoremas-final/autohalt-A-y-N.md"
               }
             }
           },
@@ -182,10 +195,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ed8c0b42d7994f21",
+  "active": "ed8ea61000e8d52e",
   "lastOpenFiles": [
-    "teoremas-final/godel-v-neumann.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/godel-v-neumann.md",
     "teoremas-final/division-casos-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/caracterización-conjunto-pr.md",
