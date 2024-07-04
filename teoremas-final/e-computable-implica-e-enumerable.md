@@ -6,6 +6,7 @@ tags:
 ?
 
 ---
+> Tenemos que $\chi_S^{\omega^n\times\Sigma^{*m}}$  es $\Sigma$-e.c.
 > Suponemos que $S\neq\emptyset$ y que $e_0\in S$
 > Generamos  $\omega^n\times\Sigma^{*m}$ y devolvemos el valor generado si pertenece a S, caso contrario devolvemos $e_0$
 

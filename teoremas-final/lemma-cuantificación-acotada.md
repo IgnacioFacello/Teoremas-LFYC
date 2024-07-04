@@ -9,6 +9,8 @@ tags:
 - - - 
 > - P es $\Sigma$-p.r.
 > - Definimos una version $\bar{P}$ que puede tomar cualquier x en omega
+> 	- Devuelve P() para valores dentro de $\bar{S}$ 
+> 	- Devuelve 1 para los demás, el neutro para la conjunción
 > - La usamos para definir a cuantificación como una productoria pr
 > - Esto nos dice que la cuantificación es pr
 
