@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a0b20f45230360aa",
+        "id": "d589f83256166921",
         "type": "tabs",
         "children": [
           {
-            "id": "ed8c0b42d7994f21",
+            "id": "be873849a308fcfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-04.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5df7c16f3b1ce58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0429bb086757904c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,9 +48,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
+                "query": "tag:#lfyc-c-III",
+                "matchingCase": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -90,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "668a74496364075d",
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/godel-v-neumann.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md"
+                "file": "teoremas-final/godel-v-neumann.md"
               }
             }
           },
@@ -180,7 +155,7 @@
             }
           },
           {
-            "id": "70f727d146c2c730",
+            "id": "75be977f3d29c2e1",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -207,35 +182,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b5df7c16f3b1ce58",
+  "active": "be873849a308fcfe",
   "lastOpenFiles": [
-    "2024-07-04.md",
-    "teoremas-final/caracterización-conjunto-r-enumerable.md",
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/T-sigma-u-sigmap-r.md",
-    "teoremas-final/halt-sigma-u-sigmap-pr.md",
-    "teoremas-final/división-casos-r.md",
-    "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/neumann-v-godel-c8.md",
+    "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/autohalt-no-ec.md",
-    "teoremas-final/autohalt-no-r.md",
-    "teoremas-final/e-computable-implica-e-enumerable.md",
+    "teoremas-final/autohalt-A-y-N.md",
+    "teoremas-final/godel-v-neumann.md",
+    "conflict-files-obsidian-git.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
+    "teoremas-final/lemma-sumatoria.md",
+    "2024-07-02.md",
+    "Untitled 1.canvas",
+    "Untitled Kanban.md",
+    "Untitled.canvas",
     "teoremas-final/lemma-cuantificación-acotada.md",
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
-    "teoremas-final/lemma-sumatoria.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
-    "teoremas-final/godel-v-neumann.md",
-    "teoremas-final/teoremas-long.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
-    "teoremas-final/combos/Combo 6.md",
+    "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "teoremas-final/autohalt-no-r.md",
+    "teoremas-final/halt-sigma-u-sigmap-pr.md",
+    "teoremas-final/T-sigma-u-sigmap-r.md",
+    "teoremas-final/división-casos-r.md",
+    "teoremas-final/neumann-v-godel-c8.md",
+    "teoremas-final/lemma-minimización-acotada.md",
+    "teoremas-final/e-computable-implica-e-enumerable.md",
+    "teoremas-final/division-casos-pr.md",
     "teoremas-final/neumann-v-godel-c1.md",
-    "teoremas-final/restricción-r.md",
-    "teoremas-final/combos/Combo 9.md",
-    "teoremas-final/combos/Combo 1.md",
-    "teoremas-final/combos/Combo 8.md",
-    "teoremas-final/combos/Combo 5.md",
-    "teoremas-final/combos",
+    "teoremas-final/caracterización-conjunto-pr.md",
+    "teoremas-final/Untitled.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
@@ -245,6 +219,8 @@
     "teoremas-lyx/combo1/send/combo1-teoremas-zECazo.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-hCrkVR.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-hDpTre.lyx",
+    "teoremas-lyx/combo1/send/combo1-teoremas-zyZHDb.lyx",
+    "teoremas-final/guia5-lemma18.md",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"
