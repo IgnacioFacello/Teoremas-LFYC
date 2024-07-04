@@ -14,25 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "teoremas-final/A-teoremas-final.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "54b1a56113ee40a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoremas-final/teoremas-long.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/teoremas-long.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/teoremas-long.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/teoremas-long.md"
+                "file": "teoremas-final/A-teoremas-final.md"
               }
             }
           },
@@ -196,11 +183,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "54b1a56113ee40a6",
+  "active": "ed8c0b42d7994f21",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-pr.md",
-    "teoremas-final/teoremas-long.md",
+    "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/teoremas-long.md",
+    "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/combos/Combo 6.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/godel-v-neumann.md",
@@ -224,7 +212,6 @@
     "teoremas-final/combos",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/lemma-minimización-acotada.md",
-    "teoremas-final/lemma-cuantificación-acotada.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
