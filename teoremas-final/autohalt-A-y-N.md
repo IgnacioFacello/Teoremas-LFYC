@@ -6,12 +6,11 @@ tags:
 ?
 
 ---
-> P es el predicado 'El programa termina en t pasos partiendo de si mismo'
-> M(P) es 'Mínimo t para el cual se cumple P'
-> Claramente M(P) tiene como dominio los programa que terminan partiendo de si mismos
+> Clave 1: Halt es $(\Sigma\cup\Sigma_p)$-pr. Y como $\Sigma\supseteq\Sigma_p$ entonces es $\Sigma$-pr
+> Claramente M(P) tiene como dominio los programa que terminan partiendo de si mismos, es decir $A$
+> Luego A es $\Sigma$-r.e. por ser dominio de una función $\Sigma$-r.
 
-Sea $$P=\lambda{t\mathcal{P}}\left[{Halt}^{0,1}(t,\mathcal{P},\mathcal{P})\right]$$
-, como ${Halt}^{0,1}$ es $(\Sigma\cup\Sigma_p)$-p.r. es también $\Sigma$-p.r. ya que suponemos $\Sigma\supseteq\Sigma_p$. Por lo tanto se puede ver que $P$ es $\Sigma$-p.r. y por el *lema de la minimización acotada* tenemos que $M(P)$ es $\Sigma$-recursivo. Además se puede ver que $D_{M(P)}=A$, lo que implica que A es $\Sigma$-recursivamente enumerable.
+Sea $$P=\lambda{t\mathcal{P}}\left[{Halt}^{0,1}(t,\mathcal{P},\mathcal{P})\right]$$, como ${Halt}^{0,1}$ es $(\Sigma\cup\Sigma_p)$-p.r. es también $\Sigma$-p.r. ya que suponemos $\Sigma\supseteq\Sigma_p$. Por lo tanto se puede ver que $P$ es $\Sigma$-p.r. y por el *lema de la minimización acotada* tenemos que $M(P)$ es $\Sigma$-recursivo. Además se puede ver que $D_{M(P)}=A$, lo que implica que A es $\Sigma$-recursivamente enumerable.
  - - -
 Veamos ahora que N no es $\Sigma$-r.e., haremos la prueba por absurdo. Supongamos que ($\ast$) $N$ es $\Sigma$-recursivamente enumerable. Como $C_{k}^{n,m},n,m,k\in\omega$ es $\Sigma$-recursiva. Entonces las funciones $C_{0}^{0,1}|_{N}$ y $C_{1}^{0,1}|_{A}$ son $\Sigma$-recursivas ya que $A$ y $N$ son $\Sigma$-r.e.. 
 Luego, notar que $${AutoHalt}^{\Sigma}=C_{0}^{0,1}|_{N}\cup{C}_{1}^{0,1}|_{A}$$ y por el *lema de division por casos para funciones recursivas* será $\Sigma$-recursivo. Vemos que la suposición ($\ast$) nos lleva a un resultado que contradice el [[autohalt-no-r|lema 15]] de los combos y por lo tanto $N$ no es $\Sigma$-r.e.
