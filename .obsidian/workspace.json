@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "237ce0fdca34ff5c",
+            "id": "82b1ff0679b714ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/lemma-cuantificación-acotada.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/lemma-cuantificación-acotada.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md",
+                "file": "teoremas-final/lemma-cuantificación-acotada.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/lemma-sumatoria.md"
+                "file": "teoremas-final/lemma-cuantificación-acotada.md"
               }
             }
           },
@@ -196,9 +196,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "237ce0fdca34ff5c",
+  "active": "82b1ff0679b714ba",
   "lastOpenFiles": [
     "teoremas-final/A-teoremas-final.md",
+    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
+    "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/godel-v-neumann.md",
@@ -222,9 +224,7 @@
     "teoremas-final/combos/Combo 4.md",
     "teoremas-final/combos/Combo 3.md",
     "teoremas-final/combos/Combo 2.md",
-    "teoremas-final/combos/Combo 7.md",
     "teoremas-final/combos",
-    "teoremas-final/lemma-sumatoria.md",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
     "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",

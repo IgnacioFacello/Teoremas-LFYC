@@ -58,7 +58,7 @@ $$
 tenemos que $G=R(h,g)$. Solo queda probar que $h$ y $g$ son $\Sigma$-pr. 
 
 ---
-> Vamos a definir h y g por casos y usar el lema para probar que son pr
+> Vamos a definir h y g por casos y usar el lema de division por casos para probar que son pr
 
 Sean
 $$

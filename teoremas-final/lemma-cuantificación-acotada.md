@@ -7,7 +7,7 @@ tags:
 ?
 
 - - - 
-> - P es pr
+> - P es $\Sigma$-p.r.
 > - Definimos una version $\bar{P}$ que puede tomar cualquier x en omega
 > - La usamos para definir a cuantificación como una productoria pr
 > - Esto nos dice que la cuantificación es pr
