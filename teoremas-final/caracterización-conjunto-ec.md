@@ -32,8 +32,8 @@ $$
 	&\qquad\text{Realizar } \mathbb P_2 \text{ con el valor de T como entrada, obteniendo como salida la upla } (\vec z,\vec\gamma).
 	\\
 &Etapa 4:\\
-	&\qquad\text{Si } (\vec y,\vec\beta)=(\vec x,\vec\alpha) \text{ detenerse y devolver 0.} \\
-	&\qquad\text{Si } (\vec z,\vec\gamma)=(\vec x,\vec\alpha) \text{ detenerse y devolver 1.} \\ 
+	&\qquad\text{Si } (\vec y,\vec\beta)=(\vec x,\vec\alpha) \text{ detenerse y devolver 1.} \\
+	&\qquad\text{Si } (\vec z,\vec\gamma)=(\vec x,\vec\alpha) \text{ detenerse y devolver 0.} \\ 
 	&\qquad \text{Caso contrario, aumentar T en 1 e ir a la etapa 2}
 	\\
 \end{align}
