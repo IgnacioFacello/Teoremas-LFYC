@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:teoremas-final -tag:#review ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -14,9 +14,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0,
-  "repelStrength": 16.3541666666667,
-  "linkStrength": 1,
-  "linkDistance": 314,
-  "scale": 0.07640947520857423,
+  "repelStrength": 19.8650762612436,
+  "linkStrength": 0,
+  "linkDistance": 250,
+  "scale": 0.08014910065574386,
   "close": true
 }

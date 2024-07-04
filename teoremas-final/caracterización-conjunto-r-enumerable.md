@@ -65,4 +65,4 @@ L1\ & N20\gets N20+1 \\
 	& \left[IF\ P2\neq E_{*1}^{1,1}(N10,N3,P3,\mathcal{P}_4)\ GOTO\ L1\right] \\
 \end{align}
 $$
-que computa $p_1^{2,2}|_S$. Debido a esto, es $\Sigma$-computable y por lo tanto $\Sigma$-recursiva con dominio $S$ $(3)$. 
+Podemos observar claramente que computa $p_1^{2,2}|_S$. Debido a esto, es $\Sigma$-computable y por lo tanto $\Sigma$-recursiva con dominio $S$ $(3)$. 

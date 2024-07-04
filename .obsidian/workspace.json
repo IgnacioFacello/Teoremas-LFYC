@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "teoremas-final/A-teoremas-final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md"
+                "file": "teoremas-final/A-teoremas-final.md"
               }
             }
           },
@@ -219,12 +218,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b5df7c16f3b1ce58",
+  "active": "ed8c0b42d7994f21",
   "lastOpenFiles": [
-    "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/A-teoremas-final.md",
-    "2024-07-04.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "teoremas-final/caracterización-conjunto-ec.md",
+    "2024-07-04.md",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/división-casos-r.md",
