@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
-                "mode": "preview",
+                "file": "2024-07-04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0429bb086757904c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "2024-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "2024-07-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md"
+                "file": "2024-07-04.md"
               }
             }
           },
@@ -184,8 +196,10 @@
   },
   "active": "ed8c0b42d7994f21",
   "lastOpenFiles": [
-    "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/A-teoremas-final.md",
+    "2024-07-04.md",
+    "teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/división-casos-r.md",
     "teoremas-final/autohalt-A-y-N.md",
@@ -202,14 +216,12 @@
     "teoremas-final/teoremas-long.md",
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/combos/Combo 6.md",
-    "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/neumann-v-godel-c1.md",
     "teoremas-final/restricción-r.md",
     "teoremas-final/combos/Combo 9.md",
     "teoremas-final/combos/Combo 1.md",
     "teoremas-final/combos/Combo 8.md",
     "teoremas-final/combos/Combo 5.md",
-    "teoremas-final/combos/Combo 4.md",
     "teoremas-final/combos",
     "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
