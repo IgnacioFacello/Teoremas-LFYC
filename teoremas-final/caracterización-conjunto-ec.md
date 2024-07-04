@@ -5,12 +5,11 @@ tags:
 > **Teorema 6** Sean $S\subseteq\omega^n\times\Sigma^{*m}$. Son equivalentes:
 > (a) $S$ es $\Sigma$-efectivamente computable
 >	(Es decir) Hay un procedimiento que computa a $\chi^{\omega^n\times\Sigma^{*m}}_S$
->  (b) $S$ y $\omega^n\times\Sigma^{*m}-S$ $\Sigma$-efectivamente enumerables
+>  (b) $S$ y $(\omega^n\times\Sigma^{*m})-S$ $\Sigma$-efectivamente enumerables
 ?
 
 (Solo caso $(b)\implies (a)$)
  - - -  
-$S$ $\Sigma$-e.computable $\implies$$S$ y $\bar S$ $\Sigma$-e.enumerable
 > Suponemos que podemos generar $S$ y $S^{-1}$
 > Dado un $(\vec x,\vec\alpha)$ de consulta vamos a realizar un ciclo finito, ya que eventualmente se cumple la condición
 > En cada paso generamos valores de ambos conjuntos, y si alguno de los valores generados es el valor de consulta devolvemos 0 o 1 según cual de los generados coincida
