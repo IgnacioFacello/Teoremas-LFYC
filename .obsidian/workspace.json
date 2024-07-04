@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/godel-v-neumann.md",
-                "mode": "source",
+                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/godel-v-neumann.md",
+                "file": "teoremas-final/caracterización-conjunto-ec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/godel-v-neumann.md",
+                "file": "teoremas-final/caracterización-conjunto-ec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/godel-v-neumann.md"
+                "file": "teoremas-final/caracterización-conjunto-ec.md"
               }
             }
           },
@@ -184,10 +184,10 @@
   },
   "active": "be873849a308fcfe",
   "lastOpenFiles": [
+    "teoremas-final/godel-v-neumann.md",
     "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/godel-v-neumann.md",
     "conflict-files-obsidian-git.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
     "teoremas-final/lemma-sumatoria.md",

@@ -4,5 +4,6 @@
   "textFontFamily": "",
   "enabledCssSnippets": [
     "sirbv"
-  ]
+  ],
+  "baseFontSize": 23
 }
