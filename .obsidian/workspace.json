@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md",
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/caracterización-conjunto-ec.md"
+                "file": "teoremas-final/caracterización-conjunto-r-enumerable.md"
               }
             }
           },
@@ -219,8 +219,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9e460a9a0d688cb7",
+  "active": "b5df7c16f3b1ce58",
   "lastOpenFiles": [
+    "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/A-teoremas-final.md",
     "2024-07-04.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
@@ -236,7 +237,6 @@
     "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "teoremas-final/lemma-sumatoria.md",
     "teoremas-final/caracterización-conjunto-enumerable.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
     "teoremas-final/godel-v-neumann.md",
     "teoremas-final/teoremas-long.md",
     "teoremas-final/caracterización-conjunto-pr.md",
