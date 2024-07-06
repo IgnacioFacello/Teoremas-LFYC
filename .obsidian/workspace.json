@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/autohalt-A-y-N.md",
+                "file": "plan de estudio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoremas-final/autohalt-A-y-N.md",
+                "file": "plan de estudio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoremas-final/autohalt-A-y-N.md",
+                "file": "plan de estudio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoremas-final/autohalt-A-y-N.md"
+                "file": "plan de estudio.md"
               }
             }
           },
@@ -196,6 +196,7 @@
   },
   "active": "ed8ea61000e8d52e",
   "lastOpenFiles": [
+    "teoremas-final/autohalt-A-y-N.md",
     "teoremas-final/A-teoremas-final.md",
     "teoremas-final/godel-v-neumann.md",
     "teoremas-final/division-casos-pr.md",
@@ -203,11 +204,10 @@
     "teoremas-final/caracterización-conjunto-pr.md",
     "teoremas-final/caracterización-conjunto-r-enumerable.md",
     "teoremas-final/caracterización-conjunto-ec.md",
-    "2024-07-04.md",
+    "plan de estudio.md",
     "teoremas-final/T-sigma-u-sigmap-r.md",
     "teoremas-final/halt-sigma-u-sigmap-pr.md",
     "teoremas-final/división-casos-r.md",
-    "teoremas-final/autohalt-A-y-N.md",
     "teoremas-final/neumann-v-godel-c8.md",
     "teoremas-final/autohalt-no-ec.md",
     "teoremas-final/autohalt-no-r.md",

@@ -1,0 +1,5 @@
+- [ ] #TODO Escribir teoremas del combo 7
+- [ ] #TODO Hacer flashcards de todos los combos
+- [ ] #TODO Escribir todos los combos teoricos
+- [ ] #TODO Hacer flashcards de los combos teoricos
+- [ ] 
