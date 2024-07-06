@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoremas-final/A-teoremas-final.md",
+                "file": "lenguajes/teoremas-final/A-teoremas-final.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plan de estudio.md",
+                "file": "numerico/Analisis Numerico/Cálculo de error.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plan de estudio.md",
+                "file": "numerico/Analisis Numerico/Cálculo de error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "plan de estudio.md",
+                "file": "numerico/Analisis Numerico/Cálculo de error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "plan de estudio.md"
+                "file": "numerico/Analisis Numerico/Cálculo de error.md"
               }
             }
           },
@@ -196,42 +196,43 @@
   },
   "active": "ed8ea61000e8d52e",
   "lastOpenFiles": [
-    "teoremas-final/autohalt-A-y-N.md",
-    "teoremas-final/A-teoremas-final.md",
-    "teoremas-final/godel-v-neumann.md",
-    "teoremas-final/division-casos-pr.md",
-    "teoremas-final/neumann-v-godel-c1.md",
-    "teoremas-final/caracterización-conjunto-pr.md",
-    "teoremas-final/caracterización-conjunto-r-enumerable.md",
-    "teoremas-final/caracterización-conjunto-ec.md",
-    "plan de estudio.md",
-    "teoremas-final/T-sigma-u-sigmap-r.md",
-    "teoremas-final/halt-sigma-u-sigmap-pr.md",
-    "teoremas-final/división-casos-r.md",
-    "teoremas-final/neumann-v-godel-c8.md",
-    "teoremas-final/autohalt-no-ec.md",
-    "teoremas-final/autohalt-no-r.md",
-    "teoremas-final/e-computable-implica-e-enumerable.md",
-    "teoremas-final/lemma-cuantificación-acotada.md",
-    "teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
-    "teoremas-final/lemma-sumatoria.md",
-    "teoremas-final/caracterización-conjunto-enumerable.md",
-    "teoremas-final/teoremas-long.md",
-    "teoremas-final/combos/Combo 6.md",
-    "teoremas-final/restricción-r.md",
-    "teoremas-final/combos/Combo 9.md",
-    "teoremas-final/combos/Combo 1.md",
-    "teoremas-final/combos/Combo 8.md",
-    "teoremas-final/combos",
-    "teoremas-lyx/combo1/send/combo1-teoremas.pdf",
-    "teoremas-lyx/combo1/send/combo1-teoremas-pIQlIA.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-SuHrQu.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-fPzkJi.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-cqQQJv.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-jgmvQD.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-zECazo.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-hCrkVR.lyx",
-    "teoremas-lyx/combo1/send/combo1-teoremas-hDpTre.lyx",
+    "numerico/Analisis Numerico/Algoritmo de Horner.md",
+    "numerico/Solución de ecuaciones no lineales/Método de bisección.md",
+    "numerico/Solución de ecuaciones no lineales/Método de Newton.md",
+    "numerico/Pasted image 20220420115550.png",
+    "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
+    "numerico/Sucesiones y Series/Series de Potencias.md",
+    "numerico/Sucesiones y Series/Series.md",
+    "numerico/Sucesiones y Series/Sucesiones.md",
+    "numerico/Solución de ecuaciones no lineales/Método de la secante.md",
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
+    "numerico/@Final Analisis Numerico (Borrar)/Finales de practica.md",
+    "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo simplex.md",
+    "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo grafico.md",
+    "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Metodos iterativos.md",
+    "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Factorizacion LU.md",
+    "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Eliminación gaussiana.md",
+    "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica/Trapecio.md",
+    "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica/Simpson.md",
+    "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica/Rectangulo.md",
+    "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica/Punto medio.md",
+    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Splines.md",
+    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Polinomio Interpolante.md",
+    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Lagrange.md",
+    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Diferencias divididas.md",
+    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Tabla de datos.md",
+    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Función compleja.md",
+    "numerico/@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales/Metodo de Newton.md",
+    "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
+    "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
+    "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
+    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones",
+    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica",
+    "numerico/@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales",
+    "numerico/@Final Analisis Numerico (Borrar)",
+    "numerico/Funciones/desktop.ini",
+    "numerico/Funciones",
+    "numerico/Sucesiones y Series/desktop.ini",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"
