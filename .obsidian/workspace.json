@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico/Analisis Numerico/Cálculo de error.md",
+                "file": "numerico/plan de estudio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico/Analisis Numerico/Cálculo de error.md",
+                "file": "numerico/plan de estudio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico/Analisis Numerico/Cálculo de error.md",
+                "file": "numerico/plan de estudio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico/Analisis Numerico/Cálculo de error.md"
+                "file": "numerico/plan de estudio.md"
               }
             }
           },
@@ -196,6 +196,12 @@
   },
   "active": "ed8ea61000e8d52e",
   "lastOpenFiles": [
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
+    "lenguajes/teoremas-final/A-teoremas-final.md",
+    "numerico/plan de estudio.md",
+    "numerico/Analisis Numerico/Ordenes de convergencia.md",
+    "numerico/Analisis Numerico/Estandar de punto flotante.md",
+    "numerico/Analisis Numerico/Cálculo de error.md",
     "numerico/Analisis Numerico/Algoritmo de Horner.md",
     "numerico/Solución de ecuaciones no lineales/Método de bisección.md",
     "numerico/Solución de ecuaciones no lineales/Método de Newton.md",
@@ -205,7 +211,6 @@
     "numerico/Sucesiones y Series/Series.md",
     "numerico/Sucesiones y Series/Sucesiones.md",
     "numerico/Solución de ecuaciones no lineales/Método de la secante.md",
-    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico/@Final Analisis Numerico (Borrar)/Finales de practica.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo simplex.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo grafico.md",
@@ -218,11 +223,6 @@
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica/Punto medio.md",
     "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Splines.md",
     "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Polinomio Interpolante.md",
-    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Lagrange.md",
-    "numerico/@Final Analisis Numerico (Borrar)/3. Interpolación numérica/Diferencias divididas.md",
-    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Tabla de datos.md",
-    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Función compleja.md",
-    "numerico/@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales/Metodo de Newton.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
