@@ -8,7 +8,7 @@ tags:
 
 ---
 
-Sea $\bar P=P\cup (C_0^{n+1,m}|_{(\omega^{n+1}\times\Sigma^{*m})-D_P}):\omega^{n+1}\times\Sigma^{*m}\to\omega$ un predicado $\Sigma$-total, que ademas va a ser $\Sigma$-pr.
+Sea $$\bar P=P\cup (C_0^{n+1,m}|_{(\omega^{n+1}\times\Sigma^{*m})-D_P}):\omega\times\omega^{n}\times\Sigma^{*m}\to\omega$$ un predicado $\Sigma$-total, que ademas va a ser $\Sigma$-pr. 
 ### Veamos primero que $M(P)=M(\overline P)$. 
 Notar que para todo $(\vec x,\vec\alpha)\in\omega^{n}\times\Sigma^{*m}$
 $$
