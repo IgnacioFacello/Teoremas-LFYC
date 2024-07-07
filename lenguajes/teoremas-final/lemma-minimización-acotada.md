@@ -26,7 +26,7 @@ Entonces tenemos que $M(\bar P)\in R_{k+1}^{\Sigma}$ y por lo tanto $M(P)$ es $\
 
 ---
 $(b)$ Ya que $M(P)=M(\bar P)$, basta con probar que $M(\bar P)$ es $\Sigma$-*primitivamente recursiva*.
-(1) $D_{M(\bar P)}$ es $\Sigma$-pr. 
+(1) Primero veamos que $D_{M(\bar P)}$ es $\Sigma$-p.r. Notar que
 $$
 \begin{align}
 \chi_{D_{M(\bar P)}}^{\omega^{n+1}\times\Sigma^{*m}}
@@ -42,7 +42,7 @@ $$
 	\right]
 \end{align}
 $$
-es claramente $\Sigma$-pr por el [[guia6-lemma2|lemma 2]]. 
+es claramente $\Sigma$-pr por el [[lemma-cuantificación-acotada|lema de cuantificación acotada]].  
 (2)
 Sea el predicado $\Sigma$-total y $\Sigma$-pr
 $$
