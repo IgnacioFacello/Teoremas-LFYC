@@ -61,7 +61,12 @@ P_1(t,\vec x,\vec \alpha)
 &= 1\iff (\vec x,\vec \alpha)\in D_{M(\bar P)} \land t=M(\bar P)(\vec x,\vec \alpha) \\
 \end{align}
 $$
-Esto nos dice que:
+Esto nos dice que
 $$
-M(\bar P)=
+M(\bar P)= \left.\left(
+	\lambda{\vec{x}\vec{\alpha}}\left[
+		\prod^{f(\vec{x},\vec{\alpha})}_{t=0} t^{P_1(t,\vec{x},\vec{\alpha})}
+	\right]
+\right)\right|_{D_{M(\bar{P})}}
 $$
+Por lo que para ver que 
