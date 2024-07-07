@@ -69,4 +69,18 @@ M(\bar P)= \left.\left(
 	\right]
 \right)\right|_{D_{M(\bar{P})}}
 $$
-Por lo que para ver que 
+Por lo que para ver que $M(\bar P)$ es $\Sigma$-p.r., solo queda probar que 
+$$
+F=\lambda{\vec{x}\vec{\alpha}}\left[
+	\prod^{f(\vec{x},\vec{\alpha})}_{t=0} t^{P_1(t,\vec{x},\vec{\alpha})}
+\right]
+$$
+es $\Sigma$-p.r.. Notar que
+$$
+F=\lambda{xy\vec{x}\vec{\alpha}} \left[
+	\prod^{t=y}_{t=x}t^{P_1(t,\vec{x},\vec{\alpha})}
+\right] \circ \left[
+	C_0^{n,m},f,p_1^{n,m},\dots,p_{n+m}^{n,m}
+\right]
+$$
+y por el lema de la productoria, F es $\Sigma$-p.r. por lo que $M(P)$ también lo es.
