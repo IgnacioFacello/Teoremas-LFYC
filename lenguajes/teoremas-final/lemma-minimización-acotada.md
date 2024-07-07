@@ -8,29 +8,24 @@ tags:
 
 ---
 
-Sea $$\bar P=P\cup (C_0^{n+1,m}|_{(\omega^{n+1}\times\Sigma^{*m})-D_P}):\omega\times\omega^{n}\times\Sigma^{*m}\to\omega$$ un predicado $\Sigma$-total, que ademas va a ser $\Sigma$-pr. 
-### Veamos primero que $M(P)=M(\overline P)$. 
-Notar que para todo $(\vec x,\vec\alpha)\in\omega^{n}\times\Sigma^{*m}$
-$$
-\{t\in\omega:P(t,\vec x,\vec\alpha)=1\}=\{t\in\omega:\bar P(t,\vec x,\vec\alpha)=1\}
-$$
+$(a)$ Sea $$\bar P=P\cup (C_0^{n+1,m}|_{(\omega^{n+1}\times\Sigma^{*m})-D_P}):\omega\times\omega^{n}\times\Sigma^{*m}\to\omega$$ un predicado $\Sigma$-total, que ademas va a ser $\Sigma$-pr. 
+
+Veamos primero que $M(P)=M(\overline P)$. Notar que para todo $(\vec x,\vec\alpha)\in\omega^{n}\times\Sigma^{*m}$
+$$\{t\in\omega:P(t,\vec x,\vec\alpha)=1\}=\{t\in\omega:\bar P(t,\vec x,\vec\alpha)=1\}$$
 Esto nos dice que $M(P)=M(\overline P)$, ya que:
 - $D_{M(P)}=D_{M(\overline P)}$ 
 	- Recordar que $D_{M(P)}=\{(\vec x,\vec\alpha)\in\omega^{n}\times\Sigma^{*m} :(\exists t\in\omega)\ P(t,\vec x,\vec\alpha)=1\}$
 - y ademas  $M(P)(\vec x,\vec\alpha)=M(\overline P)(\vec x,\vec\alpha)$ para cada $(\vec x,\vec\alpha)\in D_{M(P)}$
 	- $min\{t\in\omega:P(t,\vec x,\vec\alpha)=1\}=min\{t\in\omega:\bar P(t,\vec x,\vec\alpha)=1\}$
-## (a)
-Ahora vemos que $M(\overline P)$ es *recursiva*.
-Sea k tal que $\bar P\in PR_k^{\Sigma}$.
-Dado que
-- $\bar P$ es $\Sigma$-total 
-- y $PR_k^{\Sigma}\subseteq R_k^{\Sigma}$
+
+Ahora vemos que $M(\overline P)$ es $\Sigma$-*recursiva*. Sea k tal que $\bar P\in PR_k^{\Sigma}$. Dado que
+- $\bar P$ es $\Sigma$-total y
+- $PR_k^{\Sigma}\subseteq R_k^{\Sigma}$
 
 Entonces tenemos que $M(\bar P)\in R_{k+1}^{\Sigma}$ y por lo tanto $M(P)$ es $\Sigma$-r.
-## (b)
-> (b) Si hay una función $\Sigma$-pr $f:\omega^n\times\Sigma^{*m}\to\omega$ tal que $$M(P)(\vec x,\vec\alpha)=\min_t P(t,\vec x,\vec\alpha)\le f(\vec x,\vec\alpha)$$ para cada $(\vec x,\vec\alpha)\in D_{M(P)}$. Entonces $M(P)$ es $\Sigma$-pr.
 
-Ya que $M(P)=M(\bar P)$, basta con probar que $M(\bar P)$ es $\Sigma$-pr.
+---
+$(b)$ Ya que $M(P)=M(\bar P)$, basta con probar que $M(\bar P)$ es $\Sigma$-*primitivamente recursiva*.
 (1) $D_{M(\bar P)}$ es $\Sigma$-pr. 
 $$
 \begin{align}
