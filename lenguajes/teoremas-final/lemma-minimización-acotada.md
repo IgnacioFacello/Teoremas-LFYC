@@ -7,11 +7,8 @@ tags:
 > (b) Si hay una función $\Sigma$-pr $f:\omega^n\times\Sigma^{*m}\to\omega$ tal que $$M(P)(\vec x,\vec\alpha)=\min_t P(t,\vec x,\vec\alpha)\le f(\vec x,\vec\alpha)$$ para cada $(\vec x,\vec\alpha)\in D_{M(P)}$. Entonces $M(P)$ es $\Sigma$-pr.
 
 ---
-> Suposiciones
-> - P es un predicado $\Sigma$-pr
 
 Sea $\bar P=P\cup (C_0^{n+1,m}|_{(\omega^{n+1}\times\Sigma^{*m})-D_P}):\omega^{n+1}\times\Sigma^{*m}\to\omega$ un predicado $\Sigma$-total, que ademas va a ser $\Sigma$-pr.
-%% ya que P es $\Sigma$-pr %%
 ### Veamos primero que $M(P)=M(\overline P)$. 
 Notar que para todo $(\vec x,\vec\alpha)\in\omega^{n}\times\Sigma^{*m}$
 $$
