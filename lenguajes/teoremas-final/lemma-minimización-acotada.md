@@ -42,9 +42,8 @@ $$
 	\right]
 \end{align}
 $$
-es claramente $\Sigma$-pr por el [[lemma-cuantificación-acotada|lema de cuantificación acotada]].  
-(2)
-Sea el predicado $\Sigma$-total y $\Sigma$-pr
+es claramente $\Sigma$-pr por el [[lemma-cuantificación-acotada|lema de cuantificación acotada]].
+(2) Sea
 $$
 \begin{align}
 P_1
@@ -55,11 +54,7 @@ P_1
 \right]\\
 \end{align}
 $$
-> Es decir que, para $(\vec x,\vec \alpha)$, $t$ satisface $\bar P$ y no hay un $j$ menor que lo satisface. 
-> Efectivamente $P_1$ nos dice si $t=M(\bar P)(\vec x,\vec \alpha)$ 
-> Que sea $\Sigma$-pr necesariamente es trivial
-
-Notar que para $(\vec x,\vec \alpha)\in \omega^n\times\Sigma^{*m}$ 
+un predicado $\Sigma$-total y además $\Sigma$-p.r.. Notar que para $(\vec x,\vec \alpha)\in \omega^n\times\Sigma^{*m}$ tenemos que
 $$
 \begin{align}
 P_1(t,\vec x,\vec \alpha)
