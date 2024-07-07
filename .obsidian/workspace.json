@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/lemma-minimización-acotada.md",
+                "file": "lenguajes/teoremas-final/restricción-r.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a05c4db1862f038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lenguajes/plan de estudio - len.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/lemma-minimización-acotada.md",
+                "file": "lenguajes/teoremas-final/restricción-r.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/lemma-minimización-acotada.md",
+                "file": "lenguajes/teoremas-final/restricción-r.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/lemma-minimización-acotada.md"
+                "file": "lenguajes/teoremas-final/restricción-r.md"
               }
             }
           },
@@ -203,11 +215,11 @@
   },
   "active": "75a5d0be969bf5a7",
   "lastOpenFiles": [
-    "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
-    "lenguajes/teoremas-final/lemma-minimización-acotada.md",
-    "lenguajes/teoremas-final/guia6-lemma2.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
+    "lenguajes/teoremas-final/lemma-minimización-acotada.md",
     "lenguajes/plan de estudio - len.md",
+    "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
+    "lenguajes/teoremas-final/guia6-lemma2.md",
     "Untitled.md",
     "numerico/plan de estudio - num.md",
     "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
