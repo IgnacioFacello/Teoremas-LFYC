@@ -1,6 +1,6 @@
-- [ ] #TODO Escribir teoremas del [[Combo 7]]
+- [x] #TODO Escribir teoremas del [[Combo 7]] ✅ 2024-07-08
 - [ ] #TODO Hacer flashcards de todos los combos
-- [ ] #TODO Escribir todos los combos teóricos
+- [-] #TODO Escribir todos los combos teóricos
 - [ ] #TODO Hacer flashcards de los combos teóricos
 - [ ] #TODO Repasar
 
