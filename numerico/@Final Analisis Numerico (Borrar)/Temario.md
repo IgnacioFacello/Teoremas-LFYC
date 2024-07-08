@@ -4,7 +4,7 @@
 	3. Punto fijo y flotante
 	4. Error relativo y absoluto
 2. Ecuaciones no lineales
-	1. [[Método de Bisección]]
+	1. [[Método de bisección]]
 		1. Método
 		2. Error
 	2. [[Método de Newton]]
