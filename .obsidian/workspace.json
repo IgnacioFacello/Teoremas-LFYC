@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
@@ -203,6 +204,7 @@
   "active": "4a05c4db1862f038",
   "lastOpenFiles": [
     "numerico/plan de estudio - num.md",
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "lenguajes/plan de estudio - len.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
@@ -212,7 +214,6 @@
     "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
     "lenguajes/teoremas-final/guia6-lemma2.md",
     "Untitled.md",
-    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
     "numerico/Analisis Numerico/Ordenes de convergencia.md",
     "numerico/Analisis Numerico/Estandar de punto flotante.md",
