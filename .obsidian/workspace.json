@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "numerico notas clases/root-num.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "numerico notas clases/root-num.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "numerico notas clases/root-num.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico/plan de estudio - num.md"
+                "file": "numerico notas clases/root-num.md"
               }
             }
           },
@@ -201,8 +201,10 @@
   },
   "active": "75a5d0be969bf5a7",
   "lastOpenFiles": [
-    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico/plan de estudio - num.md",
+    "numerico notas clases/root-num.md",
+    "numerico notas clases",
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "lenguajes/plan de estudio - len.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
@@ -228,7 +230,6 @@
     "numerico/@Final Analisis Numerico (Borrar)/Finales de practica.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo simplex.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo grafico.md",
-    "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales/Metodos iterativos.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
@@ -237,7 +238,6 @@
     "numerico/@Final Analisis Numerico (Borrar)/2. Ecuaciones no lineales",
     "numerico/@Final Analisis Numerico (Borrar)",
     "numerico/Funciones/desktop.ini",
-    "numerico/Funciones",
     "seenka/TUDN_1.png",
     "Imagenes/Pasted image 20231005091308.png",
     "Imagenes/Pasted image 20231010095239.png"
