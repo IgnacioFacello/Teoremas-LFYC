@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75a5d0be969bf5a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "numerico notas clases/root-num.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4a05c4db1862f038",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
+                "file": "numerico notas clases/root-num.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,12 +187,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "75a5d0be969bf5a7",
+  "active": "4a05c4db1862f038",
   "lastOpenFiles": [
-    "numerico/plan de estudio - num.md",
-    "numerico notas clases/root-num.md",
-    "numerico notas clases",
     "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
+    "numerico notas clases/root-num.md",
+    "numerico/plan de estudio - num.md",
+    "numerico notas clases",
     "lenguajes/plan de estudio - len.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
