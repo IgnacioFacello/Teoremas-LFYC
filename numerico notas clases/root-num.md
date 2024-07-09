@@ -15,6 +15,8 @@ Hay distintos tipos, vamos a ver las numericas, para las cuales podemos medir su
 > Esto nos dice que $f(x)=f(c)+f'(\varepsilon)*(x-c)$ 
 
 > #teorema 3 **(Taylor)** 
-> Si $f\in C^{(n)}[a,b]$ y existe $f^{(n+1)}(a,b)$ entonces para todo par $x,c\in[a,b]$ se tiene que $$f(x)=\sum^{n}_{k=0}f^{(n)}(c)*(x-c)^k+E_n(x)$$ donde $$E_n(x)=\frac{1}{(n+1)!}f^{(n+1)}(\varepsilon)(x-c)^{n+1}$$ para algún $\varepsilon$ entre $x$ y $c$. 
+> Si $f\in C^{(n)}[a,b]$ y existe $f^{(n+1)}(a,b)$ entonces para todo par $x,c\in[a,b]$ se tiene que $$f(x)=\sum^{n}_{k=0}\frac1{k!}f^{(k)}(c)*(x-c)^k+E_n(x)$$ donde $$E_n(x)=\frac{1}{(n+1)!}f^{(n+1)}(\varepsilon)(x-c)^{n+1}$$ para algún $\varepsilon$ entre $x$ y $c$. 
 
-> #teorema 4 **
+> #teorema 4 **(Taylor con resto integral)**
+> Si $f\in C^{(n)}[a,b]$ y existe $f^{(n+1)}(a,b)$ entonces para todo par $x,c\in[a,b]$ se tiene que $$f(x)=\sum^{n}_{k=0}\frac1{k!}f^{(k)}(c)*(x-c)^k+R_n(x)$$ donde $$R_n(x)=\frac{1}{n!}\int^{x}_{c}f^{(n+1)}(t)(x-t)^{n}\ dt$$ para algún $\varepsilon$ entre $x$ y $c$. 
+
