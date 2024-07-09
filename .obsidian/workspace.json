@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "numerico notas clases/notas clase 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "numerico notas clases/notas clase 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "numerico notas clases/notas clase 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico notas clases/root-num.md"
+                "file": "numerico notas clases/notas clase 1.md"
               }
             }
           },
@@ -189,8 +189,9 @@
   },
   "active": "4a05c4db1862f038",
   "lastOpenFiles": [
-    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico notas clases/root-num.md",
+    "numerico notas clases/notas clase 1.md",
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico/plan de estudio - num.md",
     "numerico notas clases",
     "lenguajes/plan de estudio - len.md",
@@ -217,7 +218,6 @@
     "numerico/Solución de ecuaciones no lineales/Método de la secante.md",
     "numerico/@Final Analisis Numerico (Borrar)/Finales de practica.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo simplex.md",
-    "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal/Metodo grafico.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
