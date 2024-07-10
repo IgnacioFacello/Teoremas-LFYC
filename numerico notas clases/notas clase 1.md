@@ -5,7 +5,7 @@ repaso de conceptos matemáticos
 Problemas requieren Modelos matemáticos para ser resueltos
 El diseño de estos se inspira en las características de los Problemas
 Requieren simplificaciones los cuales introducen inexactitudes
-Hay distintos tipos, vamos a ver las numericas, para las cuales podemos medir su impacto
+Hay distintos tipos, vamos a ver las numéricas, para las cuales podemos medir su impacto
 
 > #teorema 1 **(Valor intermedio para funciones continuas)**
 > Sea $f$ continua en $[a,b]$ un intervalo cerrado. Sea $d$ un valor entre $f(a)$ y $f(b)$ entonces existe  $c\in[a,b]$ tal que $f(c)=d$ 
@@ -20,7 +20,7 @@ Hay distintos tipos, vamos a ver las numericas, para las cuales podemos medir su
 > #teorema 4 **(Taylor con resto integral)**
 > Si $f\in C^{(n)}[a,b]$ y existe $f^{(n+1)}(a,b)$ entonces para todo par $x,c\in[a,b]$ se tiene que $$f(x)=\sum^{n}_{k=0}\frac1{k!}f^{(k)}(c)*(x-c)^k+R_n(x)$$ donde $$R_n(x)=\frac{1}{n!}\int^{x}_{c}f^{(n+1)}(t)(x-t)^{n}\ dt$$ para algún $\varepsilon$ entre $x$ y $c$. 
 
-Las soluciones numericas tienden a ser sucesiones de aproximaciones
+Las soluciones numéricas tienden a ser sucesiones de aproximaciones
 Necesitamos alguna medidad de su velocidad de aproximación
 Llamamos a esta medida el orden de convergencia, puede ser 
 - Lineal
