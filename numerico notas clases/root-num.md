@@ -36,4 +36,16 @@ hay distintas fuentes de error, no todas pueden ser mitigadas
 	- de código
 
 > #definicion 1 Error Absoluto y Relativo
-> Cuando un numero real $r$ (valor exacto) es aproximado por otro numero 4
+> Cuando un numero real $r$ (valor exacto) es aproximado por otro numero $\bar{r}$, se define el **error** como  $r-\bar{r}$. Llamaremos, respectivamente, a
+> **Error Absoluto**: $\Delta{r}=|r-\bar{r}|$
+> **Error relativo**: $\delta{r}=\left|{r-\bar{r}\over{r}}\right|={\Delta{r}\over{r}}$
+> También se llama **error (relativo) porcentual** a $100*\delta{r}$
+
+El relativo suele ser mas util
+No se conocen los valores reales del error (ya que necesitaríamos saber el valor real) pero podemos dar cotas
+
+redondeo cambia según el ultimo dígito, tiene error $\Delta{r}\leq\frac12{10^{-n}}$
+y truncado solo corta el numero,  tiene error $\Delta{r}\leq{10^{-n}}$
+
+> #definicion 2 Digitos significativos
+> El numero $\bar r$ aproxima a $r$ con $m$ digitos significativos si $$\delta{r}\leq5*$$
