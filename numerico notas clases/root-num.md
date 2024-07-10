@@ -2,15 +2,15 @@
 # Clase 2
 #algoritmo de Horner para la evaluación de polinomios. 
 Consiste en reescribir el polinomio a modo de reducir el numero de operaciones.
-
-```pseudo
-	\begin{algorithm}
-	\caption{Algoritmo de Horner}
-	\begin{algorithmic}
-	input n; a_i
-	\end{algorithmic}
-	\end{algorithm}
-```
+$$
+\begin{align}
+b_{n-1} &= a_n\\
+b_{n-2} &= a_{n-1}+z*b_{n-1}\\
+		&\vdots \\
+b_0 &= a_1+z*b_1 \\
+p(z) &= a_0+z*b_0
+\end{align}
+$$
 
 Eficiencia: Si el grado de p es n, se requieren 
 
