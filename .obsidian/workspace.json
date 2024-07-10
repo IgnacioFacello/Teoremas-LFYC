@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico notas clases/notas clase 1.md",
+                "file": "numerico notas clases/root-num.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico notas clases/notas clase 1.md",
+                "file": "numerico notas clases/root-num.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico notas clases/notas clase 1.md",
+                "file": "numerico notas clases/root-num.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico notas clases/notas clase 1.md"
+                "file": "numerico notas clases/root-num.md"
               }
             }
           },
@@ -189,8 +189,8 @@
   },
   "active": "4a05c4db1862f038",
   "lastOpenFiles": [
-    "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 1.md",
+    "numerico notas clases/root-num.md",
     "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico/plan de estudio - num.md",
     "numerico notas clases",

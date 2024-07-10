@@ -21,7 +21,7 @@ Hay distintos tipos, vamos a ver las numéricas, para las cuales podemos medir s
 > Si $f\in C^{(n)}[a,b]$ y existe $f^{(n+1)}(a,b)$ entonces para todo par $x,c\in[a,b]$ se tiene que $$f(x)=\sum^{n}_{k=0}\frac1{k!}f^{(k)}(c)*(x-c)^k+R_n(x)$$ donde $$R_n(x)=\frac{1}{n!}\int^{x}_{c}f^{(n+1)}(t)(x-t)^{n}\ dt$$ para algún $\varepsilon$ entre $x$ y $c$. 
 
 Las soluciones numéricas tienden a ser sucesiones de aproximaciones
-Necesitamos alguna medidad de su velocidad de aproximación
+Necesitamos alguna medida de su velocidad de aproximación
 Llamamos a esta medida el orden de convergencia, puede ser 
 - Lineal
 - Superlineal
