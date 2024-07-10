@@ -1,5 +1,6 @@
 [[notas clase 1]]
 # Clase 2
+
 #algoritmo de Horner para la evaluación de polinomios. 
 Consiste en reescribir el polinomio a modo de reducir el numero de operaciones.
 $$
@@ -19,3 +20,20 @@ Eficiencia: Si el grado de p es n, se requieren
 | $n-1$ productos     | $n-1$ | $n(n+1) / 2$ |
 | Productos sucesivos |  ''   |    $2n-1$    |
 | Horner              |  ''   |    $n-1$     |
+Fuentes de error y aritmética de la computadora
+estimar la precisión del resultado de un cálculo numérico
+hay distintas fuentes de error, no todas pueden ser mitigadas
+1. Errores en los datos de entrada
+	- mediciones erroneas
+	- numero irracional con numero finito de digitos
+2. Errores de redondeo
+	- Numero finito de digitos
+3. Errores de truncamiento
+	- procesos no infinitos 
+4. Errores humanos
+	- formulación
+	- calculo manual
+	- de código
+
+> #definicion 1 Error Absoluto y Relativo
+> Cuando un numero real $r$ (valor exacto) es aproximado por otro numero 4
