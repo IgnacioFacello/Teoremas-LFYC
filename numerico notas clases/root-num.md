@@ -34,3 +34,4 @@ Análisis de errores
 
 # Clase 6
 Método de la secante
+Evita la evaluación de la derivada para cada iteración
