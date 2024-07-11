@@ -18,3 +18,8 @@ Observaciones
 
 > #teorema 1 convergencia del método de la bisección
 > Si $[a_0,b_0],[a_1,b_1],\dots,[a_n,b_n],\dots$ denotan los sucesivos intervalos en el método de bisección , entonces existen los limites $\lim\limits_{n\to\infty}a_n$ y $\lim\limits_{n\to\infty}b_n$, son iguales y representan una raíz de $f$. Si $c_n=\frac{a_n+b_n}2$ y $r=\lim\limits_{n\to\infty}c_n$ entonces $$\Delta{c_n}=\frac{b_0-a_0}{2^{n+1}}$$
+
+# Clase 5
+Método de Newton
+Resolución de una serie de problemas simples que convergen en la solución real
+
