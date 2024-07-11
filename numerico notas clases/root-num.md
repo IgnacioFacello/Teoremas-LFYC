@@ -34,4 +34,16 @@ Análisis de errores
 
 # Clase 6
 Método de la secante
+Variación del método de Newton
 Evita la evaluación de la derivada para cada iteración
+Reemplazamos la derivada por una aproximación dada por el cociente incremental, dado por la pendiente de la recta secante que pasa por los puntos $(x_n,f(x_n))$ y $(x_n+h,f(x_n+h))$:
+$$
+f´(x_n)\approx {a_n}={ f(x_n+h) - f(x_n) \over h} 
+$$
+para algún h suficientemente pequeño. Tomamos $h=x_{n-1}-x_n$
+
+Iteración de punto fijo
+> #definicion 1 Punto fijo de una función
+> Un punto fijo de una función $g$ es un numero $p$, en el dominio de $g$, tal que $g(p)=p$
+
+Si tomamos $p$ raíz de $f$, podemos definir multiples funciones con punto fijo $p$  
