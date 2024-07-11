@@ -33,3 +33,4 @@ Análisis de errores
 > Si $f''$ es 
 
 # Clase 6
+Método de la secante
