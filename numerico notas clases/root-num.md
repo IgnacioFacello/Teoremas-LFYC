@@ -30,6 +30,6 @@ Algoritmo
 Análisis de errores
 
 > #teorema 1 Convergencia del método de newton
-> 
+> Si $f''$ es 
 
 # Clase 6
