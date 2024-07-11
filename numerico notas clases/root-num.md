@@ -2,4 +2,3 @@
 [[notas clase 2]]
 [[notas clase 3]]
 # Clase 4
-
