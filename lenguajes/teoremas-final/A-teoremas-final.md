@@ -11,8 +11,8 @@
 10. [x] [[lemma-cuantificación-acotada]] 
 11. [x] [[e-computable-implica-e-enumerable]] 
 12. [x] [[caracterización-conjunto-r-enumerable]] 
-13. [-] [[lemma-minimización-acotada]] (NO HACER)
-14. [-] [[restricción-r]] (NO HACER)
+13. [x] [[lemma-minimización-acotada]]
+14. [x] [[restricción-r]]
 15. [x] [[autohalt-no-r]]
 16. [x] [[autohalt-no-ec]]
 17. [x] [[neumann-v-godel-c8]]

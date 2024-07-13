@@ -2,7 +2,7 @@
 [[notas clase 2]]
 [[notas clase 3]]
 # Clase 4
-Problema: Hallar la raiz de una función no lineal
+Problema: Hallar la raíz de una función no lineal
 
 Método de bisección
 Basado en teorema de valor intermedio
