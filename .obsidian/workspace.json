@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico notas clases/notas clase 6.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico notas clases/notas clase 6.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico notas clases/notas clase 6.md"
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md"
               }
             }
           },
@@ -214,10 +213,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4ac67e12ef1943bd",
+  "active": "4a05c4db1862f038",
   "lastOpenFiles": [
-    "lenguajes/teoremas-final/lemma-sumatoria.md",
     "numerico notas clases/notas clase 6.md",
+    "lenguajes/teoremas-final/lemma-sumatoria.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
     "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 5.md",
