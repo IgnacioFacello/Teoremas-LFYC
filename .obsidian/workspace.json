@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "numerico notas clases/notas clase 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico notas clases/root-num.md",
+                "file": "numerico notas clases/notas clase 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico notas clases/root-num.md"
+                "file": "numerico notas clases/notas clase 6.md"
               }
             }
           },
@@ -213,15 +214,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4a05c4db1862f038",
+  "active": "4ac67e12ef1943bd",
   "lastOpenFiles": [
+    "lenguajes/teoremas-final/lemma-sumatoria.md",
     "numerico notas clases/notas clase 6.md",
+    "lenguajes/teoremas-final/A-teoremas-final.md",
     "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 5.md",
     "numerico notas clases/notas clase 4.md",
     "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
     "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
-    "lenguajes/teoremas-final/A-teoremas-final.md",
     "numerico notas clases/notas clase 3.md",
     "numerico notas clases/notas clase 2.md",
     "numerico notas clases/notas clase 1.md",
@@ -242,7 +244,6 @@
     "numerico/Analisis Numerico/Cálculo de error.md",
     "numerico/Analisis Numerico/Algoritmo de Horner.md",
     "numerico/Solución de ecuaciones no lineales/Método de bisección.md",
-    "numerico/Solución de ecuaciones no lineales/Método de Newton.md",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
