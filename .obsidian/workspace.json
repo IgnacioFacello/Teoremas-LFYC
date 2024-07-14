@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "4ac67e12ef1943bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "numerico notas clases/notas clase 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4c8ffdb2a9fc1195",
             "type": "leaf",
             "state": {
@@ -201,11 +213,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fe071d0757424e91",
+  "active": "4a05c4db1862f038",
   "lastOpenFiles": [
+    "numerico notas clases/notas clase 6.md",
+    "numerico notas clases/root-num.md",
+    "numerico notas clases/notas clase 5.md",
+    "numerico notas clases/notas clase 4.md",
     "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
     "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
-    "numerico notas clases/root-num.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
     "numerico notas clases/notas clase 3.md",
     "numerico notas clases/notas clase 2.md",
@@ -229,9 +244,6 @@
     "numerico/Solución de ecuaciones no lineales/Método de bisección.md",
     "numerico/Solución de ecuaciones no lineales/Método de Newton.md",
     "numerico/Pasted image 20220420115550.png",
-    "numerico/Sucesiones y Series/Series de Potencias.md",
-    "numerico/Sucesiones y Series/Series.md",
-    "numerico/Sucesiones y Series/Sucesiones.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
