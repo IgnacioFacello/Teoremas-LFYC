@@ -5,13 +5,7 @@ tags:
 > **Lema 19** Supongamos $f_i:D_{f_i}\subseteq{\omega^n\times\Sigma^{*m}}\to{O}$, $i=i,\dots,k$ son funciones $\Sigma\text{-recursivas}$ tales que $D_{f_i}\cap{D_{f_j}}=\emptyset$ para $i\neq{j}$. Entonces la función $f_1\cup\dots\cup{f_k}$ es $\Sigma\text{-recursiva}$.
 ?
 
----
-> Iteramos $t\in\omega$ hasta que alguno de los programas termine en t pasos y devolvemos el resultado. Si ninguno de los dos termina entonces la entrada se encuentra fuera de $D_{f_1}\cup{D_{f_2}}$  y el programa no termina nunca.
- > Claves:
- > 1. ${Halt}^{1,1}$ es $(\Sigma\cup\Sigma_{p})$-p.r.
- > 2. Tenemos programa y macros para cada función 
- 
- - - - 
+- - - 
 > Usamos *Neuman v. Godel* para obtener los programas de las $f_i$
 > $H_i$ se define en base a Halt  que es $\Sigma\cup\Sigma_p$-recursiva y por la *independencia del alfabeto* es $\Sigma$-recursiva
 > Luego por el *lema de las macros*  tenemos macros para $H_i$ 
@@ -54,3 +48,10 @@ L4\ & SKIP
 \end{aligned}
 $$
 Notar que $\mathcal{P}$ computa a la función $f_1\cup{f_2}$ por el*teorema Godel vence a Neumann*  es $\Sigma$-recursiva.
+
+---
+> Iteramos $t\in\omega$ hasta que alguno de los programas termine en t pasos y devolvemos el resultado. Si ninguno de los dos termina entonces la entrada se encuentra fuera de $D_{f_1}\cup{D_{f_2}}$  y el programa no termina nunca.
+ > Claves:
+ > 1. ${Halt}^{1,1}$ es $(\Sigma\cup\Sigma_{p})$-p.r.
+ > 2. Tenemos programa y macros para cada función 
+ 
