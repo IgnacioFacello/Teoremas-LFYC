@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/A-teoremas-final.md",
+                "file": "numerico notas clases/root-num.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clase 6",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -78,11 +77,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
+                "file": "numerico notas clases/root-num.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
+                "file": "numerico notas clases/root-num.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/caracterización-conjunto-pr.md"
+                "file": "numerico notas clases/root-num.md"
               }
             }
           },
@@ -200,9 +201,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4c8ffdb2a9fc1195",
+  "active": "4a05c4db1862f038",
   "lastOpenFiles": [
+    "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
+    "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
     "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 3.md",
     "numerico notas clases/notas clase 2.md",
@@ -226,11 +229,9 @@
     "numerico/Solución de ecuaciones no lineales/Método de bisección.md",
     "numerico/Solución de ecuaciones no lineales/Método de Newton.md",
     "numerico/Pasted image 20220420115550.png",
-    "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
     "numerico/Sucesiones y Series/Series de Potencias.md",
     "numerico/Sucesiones y Series/Series.md",
     "numerico/Sucesiones y Series/Sucesiones.md",
-    "numerico/Solución de ecuaciones no lineales/Método de la secante.md",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
     "numerico/@Final Analisis Numerico (Borrar)/5. Integración Numérica",
