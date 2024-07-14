@@ -47,3 +47,5 @@ Iteración de punto fijo
 > Un punto fijo de una función $g$ es un numero $p$, en el dominio de $g$, tal que $g(p)=p$
 
 Si tomamos $p$ raíz de $f$, podemos definir multiples funciones con punto fijo $p$  
+
+> #teorema 1 Existencia y Unicidad de un punto fijo
