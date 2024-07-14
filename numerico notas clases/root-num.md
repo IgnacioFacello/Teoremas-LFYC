@@ -49,3 +49,8 @@ Iteración de punto fijo
 Si tomamos $p$ raíz de $f$, podemos definir multiples funciones con punto fijo $p$  
 
 > #teorema 1 Existencia y Unicidad de un punto fijo
+
+El algoritmo se basa en la serie de aproximaciones $p_n=g(p_{n-1})$ 
+
+> #teorema 2
+> Sea g tal que gx\in[a,b] para todo x\in[a,b]. Supongamos que existe g'x para todo x\in(a,b) y existe una constante positiva 0\lt k\lt 1 
