@@ -9,3 +9,4 @@ tags:
 	  (b) $S$ y $(\omega^n\times\Sigma^{*m})-S$ $\Sigma$-efectivamente enumerables
 	  (Solo caso $(b)\implies (a)$)
 ?
+<!--SR:!2024-07-18,3,250-->

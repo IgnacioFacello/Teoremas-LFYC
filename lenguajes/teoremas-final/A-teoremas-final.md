@@ -27,7 +27,7 @@
 - [ ] ![[Combo 4]]
 - [ ] ![[Combo 5]]
 - [ ] ![[Combo 6]]
-- [-] ![[Combo 7]]
+- [ ] ![[Combo 7]]
 - [ ] ![[Combo 8]]
 - [ ] ![[Combo 9]]
 ## Estadísticas

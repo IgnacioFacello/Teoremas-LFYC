@@ -8,3 +8,4 @@ tags:
 14. [[restricción-r|Lema 14]] Supongamos $f:D_f\subseteq{\omega^{n}\times\Sigma^{*m}}\to O$ es $\Sigma$-recursiva y $S\subseteq{D_f}$ es $\Sigma$-r.e., entonces $f|_S$ es $\Sigma$-recursiva.
 	Caso $O=\Sigma^*$
  ?
+<!--SR:!2024-07-16,1,230-->
