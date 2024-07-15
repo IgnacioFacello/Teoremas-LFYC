@@ -11,4 +11,5 @@ tags:
 	 	(b) Para todo $(x_1,\dots,x_n,\alpha_1,\dots,\alpha_m)\in S$ hay un $x\in\omega$ tal que $\mathcal P$ se detiene partiendo desde el estado $||x||$ y llega a un estado de la forma $((x_1,\dots,x_n),(\alpha_1,\dots,\alpha_m))$
 	(Caso n=2, m=1)
 ?
+03. 
 <!--SR:!2024-07-18,3,250-->
