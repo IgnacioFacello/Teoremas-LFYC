@@ -7,3 +7,4 @@ tags:
 18. [[autohalt-A-y-N|Lema 17]] Supongamos que $\Sigma\supseteq\Sigma_p$. Entonces $$A=\{\mathcal{P}\in{Pro}^{\Sigma}:{AutoHalt}^{\Sigma}(\mathcal{P})=1\}$$ es $\Sigma$-recursivamente enumerable y no es $\Sigma$-recursivo. Mas aun, el conjunto $$N=\{\mathcal{P}\in{Pro}^{\Sigma}:{AutoHalt}^{\Sigma}(\mathcal{P})=0\}$$ no es $\Sigma$-recursivamente enumerable.
 19. [[neumann-v-godel-c8|Teorema 18]] Si h es $\Sigma$-recursiva entonces es $\Sigma$-computable
 ?
+<!--SR:!2024-07-16,1,230-->

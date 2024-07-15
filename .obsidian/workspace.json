@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards  ",
+                "query": "tag:#flashcards ",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "668a74496364075d",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md"
+                "file": "lenguajes/teoremas-final/combos/Combo 4.md"
               }
             }
           },
@@ -214,20 +213,22 @@
   },
   "active": "4a05c4db1862f038",
   "lastOpenFiles": [
+    "lenguajes/teoremas-final/combos/Combo 7.md",
+    "lenguajes/teoremas-final/restricción-r.md",
+    "lenguajes/teoremas-final/combos/Combo 6.md",
+    "lenguajes/teoremas-final/combos/Combo 3.md",
+    "lenguajes/teoremas-final/caracterización-conjunto-ec.md",
+    "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 8.md",
     "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/autohalt-no-ec.md",
     "lenguajes/teoremas-final/autohalt-no-r.md",
-    "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 9.md",
     "lenguajes/teoremas-final/T-sigma-u-sigmap-r.md",
     "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "lenguajes/teoremas-final/división-casos-r.md",
-    "lenguajes/teoremas-final/combos/Combo 7.md",
-    "lenguajes/teoremas-final/restricción-r.md",
     "lenguajes/teoremas-final/lemma-minimización-acotada.md",
-    "lenguajes/teoremas-final/combos/Combo 6.md",
     "lenguajes/teoremas-final/e-computable-implica-e-enumerable.md",
     "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
     "lenguajes/teoremas-final/combos/Combo 5.md",
@@ -236,8 +237,6 @@
     "lenguajes/teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
     "lenguajes/teoremas-final/lemma-sumatoria.md",
     "lenguajes/teoremas-final/caracterización-conjunto-enumerable.md",
-    "lenguajes/teoremas-final/combos/Combo 3.md",
-    "lenguajes/teoremas-final/caracterización-conjunto-ec.md",
     "lenguajes/teoremas-final/godel-v-neumann.md",
     "lenguajes/teoremas-final/division-casos-pr.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",

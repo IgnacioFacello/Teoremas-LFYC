@@ -7,4 +7,5 @@ tags:
 	 (a) $S$ es $\Sigma$-efectivamente computable
 		(Es decir) Hay un procedimiento que computa a $\chi^{\omega^n\times\Sigma^{*m}}_S$
 	  (b) $S$ y $(\omega^n\times\Sigma^{*m})-S$ $\Sigma$-efectivamente enumerables
+	  (Solo caso $(b)\implies (a)$)
 ?

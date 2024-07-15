@@ -6,9 +6,9 @@ tags:
 > (a) $S$ es $\Sigma$-efectivamente computable
 >	(Es decir) Hay un procedimiento que computa a $\chi^{\omega^n\times\Sigma^{*m}}_S$
 >  (b) $S$ y $(\omega^n\times\Sigma^{*m})-S$ $\Sigma$-efectivamente enumerables
+>  (Solo caso $(b)\implies (a)$)
 ?
 
-(Solo caso $(b)\implies (a)$)
  - - -  
 > Suponemos que podemos generar $S$ y $S^{-1}$
 > Dado un $(\vec x,\vec\alpha)$ de consulta vamos a realizar un ciclo finito, ya que eventualmente se cumple la condición
