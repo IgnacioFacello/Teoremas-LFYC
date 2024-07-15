@@ -9,4 +9,6 @@ tags:
 	  (b) $S$ y $(\omega^n\times\Sigma^{*m})-S$ $\Sigma$-efectivamente enumerables
 	  (Solo caso $(b)\implies (a)$)
 ?
+03. $E_*$ y $T$ son $\Sigma\cup\Sigma_p$-recursivas. Las usamos para componer una función $\Sigma\cup\Sigma_p$-recursiva y luego por la independencia del alfabeto
+04. El procedimiento itera en $\omega^2$ generando valores de ambos conjuntos hasta que coincida con la entrada
 <!--SR:!2024-07-18,3,250-->

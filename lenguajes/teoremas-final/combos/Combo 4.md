@@ -11,4 +11,6 @@ tags:
 	(Caso n=2, m=1)
 08. [[lemma-sumatoria|Lema 8]] Sea $\Sigma$ un alfabeto finito. Si $f:\omega\times S_1\times\dots\times S_n\times L_1\times\dots\times L_m\to\omega$ es $\Sigma$-pr, con $S_1,\dots,S_n\subseteq\omega$ y $L_1,\dots,L_m\subseteq\Sigma^*$ no vacíos, entonces la función $\lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right]$ es $\Sigma$-pr
 ?
+07. Hecho antes
+08. Def G. Damos h y g. Damos conjuntos que separan por casos. Definimos h y g por casos. Probamos que los conjuntos son pr.
 <!--SR:!2024-07-19,4,270-->

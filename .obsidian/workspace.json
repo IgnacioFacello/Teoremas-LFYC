@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 2.md"
+                "file": "lenguajes/teoremas-final/combos/Combo 8.md"
               }
             }
           },
@@ -217,12 +217,16 @@
   },
   "active": "8d4e4638c7f29e0e",
   "lastOpenFiles": [
+    "lenguajes/teoremas-final/combos/Combo 7.md",
+    "lenguajes/teoremas-final/combos/Combo 6.md",
+    "lenguajes/teoremas-final/combos/Combo 5.md",
+    "lenguajes/teoremas-final/combos/Combo 4.md",
+    "lenguajes/teoremas-final/combos/Combo 3.md",
+    "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
-    "lenguajes/teoremas-final/combos/Combo 5.md",
     "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
-    "lenguajes/teoremas-final/combos/Combo 6.md",
-    "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
     "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/combos/Combo 9.md",
     "lenguajes/teoremas-final/combos/Combo 8.md",
@@ -231,12 +235,8 @@
     "lenguajes/teoremas-final/autohalt-no-r.md",
     "lenguajes/teoremas-final/restricción-r.md",
     "lenguajes/teoremas-final/lemma-minimización-acotada.md",
-    "lenguajes/teoremas-final/combos/Combo 4.md",
     "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
-    "lenguajes/teoremas-final/combos/Combo 7.md",
-    "lenguajes/teoremas-final/combos/Combo 3.md",
     "lenguajes/teoremas-final/caracterización-conjunto-ec.md",
-    "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "lenguajes/teoremas-final/T-sigma-u-sigmap-r.md",
     "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
