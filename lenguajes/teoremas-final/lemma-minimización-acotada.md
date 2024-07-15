@@ -38,7 +38,7 @@ $$
 	\left[
 		(\exists t\in\omega)_{t\leq y} P(t,\vec x,\vec\alpha)
 	\right] \circ \left[
-		f,p_1,\dots,p_{n+m}
+		f,p_1^{n,m},\dots,p_{n+m}^{n,m}
 	\right]
 \end{align}
 $$
