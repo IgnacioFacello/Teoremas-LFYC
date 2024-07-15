@@ -2,6 +2,6 @@
 tags:
   - flashcards
 ---
-01. [x] [[caracterización-conjunto-pr]]
-02. [x] [[neumann-v-godel-c1]]
+01. [[caracterización-conjunto-pr|Proposición 1]] Un conjunto S es $\Sigma$-pr sii es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
+02. [[neumann-v-godel-c1|Teorema 2]] Si h es $\Sigma$-recursiva entonces es $\Sigma$-computable (Caso $h=R(f,\mathcal{G})$)
 ?
