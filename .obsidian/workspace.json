@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
@@ -214,13 +215,14 @@
   },
   "active": "4a05c4db1862f038",
   "lastOpenFiles": [
+    "numerico notas clases/notas clase 6.md",
+    "lenguajes/teoremas-final/división-casos-r.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
     "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "lenguajes/teoremas-final/restricción-r.md",
     "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
     "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
     "lenguajes/teoremas-final/lemma-sumatoria.md",
-    "numerico notas clases/notas clase 6.md",
     "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 5.md",
     "numerico notas clases/notas clase 4.md",
@@ -241,7 +243,6 @@
     "Untitled.md",
     "numerico/Analisis Numerico/Ordenes de convergencia.md",
     "numerico/Analisis Numerico/Estandar de punto flotante.md",
-    "numerico/Analisis Numerico/Cálculo de error.md",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
     "numerico/@Final Analisis Numerico (Borrar)/6. Sistemas lineales",
