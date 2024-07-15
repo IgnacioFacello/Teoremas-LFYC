@@ -9,4 +9,6 @@ tags:
 	 	(3) $S=D_f$ para alguna función $\Sigma$-recursiva $f$
  	(Solo la prueba de $(2)\implies(3)$, $k=l=1$ y $n=m=2$)
 ?
+11. Suponemos no vacío, generamos todo el espacio y devolvemos usamos la caracteristica para determinar si devolvemos lo generado o $e_0$ si lo generado no pertenece
+12. 
 <!--SR:!2024-07-16,1,230-->

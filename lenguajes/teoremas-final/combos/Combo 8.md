@@ -9,6 +9,6 @@ tags:
 ?
 15. Absurdo. Programa que solo termina si no termina.
 16. Tesis de church.
-17.  
-18. Iteracion en $\omega$
+17. Iteración en $\omega^2$, generando programa y nro de pasos, devolver solo si termina en ese numero de pasos. Luego suponemos $N$ r.e., lo usamos para definir autohalt recursivo, lo cual contradice el lema 15. Luego no es r.e. y por lo tanto A tampoco es recursivo.
+18. Iteración en $\omega$
 <!--SR:!2024-07-16,1,230-->
