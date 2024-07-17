@@ -1,6 +1,5 @@
 ---
-tags:
-  - flashcards
+tags: []
 ---
 13. [[lemma-minimización-acotada|Lema 13]] Sean $n,m\ge0$. Sea $P:D_P\subseteq\omega\times\omega^n\times\Sigma^{*m}\to\omega$ un predicado $\Sigma$-pr. Entonces:
 	 (a) $M(P)$ es $\Sigma$-recursiva
