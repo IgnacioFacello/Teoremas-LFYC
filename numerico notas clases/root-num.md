@@ -14,4 +14,9 @@ Es mejor pensar en un *modelo lineal* y encontrar la recta que mejor se ajuste a
 Dado un set de $m$ datos experimentales. El método de cuadrados mínimos consiste en determinar coeficientes $a_0,a_1$ que minimizan $$E(a_0,a_1)=\sum_{i=0}^{m}\left[y_i-(a_1x^i+a_0)\right]^2$$
 Condicion necesaria para minimizar es que las derivadas sean 0
 Las reordenamos y obtenemos un sistema de ecuaciones que al ser resuelto nos da los coeficientes que buscabamos
-Podemos expandir esta metodología hasta un polinomio de $n$ suponiendo que $n\lt{m-1}$ 
+Podemos expandir esta metodología hasta un polinomio de $n$ suponiendo que $n\lt{m-1}$. Luego tenemos que encontrar coeficientes $a_0,a_1,\dots,a_n$ que minimizan $$E(a_0,a_1)=\sum_{i=0}^{m}\left[y_i-P_n[a_0,\dots,a_n](x_i)\right]^2$$
+Es decir que resuelven el sistema de ecuaciones
+$$\sum^{n}_{k=0}a_k\sum^{m}_{i=1}x^{j+k}_i=\sum^{m}_{i=1}{y_ix^j_i}$$
+
+Este metodo solo es util para aproximar funciones **polinomiales**.
+
