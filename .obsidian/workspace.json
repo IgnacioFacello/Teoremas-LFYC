@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Tabla de datos.md",
+                "file": "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Función compleja.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,9 +210,10 @@
   },
   "active": "8d4e4638c7f29e0e",
   "lastOpenFiles": [
+    "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Función compleja.md",
+    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Tabla de datos.md",
     "numerico notas clases/root-num.md",
-    "numerico/@Final Analisis Numerico (Borrar)/Temario.md",
     "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
     "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
     "lenguajes/teoremas-final/combos/Combo 6.md",
@@ -236,7 +237,6 @@
     "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "lenguajes/teoremas-final/T-sigma-u-sigmap-r.md",
     "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
-    "lenguajes/teoremas-final/división-casos-r.md",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",

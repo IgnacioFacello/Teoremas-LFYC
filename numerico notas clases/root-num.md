@@ -18,5 +18,9 @@ Podemos expandir esta metodología hasta un polinomio de $n$ suponiendo que $n\l
 Es decir que resuelven el sistema de ecuaciones
 $$\sum^{n}_{k=0}a_k\sum^{m}_{i=1}x^{j+k}_i=\sum^{m}_{i=1}{y_ix^j_i}$$
 
-Este metodo solo es util para aproximar funciones **polinomiales**.
+Este método solo es util para aproximar funciones **polinomiales**.
 
+Para aproximar una función continua en un intervalo $[a,b]$ debemos minimizar
+$$E(a_0,\dots,a_n)=\int_{a}^{b}[f(x)-P_n(x)]^2dx$$
+Similarmente al caso anterior llegamos a un sistema de ecuaciones normales
+$$\sum^{n}_{k=0}a_k\int^a_bx^{k+j}dx=\int^a_b{x^jf(x)dx}\quad\text{para}\quad j=0,1,\dots ,n$$ que si resolvemos podemos obtener los coeficientes que minimizan el error.
