@@ -24,3 +24,4 @@ Para aproximar una función continua en un intervalo $[a,b]$ debemos minimizar
 $$E(a_0,\dots,a_n)=\int_{a}^{b}[f(x)-P_n(x)]^2dx$$
 Similarmente al caso anterior llegamos a un sistema de ecuaciones normales
 $$\sum^{n}_{k=0}a_k\int^a_bx^{k+j}dx=\int^a_b{x^jf(x)dx}\quad\text{para}\quad j=0,1,\dots ,n$$ que si resolvemos podemos obtener los coeficientes que minimizan el error.
+Problema: La matriz de coeficientes que generan estas ecuaciones es conocida como la mstriz de Hilbert y es mal condicionada, por esto es mejor buscar otra forma de representar el p
