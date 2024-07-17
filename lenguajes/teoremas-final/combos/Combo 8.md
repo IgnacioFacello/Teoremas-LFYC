@@ -80,4 +80,4 @@ tags:
 16. Tesis de church.
 17. Iteración en $\omega^2$, generando programa y nro de pasos, devolver solo si termina en ese numero de pasos. Luego suponemos $N$ r.e., lo usamos para definir autohalt recursivo, lo cual contradice el lema 15. Luego no es r.e. y por lo tanto A tampoco es recursivo.
 18. Iteración en $\omega$
-<!--SR:!2024-07-16,1,230-->
+<!--SR:!2024-07-20,3,250-->
