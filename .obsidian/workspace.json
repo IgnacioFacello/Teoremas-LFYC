@@ -13,49 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a0b20f45230360aa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f6ca104359dde77d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4427a67f426999a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efe15c5b99a86268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
+                "file": "numerico notas clases/root-num.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
+                "file": "numerico notas clases/root-num.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
+                "file": "numerico notas clases/root-num.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/combos/Combo 6.md"
+                "file": "numerico notas clases/root-num.md"
               }
             }
           },
@@ -236,6 +194,8 @@
   "active": "8d4e4638c7f29e0e",
   "lastOpenFiles": [
     "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
+    "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
+    "numerico notas clases/root-num.md",
     "lenguajes/teoremas-final/combos/Combo 6.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
     "lenguajes/teoremas-final/combos/Combo 8.md",
@@ -245,7 +205,6 @@
     "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
-    "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
     "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/combos/Combo 9.md",
     "lenguajes/teoremas-final/A-teoremas-final.md",
@@ -261,7 +220,6 @@
     "lenguajes/teoremas-final/división-casos-r.md",
     "lenguajes/teoremas-final/e-computable-implica-e-enumerable.md",
     "lenguajes/teoremas-final/intersección-conjuntos-efectivamente-enumerables.md",
-    "lenguajes/teoremas-final/lemma-sumatoria.md",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
