@@ -11,4 +11,4 @@ tags:
 ?
 11. Suponemos no vacío, generamos todo el espacio y devolvemos usamos la característica para determinar si devolvemos lo generado o $e_0$ si lo generado no pertenece
 12. $F_{(i)}$ $\Sigma$-r implica que hay programas $\mathcal{P}_i$. Definimos macros $[IF\ \lnot\operatorname{Halt^{1,1}}(V2,V1,W1,,\mathcal{P}_i)\ GOTO\ A1]$ y $[IF\ V2\neq E_{\#1}^{1,1}(V3,V1,W1,\mathcal{P}_i)\ GOTO\ A1]$. Finalmente damos un programa que toma un elemento $(x_1,x_2,\alpha_1,\alpha_2)$ que itera luego en $\omega$, generando elementos $(y_1,\beta_1)$ y un numero de pasos $t$ hasta que todas las $F_{(i)}$ terminan y retornan $(x_1,x_2,\alpha_1,\alpha_2)$. Este programa computa $p_1^{2,2}|_S$ que es $\Sigma$-computable y por lo tanto $\Sigma$-recursiva con dominio $S$.
-<!--SR:!2024-07-18,1,210-->
+<!--SR:!2024-07-20,2,210-->
