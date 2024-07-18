@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "560922c133a5e02a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "134f003762e6910c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Función compleja.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "668a74496364075d",
