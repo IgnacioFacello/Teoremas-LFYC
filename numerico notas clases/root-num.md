@@ -39,4 +39,4 @@ Problema: La matriz de coeficientes que generan estas ecuaciones es conocida com
 > #definicion Función de peso
 
 Estas funciones se van a usar para definir la medida del error y permiten asignar mas o menos importancia a distintas partes del intervalo
-Ahora reformulamos el problema. Dado un conjunto de funciones linealmente independientes en $[a,b]$ una funcion de peso $\omega$ y una funcion $f$ continua en el intervalo. Se desean determinar los coeficientes de $$P(x)=\sum^n_{k=0}{a_k\phi_k(x)}$$ que minimizan $$E(a_0,\dots,a_n)=\sum^{m}_{j=0}\omega(x)[y_i-P_n(x_i)]^2$$
+Ahora reformulamos el problema. Dado un conjunto de funciones linealmente independientes en $[a,b]$ una función de peso $\omega$ y una función $f$ continua en el intervalo. Se desean determinar los coeficientes de $$P(x)=\sum^n_{k=0}{a_k\phi_k(x)}$$ que minimizan $$E(a_0,\dots,a_n)=\sum^{m}_{j=0}\omega(x)[y_i-P_n(x_i)]^2$$
