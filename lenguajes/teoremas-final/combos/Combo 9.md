@@ -9,4 +9,4 @@ tags:
 19. Damos macros para el predicado Halt y las funciones, iteramos sobre el numero de pasos y devolvemos el valor de la función que eventualmente termine.
 20. Damos la definición de Halt y claramente va a ser $\Sigma$-recursiva
 21. Damos que es la minimización de Halt y por el lema de la minimización entonces es $\Sigma$-recursiva
-<!--SR:!2024-07-18,3,250-->
+<!--SR:!2024-07-25,7,250-->
