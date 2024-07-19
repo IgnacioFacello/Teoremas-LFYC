@@ -13,4 +13,4 @@ tags:
 ?
 07. Hecho antes
 08. Def G. Damos h y g. Damos conjuntos que separan por casos. Definimos h y g por casos. Probamos que los conjuntos son pr.
-<!--SR:!2024-07-19,4,270-->
+<!--SR:!2024-07-31,12,270-->

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numerico/plan de estudio - num.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "numerico/plan de estudio - num.md"
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md"
               }
             }
           },
@@ -191,6 +191,8 @@
   },
   "active": "9ae633a3dcaec525",
   "lastOpenFiles": [
+    "lenguajes/teoremas-final/combos/Combo 4.md",
+    "numerico/plan de estudio - num.md",
     "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "numerico notas clases/root-num.md",
     "numerico notas clases/notas clase 10 a 12.md",
@@ -203,7 +205,6 @@
     "lenguajes/teoremas-final/combos/Combo 7.md",
     "lenguajes/teoremas-final/combos/Combo 8.md",
     "lenguajes/teoremas-final/combos/Combo 5.md",
-    "lenguajes/teoremas-final/combos/Combo 4.md",
     "lenguajes/teoremas-final/combos/Combo 3.md",
     "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
@@ -217,7 +218,6 @@
     "lenguajes/teoremas-final/lemma-minimización-acotada.md",
     "numerico/Solución de ecuaciones no lineales/Metodo de punto fijo.md",
     "lenguajes/teoremas-final/caracterización-conjunto-ec.md",
-    "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",
