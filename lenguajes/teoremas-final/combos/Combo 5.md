@@ -7,5 +7,5 @@ tags:
 	 Supongamos $\bar S\subseteq S$ es $\Sigma$-pr. Entonces $$\lambda x\vec x\vec\alpha\left[(\forall t\in\bar{S})_{t\leq x} P(t,\vec x,\vec\alpha)\right]$$ es $\Sigma$-pr.
 ?
 09. Suponemos no vacío. Iteramos en $\omega^2$, generando valores de $S_1$ y $S_2$ y devolviendo el valor generado si es el mismo y $e_0$ caso contrario.
-10. Extendemos el predicado a $\omega\times\dots$ agregando $C_1$ fuera de $\bar S$. Creamos una productoria desde 0 hasta $x$ usando la extensión $\bar{P}$  
-<!--SR:!2024-07-19,4,270-->
+10. Extendemos el predicado a $\omega\times\dots$ agregando $C_1$ fuera de $\bar S$. Creamos una productoria desde 0 hasta $x$ usando la extensión $\bar{P}$
+<!--SR:!2024-07-21,2,250-->
