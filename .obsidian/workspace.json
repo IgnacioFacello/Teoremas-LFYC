@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1f484ef8674ebf9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +200,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9ae633a3dcaec525",
+  "active": "c1f484ef8674ebf9",
   "lastOpenFiles": [
     "lenguajes/teoremas-final/combos/Combo 4.md",
     "numerico/plan de estudio - num.md",
