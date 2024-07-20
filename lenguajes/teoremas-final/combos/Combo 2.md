@@ -13,4 +13,4 @@ tags:
 ?
 03. Inducción. Caso base k=2, obtenemos $f_1^{\chi^{\omega\times\Sigma^*}_{D_{f_1}}}f_2^{\chi^{\omega\times\Sigma^*}_{D_{f_2}}}$ escrita con composiciones. Luego generalizamos a cualquier k.
 04. Función => Macros => Programa. Programa => Coordenadas => Funciones.
-<!--SR:!2024-07-20,2,230-->
+<!--SR:!2024-07-24,4,230-->
