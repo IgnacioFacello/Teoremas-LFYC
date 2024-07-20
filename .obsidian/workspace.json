@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/autohalt-A-y-N.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/autohalt-A-y-N.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/autohalt-A-y-N.md",
+                "file": "lenguajes/teoremas-final/combos/Combo 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/autohalt-A-y-N.md"
+                "file": "lenguajes/teoremas-final/combos/Combo 6.md"
               }
             }
           },
@@ -226,6 +226,7 @@
   },
   "active": "c45003f98c4c61bb",
   "lastOpenFiles": [
+    "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/combos/Combo 8.md",
     "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "lenguajes/teoremas-final/combos/Combo 4.md",
@@ -247,7 +248,6 @@
     "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
-    "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/autohalt-no-ec.md",
     "lenguajes/teoremas-final/autohalt-no-r.md",
     "lenguajes/teoremas-final/restricción-r.md",
