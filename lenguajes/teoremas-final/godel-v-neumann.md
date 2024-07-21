@@ -3,7 +3,6 @@ tags:
   - lfyc-c-III
 ---
 > **Teorema 5** Si $f: D_f\subseteq \omega^n\times\Sigma^{*m}\to\Sigma^*$ es $\Sigma$-[[paradigma-neumann|computable]] entonces $f$ es $\Sigma$-[[paradigma-godel|recursiva]]
-?
 
 ---
 > Clave 1 : Existe un programa $\mathcal P_0$ que computa a $f$
@@ -12,7 +11,7 @@ tags:
 > Usamos C1, C2 y la concatenación. $E_{*1}$ nos dice el resultado del programa y $T^{n.m}$ el numero de pasos necesarios para que termine. Con ambos podemos dar una función $(\Sigma\cup\Sigma_p)$-recursiva igual a $f$
 > Luego por C3 tenemos que es $\Sigma$-r
 
-Sea $\mathcal P_0$ un programa que compute a $f$. Primero veremos que $f$ es $(\Sigma\cup\Sigma_p)$-recursiva. Notar que
+Dado que $f$ es $\Sigma$-computable existe $\mathcal P_0\in{Pro}^{\Sigma}$ que computa a $f$. Primero veremos que $f$ es $(\Sigma\cup\Sigma_p)$-recursiva. Notar que
 $$f=E_{*1}^{n,m}\circ[T^{n,m}\circ[p_1^{n,m},\dots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}],p_1^{n,m},\dots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}]$$
 Sabemos por demostraciones anteriores que $E_{*1}$ y $T^{n,m}$ son $(\Sigma\cup\Sigma_p)$-recursivas y por lo tanto $f$ también lo es.
 Finalmente por la *proposición de independencia del alfabeto* tenemos que $f$ es $\Sigma$-r.
