@@ -3,7 +3,6 @@ tags:
   - lfyc-c-IX
 ---
 > **Lema 20** $Halt^{n,m}$ es $(\Sigma\cup\Sigma_p)$-recursiva
-?
 
 - - - 
 Notar que 

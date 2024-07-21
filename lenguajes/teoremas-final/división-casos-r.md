@@ -47,7 +47,7 @@ L3\ & [N1\gets{f_2(N1,P1)}] \\
 L4\ & SKIP 
 \end{aligned}
 $$
-Notar que $\mathcal{P}$ computa a la función $f_1\cup{f_2}$ por el*teorema Godel vence a Neumann*  es $\Sigma$-recursiva.
+Notar que $\mathcal{P}$ computa a la función $f_1\cup{f_2}$ por el *teorema Godel vence a Neumann*  es $\Sigma$-recursiva.
 
 ---
 > Iteramos $t\in\omega$ hasta que alguno de los programas termine en t pasos y devolvemos el resultado. Si ninguno de los dos termina entonces la entrada se encuentra fuera de $D_{f_1}\cup{D_{f_2}}$  y el programa no termina nunca.

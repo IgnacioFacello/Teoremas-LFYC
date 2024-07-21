@@ -3,7 +3,6 @@ tags:
   - lfyc-c-IX
 ---
 > **Proposición 21** $T^{n,m}$ es $(\Sigma\cup\Sigma_p)$-recursiva.
-?
 
 - - - 
 Sale directo por el *lema de minimización*. Este lema nos dice que dado un predicado $P$ $\Sigma$-e.c. con $D_P$ $\Sigma$-e.c. entonces $M(P)$ es $\Sigma$-e.c.. Y si $M(P)$ es $\Sigma$-e.c. entonces es $\Sigma$-r.

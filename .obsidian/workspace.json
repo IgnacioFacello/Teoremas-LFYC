@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "9f2fe7cca5409d65",
+            "id": "216cbd2ea2650e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/división-casos-r.md",
+                "file": "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/división-casos-r.md",
+                "file": "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/división-casos-r.md",
+                "file": "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/división-casos-r.md"
+                "file": "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md"
               }
             }
           },
@@ -202,9 +202,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9f2fe7cca5409d65",
+  "active": "216cbd2ea2650e31",
   "lastOpenFiles": [
     "lenguajes/teoremas-final/A-teoremas-final.md",
+    "lenguajes/teoremas-final/T-sigma-u-sigmap-r.md",
+    "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
+    "lenguajes/teoremas-final/división-casos-r.md",
     "lenguajes/teoremas-final/autohalt-A-y-N.md",
     "lenguajes/teoremas-final/neumann-v-godel-c8.md",
     "lenguajes/teoremas-final/autohalt-no-ec.md",
@@ -227,9 +230,6 @@
     "lenguajes/teoremas-final/combos/Combo 4.md",
     "lenguajes/teoremas-final/combos/Combo 5.md",
     "lenguajes/teoremas-final/combos/Combo 7.md",
-    "lenguajes/teoremas-final/combos/Combo 9.md",
-    "numerico/plan de estudio - num.md",
-    "lenguajes/teoremas-final/halt-sigma-u-sigmap-pr.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
