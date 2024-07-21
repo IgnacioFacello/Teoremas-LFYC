@@ -33,4 +33,4 @@ $$
 	&= \lambda{xy\vec x\vec\alpha}\left[\prod^{t=y}_{t=x}\bar{P}(t,\vec x,\vec\alpha)\right] \circ \left[C_0^{1+n,m},p_1^{1+n,m},\dots,p_{1+n+m}^{1+n,m}\right]
 \end{aligned}
 $$
-tenemos que $\lambda{x\vec x\vec\alpha}[(\forall{t}\in\bar{S})_{t\leq{x}}P(x,\vec x,\vec\alpha)]$ es $\Sigma$-p.r. 
+tenemos que $\lambda{x\vec x\vec\alpha}[(\forall{t}\in\bar{S})_{t\leq{x}}P(x,\vec x,\vec\alpha)]$ es $\Sigma$-p.r.
