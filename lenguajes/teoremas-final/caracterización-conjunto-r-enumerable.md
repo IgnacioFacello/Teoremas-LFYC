@@ -18,10 +18,15 @@ Notar entonces que tenemos que
 - $F:D_F\subseteq\omega\times\Sigma^{\ast}\to\omega^2\times\Sigma^{\ast 2}$ es tal que
 	- $I_F=S$ y 
 	- $F_{(1)},F_{(2)},F_{(3)},F_{(4)}$ son $\Sigma$-recursivas. 
+
+> Determinamos pertenencia a $D_F$
+
 Para cada $i\in\{1,2,3,4\}$, sea $\mathcal{P}_i$ un programa el cual computa a $F_{(i)}$. Sea $\leq$ un orden total sobre $\Sigma$. Definamos$$H_{i}=\lambda tx_1\alpha_1[\lnot\operatorname{Halt^{1,1}}(t,x_1,\alpha_1,\mathcal{P}_i)]$$
 Notar que $D_{H_i}=\omega\times\omega\times\Sigma^{*}$ y que $H_i$ es $\Sigma$-mixta. Además, como ${Halt}^{1,1}$ es $(\Sigma\cup\Sigma_p)$-p.r., $H_i$ también lo es. Por la *proposición de independencia del alfabeto* tenemos que $H_i$ es $\Sigma$-p.r.
 Entonces $H_i$ es $\Sigma$-computable por lo cual tenemos que hay un macro $$[IF\ H_i(V2,V1,W1)\ GOTO\ A1]$$ que escribiremos cómo $$[IF\ \lnot\operatorname{Halt^{1,1}}(V2,V1,W1,,\mathcal{P}_i)\ GOTO\ A1]$$
  - - - 
+> Determinamos si la entrada esta en la imagen de F
+
 Luego, definimos 
 $$
 \begin{align}
@@ -44,6 +49,8 @@ $$
 \end{align}
 $$
  - - -
+> Necesitamos algunas funciones para generar valores que evaluamos en $F$
+
 Similarmente, vamos a tomar las siguientes macros que existen por el *lema de las macros* para funciones $\Sigma$-p.r.
 $$
 \begin{align}
@@ -53,6 +60,8 @@ $$
 \end{align}
 $$
  - - -
+> Generamos $t,x,\alpha\in\omega^2\times\Sigma^*$ un numero de pasos y un valor vectorial. Luego vemos si las coordenadas de $F$ 'terminan' para dicha entrada en t pasos
+
 Sea $\mathcal{P}$ el siguiente programa
 $$
 \begin{align}
