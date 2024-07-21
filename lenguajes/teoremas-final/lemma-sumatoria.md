@@ -22,7 +22,7 @@ $$
 \lambda xy\vec x\vec\alpha\left[\sum_{t=x}^{t=y}f(t,\vec x,\vec\alpha)\right] = 
 G\circ\left[p_2^{n+2,m},p_1^{n+2,m},p_3^{n+2,m},\dots,p_{n+2+m}^{n+2,m}\right]
 $$
-por lo tanto basta con probar que $G$ es $\Sigma$-pr. 
+por lo tanto basta con probar que $G$ es $\Sigma$-pr.
 
 ---
 > Buscamos funciones h y g tales que G=R(h,g)
