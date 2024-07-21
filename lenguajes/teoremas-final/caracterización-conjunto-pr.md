@@ -17,7 +17,9 @@ El caso $k=0$ es trivial. Supongamos ahora que el resultado vale para un $k$ fij
 > Clave 2: Definimos el conjunto S $\Sigma$-pr como la intersección de los dominios. Es decir que tenemos su característica.
 > Usamos las claves para definir la función $\chi_{D_F}^{\omega^n\times\Sigma^{*m}}=\chi_{D_g}^{\omega^n\times\Sigma^{*m}}\circ[\bar g_1,\dots,\bar g_{n+m}]\land\chi_{S}^{\omega^n\times\Sigma^{*m}}$
 
-Sea $F=g\circ[g_1,\dots,g_{r}]$ con $g,g_1,\dots,g_{r}\in PR^{\Sigma}_k$. Si $F=\emptyset$ entonces es claro que $D_F=\emptyset$ es $\Sigma$-pr. Supongamos entonces que $F\neq\emptyset$. Tenemos entonces que $r=n+m$ y 
+Sea $F=g\circ[g_1,\dots,g_{r}]$ con $g,g_1,\dots,g_{r}\in PR^{\Sigma}_k$.
+Si $F=\emptyset$ entonces es claro que $D_F=\emptyset$ es $\Sigma$-pr. 
+Supongamos entonces que $F\neq\emptyset$. Tenemos entonces que $r=n+m$ y 
 $$
 \begin{aligned}
 g:&
@@ -46,7 +48,7 @@ lo es.
 ---
 > Necesitamos que los dominios de las g sean totales
 
-Luego, por el [[guia5-lemma18|lema de expansión]] hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ las cuales son $\Sigma$-totales y cumplen
+Luego, por el [[guia5-lemma18|lema de extensión]] hay funciones $\Sigma$-pr $\bar g_1,\dots,\bar g_{n+m}$ las cuales son $\Sigma$-totales y cumplen
 $$
 g_i=\bar g_i|_{D_{g_i}}\text{ para }i=1,\dots,n+m
 $$

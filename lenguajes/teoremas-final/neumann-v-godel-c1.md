@@ -2,13 +2,11 @@
 tags:
   - "#lfyc-c-I"
 ---
-> **Teorema 2** Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]*
-?
+> **Teorema 2** Si h es $\Sigma$*-[[paradigma-godel|recursiva]]* entonces es $\Sigma$*-[[paradigma-neumann|computable]]* (Caso de $h=R(f,\mathcal{G})$)
 
 ---
 Probaremos por inducción en k que
-
-(\*)Si $h\in\mathrm{R}_{k}^{\Sigma}$, entonces $h$ es $\Sigma$-computable.
+- ($*$) Si $h\in\mathrm{R}_{k}^{\Sigma}$, entonces $h$ es $\Sigma$-computable.
 
 Sea $k=0$ y $h\in R_{k}^{\Sigma}$, notar que
 $$
@@ -24,7 +22,7 @@ p_{j}^{n,m}&=\Psi_{P1\gets P\overline{j-n}}^{n,m,*}\text{ si }j\in\left\{ n+1,\d
 $$
 
 ---
-Supongamos (\*) vale para $k$, veremos que vale para $k+1$. Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=R(f,\mathcal{G})$, con 
+Supongamos ($*$) vale para $k$, veremos que vale para $k+1$. Sea $h\in R_{k+1}^{\Sigma}-R_{k}^{\Sigma}$. Hay varios casos, pero solo vamos a probarlo para $h=R(f,\mathcal{G})$, con 
 $$
 \begin{aligned}
 f&:S_{1}\times...\times S_{n}\times L_{1}\times...\times L_{m}\rightarrow\Sigma^{\ast} \\
