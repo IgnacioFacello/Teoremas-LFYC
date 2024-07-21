@@ -37,8 +37,11 @@ f_1\cup f_2=\left(
 	\right]
 \right]
 \right)
-\right|_{D_{f_1}\cup D_{f_2}}$$
+\right|_{D_{f_1}\cup D_{f_2}}
+$$
 que es $\Sigma$-pr.
+
+> Informalmente: $$\left.f_1\cup f_2= {\bar f_1}^{\chi_{D_{f_1}}}.{\bar f_2}^{\chi_{D_{f_2}}}\right|_{D_{f_1}\cup D_{f_2}}$$
 
 ---
 Ahora supongamos que la hipótesis se cumple para el paso $k$ y veamos si se cumple para $k+1$ funciones.
