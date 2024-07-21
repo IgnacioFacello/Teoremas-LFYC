@@ -9,15 +9,14 @@ tags:
 > (2) Hay un programa $\mathcal P\in Pro^{\Sigma}$ tal que:
 > 	(a) Para cada $x\in\omega$, tenemos que $\mathcal P$ se detiene partiendo desde el estado $||x||$ y llega a un estado de la forma $((x_1,\dots,x_n),(\alpha_1,\dots,\alpha_m))$ tal que $(x_1,\dots,x_n,\alpha_1,\dots,\alpha_m)\in S$ 
 > 	(b) Para todo $(x_1,\dots,x_n,\alpha_1,\dots,\alpha_m)\in S$ hay un $x\in\omega$ tal que $\mathcal P$ se detiene partiendo desde el estado $||x||$ y llega a un estado de la forma $((x_1,\dots,x_n),(\alpha_1,\dots,\alpha_m))$::
-(Caso n=2, m=1)
-?
+> (Caso n=2, m=1)
 
 --- 
 > Por hipótesis existe una función que computa el conjunto S no vacío
 > Podemos definir macros para sus coordenadas $\Sigma$-computables
 > Las usamos para dar el programa que cumple con (a) y (b).
 
-($(1)\implies(2)$) Dado que S no es vacío, tenemos por hipótesis tenemos que existe alguna función $F:\omega\to\omega^{2}\times\Sigma^{*1}$ tal que  $I_F=S$ y $F_{(i)}$ es $\Sigma$-computable para cada $i\in\{1,2,3\}$.
+($(1)\implies(2)$) Dado que S no es vacío, por hipótesis tenemos que existe alguna función $F:\omega\to\omega^{2}\times\Sigma^{*1}$ tal que  $I_F=S$ y $F_{(i)}$ es $\Sigma$-computable para cada $i\in\{1,2,3\}$.
 Luego, por la *Proposición de las Macros* tenemos que existen las siguientes Macros:
 $$
 \begin{align}
