@@ -3,7 +3,6 @@ tags:
   - lfyc-c-IIX
 ---
 > **Lema 17** Supongamos que $\Sigma\supseteq\Sigma_p$. Entonces $$A=\{\mathcal{P}\in{Pro}^{\Sigma}:{AutoHalt}^{\Sigma}(\mathcal{P})=1\}$$ es $\Sigma$-recursivamente enumerable y no es $\Sigma$-recursivo. Mas aun, el conjunto $$N=\{\mathcal{P}\in{Pro}^{\Sigma}:{AutoHalt}^{\Sigma}(\mathcal{P})=0\}$$ no es $\Sigma$-recursivamente enumerable.
-?
 
 ---
 > Clave 1: Definimos P en base a Halt que es $(\Sigma\cup\Sigma_p)$-pr. Y como $\Sigma\supseteq\Sigma_p$ entonces es $\Sigma$-pr
