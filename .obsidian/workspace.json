@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0018f51b9d3f1772",
+        "id": "13829a7734c0fbfb",
         "type": "tabs",
         "children": [
           {
-            "id": "4b78c8b605da1b36",
+            "id": "ddf77b6bf7cf9446",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "5eee4d0708bdcc9f",
+            "id": "b74afe8582b3ed40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/godel-v-neumann.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/godel-v-neumann.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/godel-v-neumann.md",
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/godel-v-neumann.md"
+                "file": "lenguajes/teoremas-final/lemma-sumatoria.md"
               }
             }
           },
@@ -201,10 +201,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5eee4d0708bdcc9f",
+  "active": "b74afe8582b3ed40",
   "lastOpenFiles": [
     "lenguajes/teoremas-final/A-teoremas-final.md",
     "lenguajes/teoremas-final/caracterización-conjunto-enumerable.md",
+    "lenguajes/teoremas-final/caracterización-conjunto-ec.md",
+    "lenguajes/teoremas-final/godel-v-neumann.md",
     "lenguajes/teoremas-final/division-casos-pr.md",
     "lenguajes/teoremas-final/neumann-v-godel-c1.md",
     "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
@@ -227,8 +229,6 @@
     "numerico/@Final Analisis Numerico (Borrar)/4. Aproximación de funciones/Tabla de datos.md",
     "lenguajes/teoremas-final/caracterización-conjunto-r-enumerable.md",
     "lenguajes/teoremas-final/lemma-cuantificación-acotada.md",
-    "lenguajes/teoremas-final/combos/Combo 3.md",
-    "lenguajes/teoremas-final/combos/Combo 2.md",
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
