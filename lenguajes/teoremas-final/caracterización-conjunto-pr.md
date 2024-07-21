@@ -3,13 +3,12 @@ tags:
   - "#lfyc-c-I"
 ---
 > **Proposición 1** Un conjunto S es $\Sigma$-pr sii es el dominio de alguna función $\Sigma$-pr. (Solo caso composición)
-?
 
 ---
 ($\implies$) Tomemos la función $F=Pred\circ\chi^{\omega\times\Sigma^*}_S$. Claramente $D_F=S$.
 > Predecesor de la característica. Solo va a estar definido para retorno 1.
 
-($\impliedby$)  Probaremos por inducción en k que $Dom(F)$ es $\Sigma$-pr para cada $F\in PR^{\Sigma}_k$
+($\impliedby$)  Probaremos por inducción en $k$ para cada $F\in PR^{\Sigma}_k$ que $Dom(F)$ es $\Sigma$-pr.
 El caso $k=0$ es trivial. Supongamos ahora que el resultado vale para un $k$ fijo y que $F\in{PR}^{\Sigma}_{k+1}$ . Para esta proposición solo se pide el caso de la composición.
 
 > Buscamos definir la característica de la composición en base a los dominios de las funciones.
