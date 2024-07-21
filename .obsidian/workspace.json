@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "21db34b9dcfa6116",
+            "id": "6d4d72d64d7b1603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lenguajes/teoremas-final/neumann-v-godel-c1.md",
+                "file": "lenguajes/teoremas-final/division-casos-pr.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lenguajes/teoremas-final/neumann-v-godel-c1.md",
+                "file": "lenguajes/teoremas-final/division-casos-pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lenguajes/teoremas-final/neumann-v-godel-c1.md",
+                "file": "lenguajes/teoremas-final/division-casos-pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lenguajes/teoremas-final/neumann-v-godel-c1.md"
+                "file": "lenguajes/teoremas-final/division-casos-pr.md"
               }
             }
           },
@@ -201,9 +201,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "21db34b9dcfa6116",
+  "active": "6d4d72d64d7b1603",
   "lastOpenFiles": [
     "lenguajes/teoremas-final/A-teoremas-final.md",
+    "lenguajes/teoremas-final/neumann-v-godel-c1.md",
     "lenguajes/teoremas-final/caracterización-conjunto-pr.md",
     "lenguajes/teoremas-final/guia5-lemma18.md",
     "lenguajes/teoremas-final/combos/Combo 1.md",
@@ -229,7 +230,6 @@
     "lenguajes/teoremas-lyx/combo1/send/combo1-teoremas.pdf",
     "lenguajes/teoremas-final/autohalt-no-ec.md",
     "lenguajes/teoremas-final/autohalt-no-r.md",
-    "lenguajes/teoremas-final/restricción-r.md",
     "numerico notas clases",
     "numerico/Pasted image 20220420115550.png",
     "numerico/@Final Analisis Numerico (Borrar)/7. Programación Lineal",

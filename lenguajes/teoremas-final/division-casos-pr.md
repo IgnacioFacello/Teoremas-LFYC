@@ -3,7 +3,6 @@ tags:
   - lfyc-c-II
 ---
 > **Lema 3** Supongamos $f_i:D_{f_i}\subseteq\omega^n\times\Sigma^{}*m\to\Sigma^*, i=1,\dots,k$ son funciones $\Sigma$-pr tales que $D_j\cap D_i=\emptyset$ para todo $i\neq j$. Entonces $\bigcup^k_{i=1} f_i$ es $\Sigma$-pr.
-?
 
 ---
 > Por inducción. Demostramos el caso con dos funciones y el resto de la demostración sale trivialmente
@@ -20,7 +19,7 @@ Si $k=2$, por el [[guia5-lema18|lema de expansión]] tenemos que existen funcion
 $$
 f_i=\bar f_i|_{D_{f_i}}\qquad i=1,2
 $$
-Por la [[guia5-lema19|caracterización básica de conjuntos pr]], tenemos que $D_{f_1},D_{f_2}$ sus dominios son $\Sigma$-pr y por lo tanto $D_{f_1}\cup D_{f_2}$ también lo será.
+Por la [[guia5-lema19|caracterización básica de conjuntos sigma-pr]], tenemos que $D_{f_1},D_{f_2}$ son $\Sigma$-pr y por lo tanto $D_{f_1}\cup D_{f_2}$ también lo será.
 Definimos la union de las funciones como:
 $$
 \left.
